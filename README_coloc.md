@@ -16,7 +16,9 @@ code<-paste(exe,"--beqtl-summary",beqtl,"--query",query,"--out",out_path)
 system(code)
 ```
 
-###注意Windows和Linux的反斜杠处理，只有Windows才需要处理
+> [!IMPORTANT]
+> 注意Windows和Linux的反斜杠处理
+###只有Windows才需要处理
 ``` R
 exe<-gsub("/","\\\\",exe)
 beqtl<-gsub("/","\\\\",beqtl)
@@ -24,8 +26,10 @@ out_path<-gsub("/","\\\\",out_path)
 ```
 
 
-##处理GWAS数据，以肺癌为例，注意版本与eqtl一致，否则需要转换版本
 
+##处理GWAS数据，以肺癌为例，
+> [!IMPORTANT]
+>注意版本与eqtl一致，否则需要转换版本
 ```R
 lcgwas<-fread("S:/胸外/twaslc/twaslca/hg37_lcgwas_GCST90043864.tsv")
 id.e <- "disease_lc"

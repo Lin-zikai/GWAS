@@ -123,6 +123,80 @@ for (i in names(res)) {
   result <- rbind(result,mid)
 }
 ```
+
+<details>
+
+<summary>我有一计可以多线程运行</summary>
+具体可以看code里的coloc_multithreading
+```
+library(parallel)
+coloc_gene <- function(i) {
+  
+  
+  outcomegene <- outcome[outcome$Gene == i,]
+  outcomegene <- outcomegene[!duplicated(outcomegene$SNP),]
+  outcomegene <- as_tibble(outcomegene)
+  
+  expogene <- expo[expo$SNP %in% outcomegene$SNP,]
+  outcomegene <- outcomegene[outcomegene$SNP %in% expogene$SNP ,]
+  outcomegene <- outcomegene %>%
+  left_join(expogene %>% select(SNP, FRQ), by = "SNP")
+  # 如果 outcomegene 为空，则跳过此次循环
+  if (nrow(outcomegene) == 0) {
+    return(NULL)
+  }
+  
+  
+  
+  datalist_names <- c("snp","position","beta","type","MAF","N","s","pvalues")
+  eqtl_data_list <- vector("list", length(datalist_names))
+  names(eqtl_data_list) <- datalist_names
+  eqtl_data_list$snp <- expogene$SNP
+  eqtl_data_list$position <- expogene$BP
+  eqtl_data_list$beta <- expogene$BETA
+  eqtl_data_list$pvalues <- expogene$P
+  eqtl_data_list$MAF <- expogene$FRQ
+  eqtl_data_list$s <- 0.07
+  eqtl_data_list$N <- expogene$N
+  eqtl_data_list$type <- "cc"
+  # check_dataset(eqtl_data_list)
+  
+  
+  cc_list_names <- c("snp","position","beta","type","sdY","N", "MAF","pvalues")
+  gwas_data_list <- vector("list", length(cc_list_names))
+  names(gwas_data_list) <- cc_list_names
+  gwas_data_list$snp <- outcomegene$SNP
+  gwas_data_list$position <- outcomegene$BP
+  gwas_data_list$beta <- outcomegene$BETA
+  gwas_data_list$pvalues <- outcomegene$P
+  gwas_data_list$MAF <- outcomegene$FRQ
+  gwas_data_list$sdY <- 1
+  gwas_data_list$type <- "quant"
+  gwas_data_list$N <- outcomegene$N
+
+  
+  abf_res <- coloc.abf(dataset1=eqtl_data_list,
+                       dataset2=gwas_data_list)
+  abf_res$gene <- i
+  return(abf_res) 
+}
+
+reslist <- mclapply(genelist, coloc_gene, mc.cores = 4)
+
+saveRDS(reslist,"drug/cough_coloc.rds")
+
+result <- data.frame()
+for (i in 1:length(reslist)) {
+  result <- rbind(result,c(reslist[[i]]$summary,reslist[[i]]$gene))
+}
+
+colnames(result) <- c("nsnps",	"PP.H0.abf",	"PP.H1.abf",	"PP.H2.abf",	"PP.H3.abf",	"PP.H4.abf",	"gene")
+```
+
+
+</details>
+
+
 ## 后续处理,匹配基因及筛选PP.H3+PP.H4>0.8
 ``` R
 rownames(result)<-names(res)

@@ -14,10 +14,12 @@ rs1002    C   G   0.03606 0.0034  0.0115  0.7659  129799
 rs1003    A   C   0.5128  0.045   0.038   0.2319  129830
 ......
 ```
+
 清洗数据的r脚本如下
 ``` R
 library(data.table)
 library(dplyr)
+library(MungeSumstats)
 colon <- fread("lcgwas_GCST90043864.tsv.gz") #原始文件
 head(colon)
 data<-dplyr::select(colon,CHR=chromosome,BP=base_pair_location,A1=effect_allele,A2=other_allele,
@@ -30,6 +32,17 @@ dat<-dat%>%dplyr::select(SNP,A1,A2,freq=FRQ,
 fwrite(dat,"pap/lungcancer.ma",sep = " ")    #保存数据
 ```
 
+### 参考人群文件 bed bim 和 fam
+千人计划参考基因组
+可以从这个下载：http://fileserve.mrcieu.ac.uk/ld/1kg.v3.tgz
+> [!CAUTION]
+> 这个是使用GRCH37构建的  经过尝试好像用在38没什么影响，可能是由于rsid的原因 如果有大佬懂还请指点一下
+
+这里有GRCH38的：https://www.internationalgenome.org/data-portal/data-collection/30x-grch38
+
+### BESD 格式的 eQTL文件
+
+具体如何进行格式转换可以查看：https://yanglab.westlake.edu.cn/software/smr/#BESDformat
 
 
-参考人群文件 bed bim 和 fam
+

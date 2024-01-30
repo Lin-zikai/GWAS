@@ -21,9 +21,6 @@ out_path<-gsub("/","\\\\",out_path)`
 
 
 
-
-
-
 ##处理GWAS数据，以肺癌为例，注意版本与eqtl一致，否则需要转换版本
 
 `lcgwas<-fread("S:/胸外/twaslc/twaslca/hg37_lcgwas_GCST90043864.tsv")`
@@ -34,3 +31,6 @@ out_path<-gsub("/","\\\\",out_path)`
                     A1=effect_allele,A2=other_allele,BETA=beta,
                     SE=standard_error,P=p_value,EAF=effect_allele_frequency,FRQ,N)`
 `expo <- expo%>%dplyr::mutate(Z=BETA/SE)`
+
+
+

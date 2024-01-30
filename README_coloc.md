@@ -1,6 +1,6 @@
-#coloc 共定位分析
+# coloc 共定位分析
 
-##加载需要的包
+## 加载需要的包
 ```
 library(data.table)
 library(dplyr)
@@ -8,7 +8,7 @@ library(coloc)
 library(MungeSumstats)
 ```
 
-##处理eqtl数据，以肺eqtl为例
+## 处理eqtl数据，以肺eqtl为例
 ``` R
 exe <- "S:/胸外/twaslc/twaslca/smr-1.3.1-win-x86_64/smr-1.3.1-win.exe"
 beqtl <-  "S:/胸外/twaslc/Lung_eqtl/Lung"
@@ -20,7 +20,7 @@ system(code)
 
 > [!IMPORTANT]
 > 注意Windows和Linux的反斜杠处理
-###只有Windows才需要处理
+### 只有Windows才需要处理
 ``` R
 exe<-gsub("/","\\\\",exe)
 beqtl<-gsub("/","\\\\",beqtl)
@@ -29,7 +29,7 @@ out_path<-gsub("/","\\\\",out_path)
 
 
 
-##处理GWAS数据，以肺癌为例，
+## 处理GWAS数据，以肺癌为例，
 > [!IMPORTANT]
 >注意版本与eqtl一致，否则需要转换版本
 ```R
@@ -45,7 +45,7 @@ expo <- na.omit(expo, cols = "SNP")
 expo <- as_tibble(expo)
 ```
 
-##继续整理eqtl数据
+## 继续整理eqtl数据
 ``` R
 Lung_eqtl <- fread("S:/胸外/twaslc/Lung_eqtl/Lung_eqtl.txt")
 id.o <- "gene"
@@ -56,7 +56,7 @@ outcome <- na.omit(outcome, cols = "SNP")
 genelist<-unique(outcome$Gene)
 ```
 
-##coloc分析，当p值为0时使用最小浮点数
+## coloc分析，当p值为0时使用最小浮点数
 ```R
 res <- list()
 for (i in  genelist[659:665]) {
@@ -123,7 +123,7 @@ for (i in names(res)) {
   result <- rbind(result,mid)
 }
 ```
-##后续处理,匹配基因及筛选PP.H3+PP.H4>0.8
+## 后续处理,匹配基因及筛选PP.H3+PP.H4>0.8
 ``` R
 rownames(result)<-names(res)
 result$ENSEMBL<-rownames(result)
@@ -135,3 +135,5 @@ result_coloc_lc<-result%>%left_join(bitr(result$ENSEMBL,"ENSEMBL","SYMBOL","org.
 result_coloc_lc$'PP.H3+pp.H4'<-result_coloc_lc$PP.H3.abf+result2$PP.H4.abf
 result.sig<-subset(result_coloc_lc,result_coloc_lc$`PP.H3+pp.H4`>0.8)
 ```
+
+## 自己保存结果

@@ -1,9 +1,9 @@
-#SMR笔记
-##smr参考来源：https://yanglab.westlake.edu.cn/software/smr/#Overview
+# SMR笔记
+## smr参考来源：https://yanglab.westlake.edu.cn/software/smr/#Overview
 
 在执行SMR分析时需要以下三个文件包括：
 
-###GWAS-summary 
+### GWAS-summary 
 需要gwas.ma格式文件，一般为GRCH38，如下所示
 
 ```

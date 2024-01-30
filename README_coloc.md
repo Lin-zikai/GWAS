@@ -8,7 +8,7 @@ library(coloc)
 library(MungeSumstats)
 ```
 
-## 处理eqtl数据，以肺eqtl为例
+## 处理eqtl数据，以肺eqtl为例，下载源参考 https://yanglab.westlake.edu.cn/data/SMR/GTEx_V8_cis_eqtl_summary.html
 ``` R
 exe <- "S:/胸外/twaslc/twaslca/smr-1.3.1-win-x86_64/smr-1.3.1-win.exe"
 beqtl <-  "S:/胸外/twaslc/Lung_eqtl/Lung"

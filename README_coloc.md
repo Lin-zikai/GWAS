@@ -1,10 +1,12 @@
 #coloc 共定位分析
 
 ##加载需要的包
-`library(data.table)
+```
+library(data.table)
 library(dplyr)
 library(coloc)
-library(MungeSumstats)`
+library(MungeSumstats)
+```
 
 ##处理eqtl数据，以肺eqtl为例
 ``` R

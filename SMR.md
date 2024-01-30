@@ -44,5 +44,40 @@ fwrite(dat,"pap/lungcancer.ma",sep = " ")    #保存数据
 
 具体如何进行格式转换可以查看：https://yanglab.westlake.edu.cn/software/smr/#BESDformat
 
+##接下来是正式进行smr
 
+详细的使用方法可见：https://yanglab.westlake.edu.cn/software/smr/#SMR&HEIDIanalysis
+我们将使用r进行调用
+我使用的是windows系统，linux的命令也差不多
+```
+exe="E:/ing/SMR/smr_Win/smr_win_20220322.exe"  #声明smr的位置
+bfile="E:/ing/SMR/pap/EUR"        #参考基因组的位置
+gwas_summary="E:/ing/SMR/Colon_Transverse/colon.ma"   #gwas文件位置
+beqtl<-paste0("E:/ing/SMR/pap/blood_eqtl")    #eqtl文件位置
+out_path="E:/ing/SMR/Colon_Transverse/"         #输出文件位置
+out_name="colon_blood_eqtl"       #输出文件命名
 
+#对r的路径进行转换
+exe<-gsub("/","\\\\",exe)
+bfile<-gsub("/","\\\\",bfile)
+gwas_summary<-gsub("/","\\\\",gwas_summary)
+beqtl<-gsub("/","\\\\",beqtl)
+out_path_raw<-out_path
+out_path<-gsub("/","\\\\",out_path)
+out_path<-paste0(out_path,"\\",out_name)
+code<-paste(exe,"--bfile",bfile,"--gwas-summary",
+            gwas_summary,"--beqtl-summary",beqtl,"--out",out_path)
+
+#执行命令
+system(code)
+```
+
+对结果进行fdr校正
+
+```
+library(data.table)
+res<-fread("Colon_Transverse/colon_blood_eqtl.smr") #读取刚刚产生的SMR结果
+res$q_SMR<-p.adjust(res$p_SMR,"bonferroni")   
+res$p_fdr_SMR<-p.adjust(res$p_SMR,"fdr")   
+```
+恭喜你，这样就结束smr分析啦！！！

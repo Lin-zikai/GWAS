@@ -126,8 +126,10 @@ for (i in names(res)) {
 
 <details>
 
-<summary>我有一计可以多线程运行</summary>
+<summary>## 我有一计可以多线程运行</summary>
+
 具体可以看code里的coloc_multithreading
+https://github.com/Lin-zikai/SMR/blob/main/code/coloc_multithreeading.r
 
 ``` R
 library(parallel)

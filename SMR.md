@@ -44,7 +44,7 @@ fwrite(dat,"pap/lungcancer.ma",sep = " ")    #保存数据
 
 具体如何进行格式转换可以查看：https://yanglab.westlake.edu.cn/software/smr/#BESDformat
 
-##接下来是正式进行smr
+## 接下来是正式进行smr
 
 详细的使用方法可见：https://yanglab.westlake.edu.cn/software/smr/#SMR&HEIDIanalysis
 我们将使用r进行调用

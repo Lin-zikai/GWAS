@@ -128,7 +128,8 @@ for (i in names(res)) {
 
 <summary>我有一计可以多线程运行</summary>
 具体可以看code里的coloc_multithreading
-```
+
+``` R
 library(parallel)
 coloc_gene <- function(i) {
   

@@ -128,6 +128,85 @@ for (i in names(reslist)) {
   result <- rbind(result,r1)
 }
 
+```
+
+## 我有一计可以多线程运行
+数据名和上面的稍微有点区别，其实也就加了个format_data，应该很好理解
+
+``` R
+process_gene <- function(i) {
+  cough1 <- cough[cough$Gene == i,]    #这个是eqtl文件
+  cough1 <- cough1[cough1$p<5E-08]
+  if (nrow(cough1) == 0) {
+    return(NULL)
+  }
+  exp_dat <- format_data(
+    dat=cough1,
+    type = 'exposure',
+    snp_col = "SNP",
+    beta_col = "b",
+    se_col = "SE",
+    eaf_col = "Freq",
+    effect_allele_col = "A1",
+    other_allele_col = "A2",
+    # samplesize_col = "all_meta_sample_N",
+    pval_col = "p",
+    chr_col = "Chr",
+    pos_col = "BP"
+  )
+  
+  asthma2 <- disease[disease$rsid %in% exp_dat$SNP, ]     #这个是你的gwas文件
+  if (nrow(asthma2) == 0) {
+    return(NULL)
+  }
+  asthma <- format_data(
+    dat=asthma2,
+    type = "outcome",
+    header = TRUE,
+    snps = exp_dat$SNP,
+    snp_col = "rsid",
+    beta_col = "inv_var_meta_beta",
+    se_col = "inv_var_meta_sebeta",
+    eaf_col = "all_meta_AF",
+    effect_allele_col = "ALT",
+    other_allele_col = "REF",
+    # samplesize_col = "all_meta_sample_N",
+    pval_col = "inv_var_meta_p",
+    chr_col = "CHR",
+    pos_col = "POS"
+  )
+  
+  exp_dat <- exp_dat[exp_dat$SNP %in% asthma$SNP, ]
+  
+  
+  ld <- ld_clump_local(dplyr::tibble(rsid=exp_dat$SNP, pval=exp_dat$pval.exposure),
+                       clump_r2=0.001,clump_kb=10000,clump_p=1, bfile = "./GWAS_data/1000genomic/EUR", plink_bin = "./lin/projects/bin/plink")   #执行本地clump
+  exp_dat <- exp_dat[exp_dat$SNP %in% ld$rsid, ]
+  
+  if (nrow(exp_dat) == 0) {
+    return(NULL)
+  }
+  
+  dat <- harmonise_data(exposure_dat=exp_dat, outcome_dat=asthma)
+  if (nrow(dat) == 0) {
+    return(NULL)
+  }
+  res <- mr(dat)
+  
+  return(res)
+}
 
 ```
-累了，明天再写
+
+运行函数
+
+``` R
+library(parallel)
+# 您可以根据您的机器的核心数调整mc.cores的值
+reslist <- mclapply(genelist, process_gene, mc.cores = 8)
+
+# 清理结果，移除NULL元素
+reslist <- reslist[!sapply(reslist, is.null)]
+```
+
+

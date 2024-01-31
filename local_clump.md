@@ -17,7 +17,40 @@ exp_dat1<-gene_blood_exp_snp
 genelist <- unique(exp_dat1$gene)
 ```
 
+```
+head(gene_blood_exp_snp)
+ gene hgnc_symbol        SNP chr.exposure pos.exposure effect_allele.exposure other_allele.exposure eaf.exposure z.exposure
+1 ENSG00000000938         FGR rs34806307            1     27958339                      T                     C   0.05812083    11.1724
+2 ENSG00000000938         FGR  rs4908343            1     27931698                      G                     A   0.18086010     8.3407
+3 ENSG00000000938         FGR rs12726763            1     27958245                      G                     A   0.94275336     7.9185
+4 ENSG00000000938         FGR rs12749647            1     27895517                      G                     A   0.11428375     6.9687
+5 ENSG00000000938         FGR rs72886321            1     27909007                      A                     C   0.01914212     6.5440
+6 ENSG00000000938         FGR rs59900503            1     27907201                      C                     T   0.01919834     6.5196
+  beta.exposure se.exposure pval.exposure id.exposure exposure         F
+1    0.18878560  0.01689750    5.5656e-29       blood exposure 124.82252
+2    0.08574590  0.01028042    7.3915e-17       blood exposure  69.56728
+3    0.13488910  0.01703468    2.4059e-15       blood exposure  62.70264
+4    0.08669946  0.01244127    3.2011e-12       blood exposure  48.56278
+5    0.18905513  0.02888984    5.9975e-11       blood exposure  42.82394
+6    0.18808058  0.02884848    7.0495e-11       blood exposure  42.50518
 
+head(snp_epilepsy_out)
+chr.outcome pos.outcome        SNP effect_allele.outcome other_allele.outcome eaf.outcome z.outcome beta.outcome  se.outcome outcome
+1           6   130840091  rs2326918                     A                    G      0.8470    -0.279 -0.002586613 0.009271014 outcome
+2           7   145771806  rs6977693                     T                    C      0.8587    -0.874 -0.008373962 0.009581192 outcome
+3          11   100009976 rs12364336                     A                    G      0.8772    -1.506 -0.015313714 0.010168469 outcome
+4           1   166367755 rs12562373                     A                    G      0.7678     0.760  0.006007180 0.007904185 outcome
+5          14    86737556  rs2135099                     A                    G      0.1652    -0.779 -0.007000891 0.008987023 outcome
+6           2   201527977 rs57502521                     A                    G      0.9649    -0.088 -0.001595890 0.018135114 outcome
+  mr_keep.outcome pval.outcome pval_origin.outcome id.outcome
+1            TRUE    0.7802448            inferred     AIkFiR
+2            TRUE    0.3821183            inferred     AIkFiR
+3            TRUE    0.1320672            inferred     AIkFiR
+4            TRUE    0.4472546            inferred     AIkFiR
+5            TRUE    0.4359797            inferred     AIkFiR
+6            TRUE    0.9298767            inferred     AIkFiR
+
+```
 ## 为了在后面不报错，我魔改了一下这个函数
 但是我忘记我原来对这个函数修改了什么了哈哈哈
 > [!IMPORTANT]

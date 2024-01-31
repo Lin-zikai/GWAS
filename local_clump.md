@@ -210,5 +210,11 @@ reslist <- mclapply(genelist, process_gene, mc.cores = 8)
 # 清理结果，移除NULL元素
 reslist <- reslist[!sapply(reslist, is.null)]
 ```
-
+到这里这个list就是结果啦，自己转成dataframe哦,给你们举个例子差不多是这样写，自己去改哈哈哈
+``` R
+result <- data.frame()
+for (i in 1:length(reslist)) {
+  result <- rbind(result,c(reslist[[i]]$summary,reslist[[i]]$gene))
+}
+```
 

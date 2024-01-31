@@ -93,7 +93,7 @@ ld_clump_local <- function (dat, clump_kb, clump_r2, clump_p, bfile, plink_bin) 
 ## 循环执行函数
 
 ``` R
-reslist <- list() 
+reslist <- list() # 获取基因列表
 for (i in genelist) {
   exp_dat <- exp_dat1[exp_dat1$gene == i,]     
   epilepsy <- snp_epilepsy_out[snp_epilepsy_out$SNP %in% exp_dat$SNP, ]
@@ -107,32 +107,27 @@ for (i in genelist) {
 
 if (nrow(exp_dat) == 0) {
   next
-}
+}       #这个是为了当没有数据时执行下一个循环
 
 dat <- harmonise_data(exposure_dat=exp_dat, outcome_dat=epilepsy)
 if (nrow(dat) == 0) {
   next
 }
-  res <- mr(dat)
-  reslist[[i]] <- res
+  res <- mr(dat)     #执行mr
+  reslist[[i]] <- res   #把结果写入列表
   
 }
 
-saveRDS(reslist,"reslist.rds")
-
-
-
-
-result <- data.frame()
+result <- data.frame()   
 for (i in names(reslist)) {
   if (nrow(reslist[[i]]) == 0) {
     next
-  }
+  }    #当结果为空时跳到下一个循环
   r1 <- reslist[[i]]
   r1$gene  <-  i
   result <- rbind(result,r1)
 }
-saveRDS(result,"result1109.rds")
+
 
 ```
 累了，明天再写

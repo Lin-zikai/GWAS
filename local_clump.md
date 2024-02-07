@@ -54,11 +54,7 @@ chr.outcome pos.outcome        SNP effect_allele.outcome other_allele.outcome ea
 ## 为了在后面不报错，我魔改了一下这个函数
 但是我忘记我原来对这个函数修改了什么了哈哈哈
 > [!IMPORTANT]
-> 注意这个是服务器版本的，windows版的fun2要修改一下
->  fun2 <- paste0(shQuote(plink_bin, type = shell), " --bfile ", 
-                 shQuote(bfile, type = shell), " --clump ", gsub('\\\\',"/",fn), " --clump-p1 ", clump_p, " --clump-r2 ", 
-                 clump_r2, " --clump-kb ", clump_kb, " --out ", gsub('\\\\',"/",fn))
-  system(fun2)
+> 注意这个是服务器版本的，windows版的在下面
 
 ``` R
 ld_clump_local <- function (dat, clump_kb, clump_r2, clump_p, bfile, plink_bin) {
@@ -79,6 +75,29 @@ ld_clump_local <- function (dat, clump_kb, clump_r2, clump_p, bfile, plink_bin) 
     message("Encountered the specific warning message: ", warning_message)
     return(data.frame()) # return an empty data frame
   } 
+  res <- read.table(paste(fn, ".clumped", sep = ""), header = T)
+  unlink(paste(fn, "*", sep = ""))
+  y <- subset(dat, !dat[["rsid"]] %in% res[["SNP"]])
+  if (nrow(y) > 0) {
+    message("Removing ", length(y[["rsid"]]), " of ", nrow(dat), 
+            " variants due to LD with other variants or absence from LD reference panel")
+  }
+  return(subset(dat, dat[["rsid"]] %in% res[["SNP"]]))
+}
+```
+
+##  Windows本地版的
+```R
+ld_clump_local<- function (dat, clump_kb, clump_r2, clump_p, bfile, plink_bin) {
+  shell <- ifelse(Sys.info()["sysname"] == "Windows", "cmd", 
+                  "sh")
+  fn <- tempfile()
+  write.table(data.frame(SNP = dat[["rsid"]], P = dat[["pval"]]), 
+              file = fn, row.names = F, col.names = T, quote = F)
+  fun2 <- paste0(shQuote(plink_bin, type = shell), " --bfile ", 
+                 shQuote(bfile, type = shell), " --clump ", gsub('\\\\',"/",fn), " --clump-p1 ", clump_p, " --clump-r2 ", 
+                 clump_r2, " --clump-kb ", clump_kb, " --out ", gsub('\\\\',"/",fn))
+  system(fun2)
   res <- read.table(paste(fn, ".clumped", sep = ""), header = T)
   unlink(paste(fn, "*", sep = ""))
   y <- subset(dat, !dat[["rsid"]] %in% res[["SNP"]])

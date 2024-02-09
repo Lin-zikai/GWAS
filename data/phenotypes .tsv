@@ -1,0 +1,1420 @@
+chrom	pos	ref	alt	rsids	nearest_genes	pval	num_cases	num_controls	num_samples	phenostring	num_peaks	phenocode	gc_lambda_hundred	category
+6	25616225	A	G	rs78912080	CARMIL1	0.0	665	405082	405747	Disorders of iron metabolism	8	275.1	1.0	hematopoietic
+6	32418606	A	G	rs2187819	BTNL2	0.0	1846	333378	335224	Celiac disease	7	557.1	1.0283	digestive
+3	38009720	G	A	rs75495843	PLCD1	0.0	5281	400630	405911	Diseases of hair and hair follicles	5	704	1.0138	dermatologic
+3	38009720	G	A	rs75495843	PLCD1	0.0	8833	397542	406375	Sebaceous cyst	7	706.2	1.0195	dermatologic
+22	45971264	G	A	rs28971325	WNT7B	0.0	3488	377173	380661	Contracture of palmar fascia [Dupuytren's disease]	37	728.71	1.0138	musculoskeletal
+22	45971264	G	A	rs28971325	WNT7B	4.9e-299	3812	377171	380983	Fasciitis	34	728.7	1.0138	musculoskeletal
+22	45971264	G	A	rs28971325	WNT7B	2.3e-296	3688	377174	380862	Disorders of muscle, ligament, and fascia	35	728	1.0166	musculoskeletal
+3	38009720	G	A	rs75495843	PLCD1	8.2e-284	8356	397541	405897	Diseases of sebaceous glands	6	706	1.0195	dermatologic
+6	26092913	G	A	rs1800562	HFE	2.4e-255	2119	405080	407199	Disorders of mineral metabolism	3	275	1.0195	endocrine/metabolic
+6	31368220	C	T	rs146683910	HLA-B	9.5e-212	617	363561	364178	Ankylosing spondylitis	5	715.2	0.97444	musculoskeletal
+1	169549811	C	T	rs6025	F5	9.4e-207	303	404523	404826	Congenital deficiency of other clotting factors (including factor VII)	13	286.12	1.0344	hematopoietic
+2	43842633	G	A	rs75331444	ABCG8	2.7e-189	15775	389625	405400	Cholelithiasis and cholecystitis	29	574	1.0469	digestive
+2	233757337	A	G	rs1976391	UGT1A10,UGT1A3,UGT1A4,UGT1A5,UGT1A6,UGT1A7,UGT1A8,UGT1A9	3e-181	362	405785	406147	Disorders of bilirubin excretion	8	277.4	1.0166	endocrine/metabolic
+1	169549811	C	T	rs6025	F5	5e-178	470	404523	404993	Congenital coagulation defects	13	286.1	1.0	hematopoietic
+2	43839108	G	C	rs11887534	ABCG8	6.2e-177	13679	389624	403303	Cholelithiasis	19	574.1	1.0406	digestive
+4	110791276	A	G	rs2129977	PITX2	4.6e-160	14756	379217	393973	Atrial fibrillation and flutter	44	427.2	1.0469	circulatory system
+6	31284147	C	T	rs12189871	HLA-C	5.9e-152	2197	396508	398705	Psoriasis	6	696.4	1.0254	dermatologic
+6	31284147	C	T	rs12189871	HLA-C	3e-151	2250	396509	398759	Psoriasis and related disorders	6	696	1.0224	dermatologic
+6	32658698	G	A	rs9273368	HLA-DQB1	4.7e-147	2762	387081	389843	Type 1 diabetes	6	250.1	1.0138	endocrine/metabolic
+6	32593593	C	T	rs35139284	HLA-DRB1	1.7e-145	4380	363562	367942	Rheumatoid arthritis	6	714.1	1.0224	musculoskeletal
+1	169549811	C	T	rs6025	F5	7.9e-141	932	404524	405456	Coagulation defects	3	286	1.0	hematopoietic
+6	31284147	C	T	rs12189871	HLA-C	1.3e-139	1679	396508	398187	Psoriasis vulgaris	4	696.41	1.0313	dermatologic
+10	112998590	C	T	rs7903146	TCF7L2	4.7e-137	20102	387087	407189	Diabetes mellitus	58	250	1.108	endocrine/metabolic
+10	112998590	C	T	rs7903146	TCF7L2	1.1e-134	18105	387087	405192	Type 2 diabetes	55	250.2	1.104	endocrine/metabolic
+6	32593593	C	T	rs35139284	HLA-DRB1	1.1e-132	4842	363563	368405	Rheumatoid arthritis and other inflammatory polyarthropathies	6	714	1.0254	musculoskeletal
+6	31368220	C	T	rs146683910	HLA-B	3.1e-126	1657	363563	365220	Other inflammatory spondylopathies	5	715	1.011	musculoskeletal
+1	169549811	C	T	rs6025	F5	6.5e-111	3681	367909	371590	Phlebitis and thrombophlebitis of lower extremities	9	451.2	1.0054	circulatory system
+1	169549811	C	T	rs6025	F5	6.5e-106	3952	367910	371862	Phlebitis and thrombophlebitis	9	451	1.0082	circulatory system
+6	396321	C	T	rs12203592	IRF4	2.9e-96	11090	393357	404447	Other non-epithelial cancer of skin	37	172.2	1.0437	neoplasms
+9	22102166	C	T	rs7859727	AL359922.1	3.4e-96	20454	374655	395109	Coronary atherosclerosis	50	411.4	1.0811	circulatory system
+2	43839108	G	C	rs11887534	ABCG8	3.1e-93	5452	389620	395072	Cholelithiasis with other cholecystitis	8	574.12	1.0195	digestive
+19	44908684	T	C	rs429358	APOE	1.6e-91	1001	400598	401599	Dementias	3	290.1	1.0	mental disorders
+6	32619017	T	G	rs9271365	HLA-DQA1	3.8e-91	14783	389743	404526	Hypothyroidism	51	244	1.0848	endocrine/metabolic
+6	396321	C	T	rs12203592	IRF4	3e-90	13612	393357	406969	Skin cancer	37	172	1.0469	neoplasms
+6	32619017	T	G	rs9271365	HLA-DQA1	5.4e-90	14098	389745	403843	Hypothyroidism NOS	54	244.4	1.0885	endocrine/metabolic
+4	110791530	T	C	rs1906599	PITX2	4.6e-87	24571	379214	403785	Cardiac dysrhythmias	25	427	1.0437	circulatory system
+6	32536048	T	C	rs75802100	HLA-DRB5	1.7e-84	1339	393433	394772	Multiple sclerosis	8	335	1.0138	neurological
+1	10765520	C	T	rs11121615	CASZ1	4.9e-79	11622	367913	379535	Varicose veins of lower extremity	28	454.1	1.0669	circulatory system
+9	22103814	A	G	rs1333042	AL359922.1	1.9e-77	31952	374656	406608	Ischemic Heart Disease	45	411	1.104	circulatory system
+19	44908822	C	T	rs7412	APOE	3.6e-74	35726	371440	407166	Disorders of lipoid metabolism	45	272	1.108	endocrine/metabolic
+19	44908822	C	T	rs7412	APOE	2e-73	35652	371440	407092	Hyperlipidemia	46	272.1	1.108	endocrine/metabolic
+1	10765520	C	T	rs11121615	CASZ1	5.1e-72	11281	367913	379194	Varicose veins	23	454	1.0635	circulatory system
+10	121589148	T	G	rs2912774	FGFR2	6.2e-72	12790	387413	400203	Breast cancer	36	174	1.0254	neoplasms
+10	121589148	T	G	rs2912774	FGFR2	8.6e-72	12571	200465	213036	Breast cancer [female]	37	174.1	1.0254	neoplasms
+19	44908822	C	T	rs7412	APOE	5.5e-71	33084	371439	404523	Hypercholesterolemia	39	272.11	1.1001	endocrine/metabolic
+10	121580917	GC	G	rs35054928	FGFR2	6.8e-71	11841	200465	212306	Malignant neoplasm of female breast	29	174.11	1.0224	neoplasms
+6	32658698	G	A	rs9273368	HLA-DQB1	9.5e-68	473	387081	387554	Type 1 diabetes with ophthalmic manifestations	2	250.13	1.0	endocrine/metabolic
+1	169549811	C	T	rs6025	F5	5.9e-67	16261	386242	402503	Circulatory disease NEC	7	459.9	1.0254	circulatory system
+19	44908684	T	C	rs429358	APOE	6.4e-67	1927	400598	402525	Delirium dementia and amnestic and other cognitive disorders	5	290	1.0054	mental disorders
+19	44908684	T	C	rs429358	APOE	4.3e-66	430	400600	401030	Alzheimer's disease	1	290.11	1.0	mental disorders
+4	88124179	A	G	rs2199936	ABCG2	7.5e-66	3179	403457	406636	Gout	8	274.1	1.011	endocrine/metabolic
+1	169549811	C	T	rs6025	F5	2.7e-65	16428	386242	402670	Other disorders of circulatory system	6	459	1.0254	circulatory system
+6	32659200	T	C	rs9273386	HLA-DQB1	4.8e-64	26167	373887	400054	Asthma	37	495	1.104	respiratory
+4	88124179	A	G	rs2199936	ABCG2	1.2e-57	3735	403459	407194	Gout and other crystal arthropathies	9	274	1.0138	endocrine/metabolic
+9	22103814	A	G	rs1333042	AL359922.1	4.5e-55	12038	374657	386695	Myocardial infarction	21	411.2	1.0469	circulatory system
+6	32333650	C	T	rs115378818	TSBP1	1.4e-53	4460	333378	337838	Inflammatory bowel disease and other gastroenteritis and colitis	18	555	1.0224	digestive
+2	43842633	G	A	rs75331444	ABCG8	1.3e-51	2622	389617	392239	Calculus of bile duct	2	574.2	1.0054	digestive
+4	80261400	T	C	rs12509595	FGF5	2.9e-49	77714	328796	406510	Hypertension	142	401	1.2626	circulatory system
+6	160576086	A	T	rs74617384	LPA	3e-49	15490	374663	390153	Other chronic ischemic heart disease, unspecified	23	411.8	1.0601	circulatory system
+2	227052367	G	C	rs35138315	COL4A4	8.8e-49	16235	378356	394591	Hematuria	17	593	1.0344	genitourinary
+4	80261400	T	C	rs12509595	FGF5	1.1e-48	77465	328796	406261	Essential hypertension	146	401.1	1.2626	circulatory system
+9	22099569	C	A	rs1537371	AL359922.1	3.6e-48	16102	374656	390758	Angina pectoris	23	411.3	1.0669	circulatory system
+6	32333650	C	T	rs115378818	TSBP1	6.8e-45	3183	333377	336560	Ulcerative colitis	13	555.2	1.011	digestive
+2	55869757	A	G	rs3791679	EFEMP1	1.5e-44	15932	360069	376001	Inguinal hernia	32	550.1	1.0406	digestive
+6	32658525	T	G	rs9273364	HLA-DQB1	2.3e-44	239	387081	387320	Type 1 diabetes with ketoacidosis	5	250.11	1.0469	endocrine/metabolic
+6	32658698	G	A	rs9273368	HLA-DQB1	2.4e-40	1330	395155	396485	Diabetic retinopathy	2	250.7	1.011	endocrine/metabolic
+18	55668281	T	A	rs11659764	TCF4	3e-40	212	396051	396263	Corneal dystrophy	5	364.5	1.0567	sense organs
+2	143551211	C	G	rs6717024	ARHGAP15	5.4e-40	27204	333384	360588	Diverticulosis and diverticulitis	46	562	1.0848	digestive
+2	143551211	C	G	rs6717024	ARHGAP15	5.7e-40	27161	333384	360545	Diverticulosis	46	562.1	1.0848	digestive
+6	32622860	T	A	rs9271579	HLA-DQA1	1.6e-37	3300	388555	391855	Nasal polyps	17	471	1.0138	respiratory
+6	31346230	AC	A	rs36058333	HLA-B	1.7e-37	705	396507	397212	Psoriatic arthropathy	3	696.42	0.97444	dermatologic
+20	19476624	A	G	rs4814857	SLC24A3	5.4e-37	20234	386965	407199	Cataract	22	366	1.0375	sense organs
+6	32262212	TG	T	rs146576271	TSBP1	2.8e-36	1853	389744	391597	Thyrotoxicosis with or without goiter	5	242	1.0166	endocrine/metabolic
+9	133274414	A	G	rs532436	ABO	4.2e-36	4478	400265	404743	Pulmonary heart disease	12	415	1.0054	circulatory system
+11	32437682	G	T	rs4140413	WT1	2e-35	46703	360073	406776	Abdominal hernia	23	550	1.0775	digestive
+8	127401060	G	T	rs6983267	POU5F1B	9.7e-35	5993	168999	174992	Cancer of prostate	28	185	1.0166	neoplasms
+2	43842633	G	A	rs75331444	ABCG8	2e-34	3867	389625	393492	Other biliary tract disease	3	575	1.0027	digestive
+6	396321	C	T	rs12203592	IRF4	2.7e-33	7688	398897	406585	Benign neoplasm of skin	9	216	1.0138	neoplasms
+18	48925957	A	G	rs2337113	SMAD7	3.3e-33	20121	384292	404413	Benign neoplasm of colon	26	208	1.0469	neoplasms
+6	32333650	C	T	rs115378818	TSBP1	1.1e-32	1653	333378	335031	Ileostomy status	1	559	1.011	digestive
+2	43842633	G	A	rs75331444	ABCG8	1.7e-32	2747	389620	392367	Cholecystitis without cholelithiasis	4	574.3	1.0	digestive
+6	32658698	G	A	rs9273368	HLA-DQB1	1.8e-31	931	384670	385601	Hypoglycemia	3	251.1	0.97444	endocrine/metabolic
+6	32333650	C	T	rs115378818	TSBP1	6.2e-31	1737	333378	335115	Regional enteritis	10	555.1	1.0166	digestive
+18	55668281	T	A	rs11659764	TCF4	2.4e-30	647	396051	396698	Corneal opacity and other disorders of cornea	3	364	0.97444	sense organs
+16	89729609	G	A	rs34659644	ZNF276	5e-30	2712	393365	396077	Melanomas of skin	10	172.11	1.0027	neoplasms
+7	121322110	A	G	rs2908007	WNT16	6.1e-30	5223	386067	391290	Fracture of radius and ulna	6	803.2	1.011	injuries & poisonings
+16	89919709	C	T	rs1805007	AC092143.1,MC1R	2.1e-29	2680	393365	396045	Melanomas of skin, dx or hx	12	172.1	1.0027	neoplasms
+6	396321	C	T	rs12203592	IRF4	1.2e-28	2394	404806	407200	Benign neoplasm of unspecified sites	5	229	1.0027	neoplasms
+16	53769311	G	A	rs62048402	FTO	2.5e-27	10907	396292	407199	Overweight, obesity and other hyperalimentation	9	278	1.0601	endocrine/metabolic
+16	53769662	T	A	rs1558902	FTO	1.4e-26	10742	396293	407035	Obesity	9	278.1	1.0601	endocrine/metabolic
+6	32598621	G	A	rs2760985	HLA-DRB1	5.4e-26	1145	406057	407202	Polymyalgia Rheumatica	2	717	1.0	musculoskeletal
+6	32698749	C	T	rs1794282	HLA-DQB1	2e-25	456	389744	390200	Graves' disease	5	242.1	1.0	endocrine/metabolic
+11	1219991	G	T	rs35705950	MUC5B	2.5e-25	917	395582	396499	Postinflammatory pulmonary fibrosis	6	502	1.0	respiratory
+2	43835959	G	C	rs115445558	ABCG5,ABCG8	2.6e-25	1505	389623	391128	Cholelithiasis with acute cholecystitis	3	574.11	1.0054	digestive
+6	31401501	G	T	rs114892859	MICA	2e-24	15996	380141	396137	Allergy/adverse effect of penicillin	8	960.2	1.0313	injuries & poisonings
+22	43928850	C	T	rs738408	PNPLA3	2.8e-24	2954	398276	401230	Chronic liver disease and cirrhosis	5	571	1.0	digestive
+17	7668434	T	G	rs78378222	TP53	5.1e-24	10309	203951	214260	Uterine leiomyoma	17	218.1	1.0166	neoplasms
+1	219580167	T	C	rs2820443	ZC3H11B	8.3e-23	3708	360063	363771	Umbilical hernia	4	550.4	1.011	digestive
+9	97775520	A	C	rs1588635	FOXE1	1.1e-22	674	389740	390414	Nontoxic multinodular goiter	9	241.2	0.97444	endocrine/metabolic
+6	31401501	G	T	rs114892859	MICA	1.1e-22	18309	380143	398452	Poisoning by antibiotics	6	960	1.0344	injuries & poisonings
+6	160576086	A	T	rs74617384	LPA	1.5e-22	5159	374651	379810	Unstable angina (intermediate coronary syndrome)	5	411.1	1.0166	circulatory system
+6	32706117	C	T	rs1794269	HLA-DQA2	3.2e-22	160	387082	387242	Type 1 diabetes with neurological manifestations	3	250.14	1.0669	endocrine/metabolic
+7	121322110	A	G	rs2908007	WNT16	5.6e-22	8315	386070	394385	Fracture of upper limb	6	803	1.0224	injuries & poisonings
+20	19476624	A	G	rs4814857	SLC24A3	6.2e-22	8321	386965	395286	Senile cataract	8	366.2	1.0313	sense organs
+6	396321	C	T	rs12203592	IRF4	8.2e-22	2581	401729	404310	Actinic keratosis	6	702.1	1.0082	dermatologic
+14	94378610	C	T	rs28929474	SERPINA1	3.6e-21	898	405781	406679	Other disorders of metabolism	4	277	0.97444	endocrine/metabolic
+5	1336063	A	T	rs457130	CLPTM1L	5.5e-21	11176	169004	180180	Hyperplasia of prostate	24	600	1.0224	genitourinary
+17	7668434	T	G	rs78378222	TP53	1.1e-20	10089	203951	214040	Benign neoplasm of uterus	18	218	1.0138	neoplasms
+16	20381010	G	A	rs77924615	PDILT	4.4e-20	3175	399288	402463	Calculus of kidney	5	594.1	1.011	genitourinary
+14	94378610	C	T	rs28929474	SERPINA1	1.2e-19	1744	373884	375628	Emphysema	7	496.1	1.0082	respiratory
+6	32619234	A	T	rs28383311	HLA-DQA1	8.1e-19	362	402714	403076	Nodular lymphoma	7	202.21	1.0138	neoplasms
+10	122456049	T	C	rs3750846	ARMS2	8.5e-19	2180	395156	397336	Macular degeneration (senile) of retina NOS	5	362.29	1.0027	sense organs
+22	43928975	G	A	rs3747207	PNPLA3	1.2e-18	1687	398277	399964	Other chronic nonalcoholic liver disease	3	571.5	1.0138	digestive
+10	122456049	T	C	rs3750846	ARMS2	1.3e-18	2183	395156	397339	Degeneration of macula and posterior pole of retina	5	362.2	1.0027	sense organs
+1	155151361	G	C	rs6676150	DPM3	3.7e-18	5257	393413	398670	Benign neoplasm of other parts of digestive system	4	211	1.0138	neoplasms
+20	62357358	T	C	rs1741640	LAMA5	9e-18	7373	385685	393058	Anal and rectal polyp	4	565.1	1.0138	digestive
+9	4999303	A	G	rs1327494	JAK2	9.5e-18	388	399421	399809	Polycythemia vera	2	200.1	1.0082	neoplasms
+19	44908684	T	C	rs429358	APOE	1e-17	201	400598	400799	Vascular dementia	1	290.16	1.0534	mental disorders
+4	110799663	A	G	rs13121924	PITX2	1e-17	3086	403887	406973	Appendiceal conditions	5	540	1.0	digestive
+9	5070227	ATTATC	A	rs56241661	JAK2	1.2e-17	992	402716	403708	Myeloproliferative disease	3	200	1.0	neoplasms
+1	169238941	C	T	rs2227246	NME7	2.5e-17	4617	401760	406377	Swelling of limb	3	771.1	1.0138	symptoms
+20	35416964	C	T	rs62210593	UQCC1	5.7e-17	15715	364266	379981	Unspecified monoarthritis	5	716.2	1.0601	musculoskeletal
+11	32458261	G	A	rs11031796	WT1	7.1e-17	26993	360063	387056	Diaphragmatic hernia	18	550.2	1.0775	digestive
+11	5225923	G	A	rs34451549	HBB	8.4e-17	57	388395	388452	Other hemoglobinopathies	33	282.8	1.0027	hematopoietic
+4	99318162	T	C	rs1229984	ADH1B	1.3e-16	5315	377725	383040	Substance addiction and disorders	2	316	1.0138	mental disorders
+4	110810958	G	A	rs3866831	PITX2	1.6e-16	2893	403887	406780	Appendicitis	5	540.1	1.0	digestive
+2	20678646	T	C	rs3072	GDF7	1.6e-16	11787	207910	219697	Genital prolapse	9	618	1.0283	genitourinary
+1	165774286	A	G	rs2790049	TMCO1	1.7e-16	4428	396053	400481	Glaucoma	11	365	1.0166	sense organs
+2	43835959	G	C	rs115445558	ABCG5,ABCG8	2.2e-16	1407	389622	391029	Other disorders of gallbladder	1	575.7	1.0027	digestive
+15	49534569	C	CAG	rs34260484	FAM227B	2.3e-16	1105	389741	390846	Nontoxic nodular goiter	6	241	1.0	endocrine/metabolic
+11	92874700	C	T	rs10765568	FAT3	4.4e-16	3244	396051	399295	Retinal detachments and defects	4	361	1.0054	sense organs
+6	32454414	G	A	rs2097442	HLA-DRA	5.2e-16	1802	402713	404515	Non-Hodgkins lymphoma	4	202.2	1.0138	neoplasms
+1	169549811	C	T	rs6025	F5	5.4e-16	6241	399888	406129	Lipoma	6	214	1.0082	neoplasms
+4	99318162	T	C	rs1229984	ADH1B	7.5e-16	12791	377727	390518	Alcohol-related disorders	3	317	1.0313	mental disorders
+21	36446573	A	G	rs2776288	CLDN14	1.2e-15	6391	399288	405679	Urinary calculus	10	594	1.0254	genitourinary
+16	53880018	G	A	rs11076004	FTO	1.6e-15	2714	397693	400407	Unspecified diffuse connective tissue disease	5	709.7	1.0082	dermatologic
+9	22124745	C	G	rs4977575	AL359922.1	1.8e-15	2580	398705	401285	Peripheral vascular disease, unspecified	2	443.9	1.0054	circulatory system
+5	1292868	C	A	rs2853672	TERT	1.8e-15	3081	401726	404807	Seborrheic keratosis	3	702.2	1.0027	dermatologic
+6	31403207	C	T	rs116135464	MICA	2e-15	481	397602	398083	Uveitis, noninfectious or NOS	4	371.1	0.97444	sense organs
+3	128356555	T	G	rs1735546	EEFSEC	2e-15	7876	207566	215442	Polyp of corpus uteri	3	622.1	1.0	genitourinary
+20	35417437	T	C	rs6060402	UQCC1	2.5e-15	15358	389780	405138	Internal derangement of knee	8	835	1.0313	injuries & poisonings
+10	113057250	A	C	rs11196211	TCF7L2	3.2e-15	986	387082	388068	Type 2 diabetes with ophthalmic manifestations	4	250.23	1.0	endocrine/metabolic
+10	121589148	T	G	rs2912774	FGFR2	6.9e-15	2404	199511	201915	Acquired absence of breast	6	175	1.0	neoplasms
+6	32615435	A	G	rs28383221	HLA-DQA1	8.1e-15	539	400947	401486	Sarcoidosis	11	697	0.97444	dermatologic
+1	169465789	C	T	rs2678166	SLC19A2	1e-14	6024	377183	383207	Other disorders of soft tissues	3	729	1.0138	musculoskeletal
+1	169465789	C	T	rs2678166	SLC19A2	1.1e-14	385	404524	404909	Other and unspecified coagulation defects	4	286.7	1.0	hematopoietic
+6	32706117	C	T	rs1794269	HLA-DQA2	1.5e-14	76	387082	387158	Type 1 diabetes with renal manifestations	4	250.12	1.0375	endocrine/metabolic
+2	217281820	T	A	rs12694411	TNP1	1.6e-14	12530	392377	404907	Other peripheral nerve disorders	8	351	1.0406	neurological
+4	110810780	T	C	rs6533530	PITX2	1.6e-14	2599	403886	406485	Acute appendicitis	1	540.11	1.0054	digestive
+11	5225923	G	A	rs34451549	HBB	1.9e-14	151	388395	388546	Hereditary hemolytic anemias	5	282	1.0669	hematopoietic
+1	169549811	C	T	rs6025	F5	2e-14	4589	399888	404477	Lipoma of skin and subcutaneous tissue	2	214.1	1.011	neoplasms
+6	31371067	T	C	rs2853986	HLA-B	3.3e-14	511	397694	398205	Sicca syndrome	6	709.2	1.0	dermatologic
+2	184333408	C	A	rs12465214	ZNF804A	4.1e-14	9102	398100	407202	Syncope and collapse	2	788	1.0166	symptoms
+8	127707639	A	T	rs10094872	MYC	4.3e-14	2142	403026	405168	Malignant neoplasm of bladder	6	189.21	1.0	neoplasms
+6	160576086	A	T	rs74617384	LPA	4.7e-14	1816	404392	406208	Congenital anomalies of great vessels	3	747.13	1.011	congenital anomalies
+2	43839108	G	C	rs11887534	ABCG8	5.4e-14	456	389621	390077	Cholesterolosis of gallbladder	2	575.6	0.97444	digestive
+8	127707639	A	T	rs10094872	MYC	5.5e-14	2409	403027	405436	Cancer of bladder	5	189.2	1.0027	neoplasms
+6	32699696	G	C	rs1794514	HLA-DQB1	5.7e-14	12189	388402	400591	Other anemias	7	285	1.0195	hematopoietic
+9	133274084	C	T	rs529565	ABO	8.4e-14	23787	367911	391698	Hemorrhoids	11	455	1.0469	circulatory system
+18	48922435	T	C	rs6507874	SMAD7	8.7e-14	4587	380932	385519	Colorectal cancer	3	153	1.011	neoplasms
+15	78606661	C	A	rs56077333	CHRNA3	9.7e-14	10516	373881	384397	Chronic airway obstruction	6	496	1.0375	respiratory
+8	127707639	A	T	rs10094872	MYC	2e-13	4162	403026	407188	Cancer of urinary organs (incl. kidney and bladder)	4	189	1.0027	neoplasms
+7	121322110	A	G	rs2908007	WNT16	2e-13	3340	386073	389413	Fracture of hand or wrist	10	804	1.0027	injuries & poisonings
+6	396321	C	T	rs12203592	IRF4	2.1e-13	5475	397054	402529	Degenerative skin conditions and other dermatoses	5	702	1.0138	dermatologic
+20	35438203	G	A	rs143383	GDF5	2.2e-13	6671	393238	399909	Hallux valgus (Bunion)	6	735.3	1.0254	musculoskeletal
+6	31466844	A	G	rs3131618	MICB	2.3e-13	3441	397694	401135	Diffuse diseases of connective tissue	4	709	1.011	dermatologic
+19	51715646	C	T	rs7254072	HAS1	2.3e-13	3109	377184	380293	Ganglion and cyst of synovium, tendon, and bursa	3	727.4	1.0	musculoskeletal
+6	32658263	C	T	rs4713570	HLA-DQB1	2.4e-13	2265	402714	404979	Cancer of other lymphoid, histiocytic tissue	3	202	1.011	neoplasms
+11	30204981	G	A	rs11031006	FSHB	2.4e-13	14224	189126	203350	Irregular menstrual cycle/bleeding	4	626.1	1.0224	genitourinary
+15	32719496	G	C	rs79207432	GREM1	2.5e-13	14836	385688	400524	Anal and rectal conditions	6	565	1.0195	digestive
+8	8666851	T	C	rs11997261	CLDN23	3.9e-13	28212	378902	407114	Osteoarthrosis	21	740	1.0704	musculoskeletal
+10	122456049	T	C	rs3750846	ARMS2	5.6e-13	3836	395156	398992	Other retinal disorders	7	362	1.0	sense organs
+9	133602085	C	G	rs113927489	FAM163B	6.7e-13	19655	377718	397373	Tobacco use disorder	12	318	1.0775	mental disorders
+6	484453	C	G	rs116446171	EXOC2	7.8e-13	260	406470	406730	Disorders of plasma protein metabolism	4	270.3	1.0406	endocrine/metabolic
+11	30220740	T	C	rs74485684	FSHB	9.2e-13	9788	189132	198920	Excessive or frequent menstruation	7	626.12	1.0254	genitourinary
+7	121326736	A	G	rs3779381	WNT16	9.4e-13	5583	399565	405148	Osteoporosis NOS	4	743.11	1.0195	musculoskeletal
+2	113234797	G	C	rs4849183	PAX8	1e-12	1339	167469	168808	Hydrocele	5	603.1	0.97444	genitourinary
+9	22124745	C	G	rs4977575	AL359922.1	1.3e-12	3688	398704	402392	Other specified peripheral vascular diseases	3	443.8	1.0082	circulatory system
+8	142684641	C	G	rs2585183	PSCA	1.3e-12	3000	399774	402774	Duodenal ulcer	4	531.3	1.0	digestive
+6	32236099	A	G	rs3130301	NOTCH4	1.4e-12	2377	400950	403327	Erythematous conditions	4	695	1.0054	dermatologic
+12	114228780	G	A	rs10774741	TBX5	1.5e-12	8814	383299	392113	Urinary incontinence	6	599.4	1.0224	genitourinary
+2	43842633	G	A	rs75331444	ABCG8	1.9e-12	1036	389622	390658	Other disorders of biliary tract	3	575.8	1.0	digestive
+6	32112414	G	C	rs1269852	TNXB	2.2e-12	338	399660	399998	Systemic lupus erythematosus	3	695.42	1.0082	dermatologic
+5	128014857	C	T	rs3749748	SLC12A2	4e-12	5494	395974	401468	Cellulitis and abscess of leg, except foot	4	681.5	1.011	dermatologic
+5	128014857	C	T	rs3749748	SLC12A2	4.3e-12	5486	395974	401460	Cellulitis and abscess of arm/hand	3	681.3	1.011	dermatologic
+12	27862568	G	C	rs11049206	KLHL42	4.3e-12	17598	378904	396502	Osteoarthritis; localized	12	740.1	1.0501	musculoskeletal
+15	49418988	T	C	rs17477923	FAM227B	4.4e-12	599	389743	390342	Simple and unspecified goiter	1	240	0.97444	endocrine/metabolic
+6	396321	C	T	rs12203592	IRF4	4.7e-12	665	393366	394031	Carcinoma in situ of skin	4	172.3	0.97444	neoplasms
+5	128014857	C	T	rs3749748	SLC12A2	6.2e-12	5449	395974	401423	Cellulitis and abscess of foot, toe	4	681.6	1.011	dermatologic
+5	133089726	A	G	rs764634404	HSPA4	7.3e-12	5318	212197	217515	Obstetrical/birth trauma	2	665	1.0054	pregnancy complications
+19	44908684	T	C	rs429358	APOE	7.5e-12	2178	400600	402778	Altered mental status	4	292.4	1.0027	mental disorders
+19	44908684	T	C	rs429358	APOE	8.1e-12	4623	400600	405223	Neurological disorders	2	292	1.0054	mental disorders
+1	219607456	G	A	rs3902972	ZC3H11B	8.6e-12	650	360062	360712	Femoral hernia	3	550.3	0.97444	digestive
+6	32710135	C	T	rs9275563	HLA-DQA2	1.1e-11	3279	167468	170747	Disorders of penis	6	604	1.0	genitourinary
+8	142698204	CTT	C	rs35464379	LY6K	1.2e-11	7624	376450	384074	Duodenitis	4	535.6	1.0195	digestive
+10	62492218	C	T	rs10822013	AC024598.1	1.2e-11	1388	213273	214661	Benign neoplasm of breast	5	610.4	1.0082	genitourinary
+2	20678646	T	C	rs3072	GDF7	1.2e-11	5407	207906	213313	Uterine/Uterovaginal prolapse	5	618.2	1.0138	genitourinary
+3	128387424	A	G	rs2977562	EEFSEC	1.2e-11	10525	207563	218088	Polyp of female genital organs	3	622	1.0027	genitourinary
+6	32333650	C	T	rs115378818	TSBP1	1.2e-11	500	393229	393729	Complication of colostomy or enterostomy	1	853	0.97444	injuries & poisonings
+22	43928850	C	T	rs738408	PNPLA3	1.4e-11	836	377722	378558	Alcoholic liver damage	6	317.11	1.0	mental disorders
+6	32112414	G	C	rs1269852	TNXB	1.4e-11	409	399660	400069	Lupus (localized and systemic)	2	695.4	1.0	dermatologic
+9	22124505	A	T	rs1333047	AL359922.1	1.5e-11	3923	398704	402627	Peripheral vascular disease	3	443	1.0082	circulatory system
+19	45686588	G	A	rs571017190	SNRPD2	1.6e-11	127	405102	405229	Muscular dystrophies	13	359.1	1.0848	neurological
+6	32658698	G	A	rs9273368	HLA-DQB1	1.6e-11	467	395834	396301	Nephrotic syndrome without mention of glomerulonephritis	3	580.2	0.97444	genitourinary
+7	19013110	G	A	rs57301765	TWIST1	1.7e-11	1185	397137	398322	Occlusion and stenosis of precerebral arteries	2	433.1	1.0	circulatory system
+6	484453	C	G	rs116446171	EXOC2	1.8e-11	302	406469	406771	Disorders of protein plasma/amino-acid transport and metabolism	2	270	1.0313	endocrine/metabolic
+8	123707678	T	C	rs2163535	ANXA13	2.4e-11	1763	403147	404910	Otitis media	3	381.1	1.0082	sense organs
+6	32614835	G	A	rs3104414	HLA-DQA1	2.4e-11	2589	388553	391142	Chronic sinusitis	1	475	1.0054	respiratory
+5	128014857	C	T	rs3749748	SLC12A2	2.4e-11	7213	395974	403187	Superficial cellulitis and abscess	4	681	1.011	dermatologic
+6	32619017	T	G	rs9271365	HLA-DQA1	3e-11	275	401601	401876	Chronic hepatitis	3	070.4	1.0375	infectious diseases
+11	30204981	G	A	rs11031006	FSHB	3e-11	16312	189127	205439	Disorders of menstruation and other abnormal bleeding from female genital tract	5	626	1.0224	genitourinary
+15	78606661	C	A	rs56077333	CHRNA3	3.5e-11	2713	373883	376596	Obstructive chronic bronchitis	5	496.21	1.0054	respiratory
+6	32619224	C	T	rs557048	HLA-DQA1	4.3e-11	135	395834	395969	Non-proliferative glomerulonephritis	2	580.12	1.0704	genitourinary
+19	50861367	A	G	rs2735839	KLK2	5.1e-11	6374	400623	406997	Other abnormal blood chemistry	5	790.6	1.0082	symptoms
+18	48922435	T	C	rs6507874	SMAD7	6e-11	5581	391484	397065	Malignant neoplasm of other and ill-defined sites within the digestive organs and peritoneum	2	159	1.011	neoplasms
+X	152689198	T	A	rs1439754558	MAGEA3	6.5e-11	138	406706	406844	Deficiency of humoral immunity	1	279.11	1.0669	endocrine/metabolic
+6	127147129	A	C	rs7741021	RSPO3	6.6e-11	7052	386069	393121	Fracture of lower limb	2	800	1.0082	injuries & poisonings
+5	36748379	C	T	rs186225833	SLC1A3	8.7e-11	119	363984	364103	Antisocial/borderline personality disorder	6	301.2	1.0635	mental disorders
+4	110742777	C	T	rs78073007	PITX2	9.1e-11	8792	397138	405930	Cerebrovascular disease	3	433	1.011	circulatory system
+3	75593873	G	C	rs1181027112	FRG2C	1e-10	1447	192419	193866	Benign neoplasm of ovary	8	220	1.0082	neoplasms
+14	104205300	G	A	rs561848621	KIF26A	1.1e-10	523	405449	405972	Cancer of brain	7	191.11	0.97444	neoplasms
+1	99584229	C	A	rs7543130	PALMD	1.1e-10	2629	404392	407021	Cardiac congenital anomalies	4	747.1	1.0027	congenital anomalies
+20	35437976	G	A	rs143384	GDF5	1.2e-10	38496	364275	402771	Other arthropathies	11	716	1.108	musculoskeletal
+7	121326736	A	G	rs3779381	WNT16	1.4e-10	6438	399565	406003	Osteoporosis	6	743.1	1.0224	musculoskeletal
+14	104205300	G	A	rs561848621	KIF26A	1.6e-10	564	405450	406014	Cancer of brain and nervous system	6	191.1	0.97444	neoplasms
+9	97784318	C	T	rs925489	FOXE1	1.6e-10	345	405668	406013	Thyroid cancer	1	193	1.0166	neoplasms
+1	152313385	G	A	rs61816761	FLG	1.7e-10	2094	403085	405179	Atopic/contact dermatitis due to other or unspecified	3	939	1.0138	dermatologic
+7	94636106	G	A	rs1009841083	SGCE	1.8e-10	470	389744	390214	Nontoxic uninodular goiter	5	241.1	0.97444	endocrine/metabolic
+17	68677585	T	TC	rs3214623	FAM20A	1.8e-10	309	403146	403455	Otosclerosis	5	383	1.0313	sense organs
+6	484453	C	G	rs116446171	EXOC2	1.9e-10	69	406469	406538	Macroglobulinemia	4	270.35	1.0254	endocrine/metabolic
+10	133497600	A	G	rs574198244	SCART1	2e-10	910	169004	169914	Chronic prostatitis	4	601.12	1.0	genitourinary
+8	123701385	G	A	rs13281855	ANXA13	2.1e-10	2150	403146	405296	Otitis media and Eustachian tube disorders	2	381	1.0082	sense organs
+15	78606661	C	A	rs56077333	CHRNA3	2.1e-10	2954	373884	376838	Chronic bronchitis	6	496.2	1.0054	respiratory
+9	31833003	A	G	rs10970547	ACO1	2.2e-10	113	406469	406582	Amyloidosis	1	270.33	1.0669	endocrine/metabolic
+21	44740671	T	C	rs9983601	UBE2G2	2.2e-10	508	405774	406282	Otitis externa	1	380.1	0.97444	sense organs
+22	43872362	G	A	rs896450253	PNPLA5	2.2e-10	269	406511	406780	Injury to other and unspecified nerves	4	957	1.0437	injuries & poisonings
+7	64999274	C	T	rs1301038438	ERV3-1,ZNF117	2.3e-10	116	395834	395950	Abnormal results of function study of kidney	4	589	1.0635	genitourinary
+8	127412547	A	G	rs7014346	POU5F1B	2.4e-10	3108	380932	384040	Colon cancer	2	153.2	1.0	neoplasms
+7	85419190	T	C	rs13241159	SEMA3D	2.4e-10	353	400628	400981	Diseases of nail, NOS	1	703	1.0138	dermatologic
+6	32343682	G	A	rs3132954	TSBP1	2.5e-10	3045	397602	400647	Inflammation of the eye	1	371	1.0	sense organs
+6	160576086	A	T	rs74617384	LPA	2.7e-10	1378	398706	400084	Atherosclerosis	3	440	1.0	circulatory system
+12	114228780	G	A	rs10774741	TBX5	2.8e-10	5900	210670	216570	stress incontinence, female	6	624.9	1.0166	genitourinary
+8	62722254	A	C	rs536423929	NKAIN3	2.9e-10	302	169005	169307	Other inflammatory disorders of male genital organs	5	601.8	1.0313	genitourinary
+11	87496262	G	T	rs190334528	TMEM135	3.1e-10	171	405081	405252	Disorders of phosphorus metabolism	2	275.53	1.0669	endocrine/metabolic
+5	1356569	C	T	rs37004	CLPTM1L	3.1e-10	1341	169003	170344	Other disorders of prostate	5	602	1.0054	genitourinary
+10	62492218	C	T	rs10822013	AC024598.1	3.2e-10	2483	213274	215757	Benign mammary dysplasias	3	610	1.0054	genitourinary
+20	35437976	G	A	rs143384	GDF5	3.2e-10	36864	364275	401139	Arthropathy NOS	7	716.9	1.104	musculoskeletal
+4	102276925	A	G	rs13135092	SLC39A8	3.4e-10	9628	377190	386818	Enthesopathy	1	726.1	1.0195	musculoskeletal
+9	22124478	A	G	rs10757278	AL359922.1	3.5e-10	804	398706	399510	Atherosclerosis of the extremities	3	440.2	0.97444	circulatory system
+3	177962442	AT	A	rs758115504	KCNMB2	3.6e-10	438	393432	393870	Generalized convulsive epilepsy	6	345.11	1.0	neurological
+10	5899329	G	A	rs588742	FBH1	3.6e-10	256	398277	398533	Primary biliary cirrhosis	4	571.6	1.0406	digestive
+2	37711101	G	A	rs753149879	CDC42EP3	3.6e-10	773	389622	390395	Obstruction of bile duct	9	575.2	0.97444	digestive
+7	65314119	C	G	rs776676136	ZNF92	3.8e-10	196	400868	401064	Symptoms involving cardiovascular system	11	429.3	1.0635	circulatory system
+6	10855360	G	T	rs9379839	AL024498.2	3.9e-10	780	403661	404441	Hyperparathyroidism	3	252.1	0.97444	endocrine/metabolic
+6	32618459	C	A	rs11751024	HLA-DQA1	4.2e-10	1001	401602	402603	Viral warts & HPV	3	078	1.0	infectious diseases
+14	104205300	G	A	rs561848621	KIF26A	4.2e-10	688	405450	406138	Manlignant and unknown neoplasms of brain and nervous system	5	191	0.97444	neoplasms
+4	78806123	A	T	rs951059894	BMP2K	4.2e-10	490	406709	407199	Certain early complications of trauma or procedure	2	958	0.97444	injuries & poisonings
+2	114999394	G	A	rs1053816295	DPP10	4.3e-10	1367	399528	400895	Disorders of vitreous body	12	379.2	1.0082	sense organs
+21	34931505	A	T	rs1009711858	RUNX1	4.4e-10	95	405668	405763	Cancer of other endocrine glands	2	194	1.0534	neoplasms
+6	168192144	C	A	rs779524792	FRMD1	4.5e-10	961	388553	389514	Chronic pharyngitis and nasopharyngitis	1	472	1.0	respiratory
+6	32684419	T	C	rs9275152	HLA-DQB1	4.6e-10	348	387083	387431	Polyneuropathy in diabetes	2	250.6	1.0166	endocrine/metabolic
+X	152689198	T	A	rs1439754558	MAGEA3	4.6e-10	209	406706	406915	Immunity deficiency	1	279.1	1.0567	endocrine/metabolic
+8	50313715	T	C	rs777283483	SNTG1	4.7e-10	280	403146	403426	Otorrhea	5	381.9	1.0375	sense organs
+20	51475057	G	A	rs12480481	NFATC2	5e-10	878	392386	393264	Facial nerve disorders [CN7]	2	352.2	0.97444	neurological
+6	32659207	A	C	rs4713573	HLA-DQB1	5.2e-10	2351	397601	399952	Inflammation of eyelids	3	371.3	1.0082	sense organs
+5	160246270	T	A	rs770999474	CCNJL	5.2e-10	377	401102	401479	Peripheral or central vertigo	2	386.2	1.0082	sense organs
+11	3442631	A	G	rs562153547	ZNF195	5.3e-10	521	400869	401390	Abnormal function study of cardiovascular system	2	429.2	0.97444	circulatory system
+15	78540007	T	C	rs56117933	PSMA4	5.6e-10	2823	404343	407166	Cancer within the respiratory system	4	165	1.0	neoplasms
+9	114939215	G	A	rs570345512	TNFSF8	5.6e-10	140	363984	364124	Obsessive-compulsive disorders	5	300.3	1.0635	mental disorders
+6	32669238	C	T	rs1694133	HLA-DQB1	5.7e-10	2717	167467	170184	Redundant prepuce and phimosis/BXO	5	604.1	1.0	genitourinary
+1	22141722	C	T	rs3820282	WNT4	6.5e-10	7429	207911	215340	Prolapse of vaginal walls	5	618.1	1.0138	genitourinary
+1	99573963	G	C	rs1890753	PALMD	6.7e-10	2803	404392	407195	Cardiac and circulatory congenital anomalies	3	747	1.0	congenital anomalies
+10	22253661	C	T	rs145146098	EBLN1	6.8e-10	1968	393013	394981	Bladder neck obstruction	2	596.1	1.011	genitourinary
+2	43859452	G	A	rs4507142	ABCG8	7e-10	1992	404504	406496	Acute pancreatitis	1	577.1	1.0082	digestive
+18	74845628	ATAAC	A	rs141452400	ZNF407	7.4e-10	1646	405229	406875	Other nonmalignant breast conditions	9	613	1.0082	genitourinary
+20	51475057	G	A	rs12480481	NFATC2	7.5e-10	1370	392386	393756	Disorders of other cranial nerves	4	352	1.0082	neurological
+6	32658661	A	T	rs9273367	HLA-DQB1	7.6e-10	7326	388398	395724	Iron deficiency anemias, unspecified or not due to blood loss	2	280.1	1.0138	hematopoietic
+9	109060035	TAGTATA	T	rs1489195519	TMEM245	7.7e-10	699	396050	396749	Primary angle-closure glaucoma	4	365.2	0.97444	sense organs
+21	36446573	A	G	rs2776288	CLDN14	7.8e-10	2401	399289	401690	Calculus of ureter	6	594.3	1.0054	genitourinary
+6	32226853	G	C	rs3096690	NOTCH4	7.9e-10	57	400949	401006	Dermatitis herpetiformis	1	695.21	1.0027	dermatologic
+15	78690879	TA	T		CHRNB4	8.2e-10	1890	398706	400596	Other aneurysm	2	442	1.0054	circulatory system
+10	71658959	C	T	rs1027562123	CDH23	8.4e-10	113	398275	398388	Cirrhosis of liver without mention of alcohol	4	571.51	1.0635	digestive
+9	125685192	T	G	rs1435729694	MAPKAP1	8.4e-10	1268	212249	213517	Placenta previa and abruptio placenta	4	635.3	1.0	pregnancy complications
+12	88453224	A	G	rs7486184	KITLG	8.5e-10	286	180550	180836	Malignant neoplasm of testis	8	187.2	1.0224	neoplasms
+6	49599506	A	T	rs866384639	RHAG	8.5e-10	4233	397133	401366	Occlusion of cerebral arteries	4	433.2	1.0054	circulatory system
+16	85733885	G	C	rs380869	C16orf74	8.5e-10	96	398276	398372	Liver replaced by transplant	2	573.2	1.0567	digestive
+2	113224233	A	G	rs6755639	PAX8	8.5e-10	2152	167471	169623	Other disorders of testis	3	603	1.0	genitourinary
+1	169549811	C	T	rs6025	F5	8.9e-10	6228	400974	407202	Pain in limb	7	773	1.0138	symptoms
+8	10938583	G	T	rs6984496	XKR6	9e-10	12369	378887	391256	Osteoarthrosis NOS	6	740.9	1.0375	musculoskeletal
+12	88453224	A	G	rs7486184	KITLG	9.3e-10	448	180550	180998	Cancer of other male genital organs	1	187	0.97444	neoplasms
+7	27671131	G	A	rs1248198441	HIBADH	9.7e-10	531	212191	212722	Umbilical cord complications during labor and delivery	3	663	1.0027	pregnancy complications
+3	130948346	GT	G	rs374510888	ATP2C1	9.9e-10	170	396051	396221	Chorioretinal inflammations, scars, and other disorders of choroid	1	363	1.0635	sense organs
+7	159103609	C	T	rs569395164	VIPR2	1e-09	190	400600	400790	Mild cognitive impairment	2	292.2	1.0567	mental disorders
+2	227479954	A	G	rs888069617	AGFG1	1.1e-09	246	395834	396080	Nephritis and nephropathy without mention of glomerulonephritis	2	580.3	1.0437	genitourinary
+18	55207524	T	A	rs1157500900	TCF4	1.2e-09	70	180551	180621	Malignant neoplasm of unspecified male genital organ	2	187.1	1.0313	neoplasms
+8	25884287	G	A	rs73677235	EBF2	1.2e-09	259	403660	403919	Pituitary hypofunction	2	253.2	1.0437	endocrine/metabolic
+2	66061260	A	G	rs560307191	MEIS1	1.2e-09	2183	379217	381400	Tachycardia NOS	2	427.7	1.0082	circulatory system
+6	31720440	A	G	rs805294	LY6G6C,MPIG6B	1.2e-09	775	400950	401725	Prurigo and Lichen	2	695.7	0.97444	dermatologic
+6	40727769	G	A	rs9367074	LRFN2	1.2e-09	41128	366074	407202	Abdominal pain	6	785	1.0567	symptoms
+3	49509380	T	G	rs991361486	DAG1	1.2e-09	200	406578	406778	Toxic effect of (non-ethyl) alcohol and petroleum and other solvents	4	981	1.0601	injuries & poisonings
+1	22308244	C	T	rs943706723	ZBTB40	1.3e-09	74	406123	406197	Acute (transverse) myelitis	2	323.2	1.0283	neurological
+5	122727043	T	C	rs571798378	SNX2	1.3e-09	214	167468	167682	Male infertility and abnormal spermatozoa	7	609	1.0437	genitourinary
+X	86113292	TTTTA	T		DACH2	1.4e-09	330	406759	407089	Cancer of connective tissue	1	170.2	1.0224	neoplasms
+7	125141336	T	C	rs574668338	POT1	1.4e-09	1057	363983	365040	Bipolar	3	296.1	1.0	mental disorders
+5	1336063	A	T	rs457130	CLPTM1L	1.4e-09	9826	393016	402842	Other disorders of bladder	3	596	1.0166	genitourinary
+9	20003454	G	A	rs538504761	SLC24A2	1.4e-09	1316	210932	212248	Cervicitis and endocervicitis	1	614.51	1.0	genitourinary
+10	130109162	A	C	rs750361462	C10orf143	1.5e-09	84	401593	401677	Hypertrophy of salivary gland	5	527.1	1.0437	digestive
+12	53920926	T	A	rs1016754907	HOXC13	1.5e-09	341	367706	368047	Gastroesophageal laceration-hemorrhage syndrome	1	530.7	1.0195	digestive
+2	227479954	A	G	rs888069617	AGFG1	1.5e-09	252	395835	396087	Nephritis and nephropathy with pathological lesion	3	580.32	1.0437	genitourinary
+6	96039244	C	T	rs1265969595	FUT9	1.5e-09	1328	378354	379682	Pyelonephritis	7	590	1.0082	genitourinary
+4	65510796	C	T	rs11937800	EPHA5	1.5e-09	272	398899	399171	Open wound or laceration of eye or eyelid	2	870.1	1.0437	injuries & poisonings
+12	31150342	T	C	rs770800394	DDX11	1.6e-09	190	391483	391673	Malignant neoplasm of small intestine, including duodenum	1	159.2	1.0635	neoplasms
+1	165774286	A	G	rs2790049	TMCO1	1.6e-09	1035	396050	397085	Open-angle glaucoma	5	365.1	1.0	sense organs
+5	74556252	A	G	rs185319737	ENC1	1.6e-09	1336	403885	405221	Pericarditis	2	420.2	1.0027	circulatory system
+13	18751580	C	T	rs1238805155	TUBA3C	1.6e-09	1144	398704	399848	Raynaud's syndrome	3	443.1	1.0	circulatory system
+1	219573884	TG	T	rs34791232	ZC3H11B	1.6e-09	3435	360061	363496	Ventral hernia	2	550.5	1.0054	digestive
+X	152689198	T	A	rs1439754558	MAGEA3	1.7e-09	249	406707	406956	Disorders involving the immune mechanism	2	279	1.0469	endocrine/metabolic
+1	12248268	T	G	rs879702143	VPS13D	1.7e-09	1593	404469	406062	Abnormality of gait	5	350.2	1.011	neurological
+22	43928850	C	T	rs738408	PNPLA3	1.7e-09	527	398276	398803	Portal hypertension	2	571.81	0.97444	digestive
+21	38245059	G	A	rs759497710	KCNJ15	1.7e-09	73	400949	401022	Pemphigus and pemphigoid	10	695.22	1.0313	dermatologic
+7	90827289	C	A	rs756720072	CDK14	1.7e-09	308	400950	401258	Rosacea	1	695.3	1.0313	dermatologic
+5	64338451	G	A	rs181160440	RNF180	1.7e-09	352	377181	377533	Rupture of tendon, nontraumatic	1	727.6	1.0166	musculoskeletal
+3	25435451	C	A	rs539335060	RARB	1.8e-09	157	405742	405899	Late effects of musculoskeletal and connective tissue injuries	2	905	1.0704	injuries & poisonings
+6	32618459	C	A	rs11751024	HLA-DQA1	1.9e-09	360	403661	404021	Glucocorticoid deficiency	4	255.21	1.0166	endocrine/metabolic
+18	69578522	C	T	rs79571725	DOK6	2e-09	589	401601	402190	Viral hepatitis	3	070	0.97444	infectious diseases
+12	78852224	T	A	rs572224019	SYT1	2e-09	307	403146	403453	Otalgia	1	382	1.0224	sense organs
+21	16775774	C	T	rs763004385	CXADR	2e-09	53	396443	396496	Hereditary disturbances in tooth structure	2	520.1	0.97444	digestive
+2	238899039	G	A	rs961975567	TWIST2	2e-09	2263	212190	214453	Fetal distress and abnormal forces of labor	7	661	1.0	pregnancy complications
+11	120063854	G	A	rs4936507	TRIM29	2.1e-09	55	398252	398307	Intestinal infection due to protozoa	4	008.7	1.0	infectious diseases
+8	103201697	GA	G	rs1346500054	BAALC	2.1e-09	95	403660	403755	Acromegaly and gigantism	3	253.11	1.0534	endocrine/metabolic
+2	199245017	T	C	rs260767	SATB2	2.2e-09	2164	380934	383098	Malignant neoplasm of rectum, rectosigmoid junction, and anus	6	153.3	1.0054	neoplasms
+7	9910387	T	A	rs778274895	NDUFA4	2.2e-09	144	403025	403169	Malignant neoplasm of other urinary organs	7	189.4	1.0635	neoplasms
+15	26458172	G	A	rs374459291	GABRB3	2.2e-09	180	403659	403839	Adrenal hyperfunction	2	255.1	1.0704	endocrine/metabolic
+2	35287707	G	A	rs531236924	CRIM1	2.2e-09	552	397602	398154	Infection of the eye	3	369	0.97444	sense organs
+1	234974469	G	A	rs553753391	TOMM20	2.2e-09	2865	210805	213670	Noninflammatory disorders of cervix	2	619.3	1.0	genitourinary
+16	88306633	G	A	rs150212536	ZNF469	2.2e-09	53	400950	401003	Seborrheic dermatitis	9	690.1	0.97444	dermatologic
+19	42047762	G	A	rs773985749	GRIK5	2.4e-09	5488	401714	407202	Symptoms concerning nutrition, metabolism, and development	5	1002	1.011	injuries & poisonings
+4	163849421	T	C	rs371451295	MARCHF1	2.4e-09	361	405772	406133	Impacted cerumen	3	380.4	1.0138	sense organs
+12	77867450	C	T	rs3934145	NAV3	2.4e-09	34214	367712	401926	Diseases of esophagus	8	530	1.0848	digestive
+8	13155183	C	G	rs60739531	DLC1	2.5e-09	2230	404342	406572	Cancer of bronchus; lung	3	165.1	1.0054	neoplasms
+6	52741666	T	A	rs892879632	GSTA2	2.5e-09	861	399653	400514	Other diseases of blood and blood-forming organs	3	289	0.97444	hematopoietic
+6	152232879	C	G	rs71575922	SYNE1	2.5e-09	4036	210927	214963	Endometriosis	6	615	1.0054	genitourinary
+2	229083969	G	A	rs568118401	PID1	2.6e-09	86	404523	404609	Hemorrhagic disorder due to intrinsic circulating anticoagulants	1	286.5	1.0469	hematopoietic
+1	55282668	C	T	rs772772933	USP24	2.7e-09	105	400662	400767	Nonrheumatic tricuspid valve disorders	2	395.3	1.0635	circulatory system
+13	96512882	TTTG	T	rs926287723	HS6ST3	2.7e-09	2471	379217	381688	Cardiac pacemaker/device in situ	5	426.9	1.0054	circulatory system
+11	128076814	G	T	rs1252384564	ETS1	2.7e-09	2370	403746	406116	Sciatica	1	764	1.0027	symptoms
+8	17439656	A	G	rs928638497	MTMR7	2.8e-09	1814	399782	401596	Hyposmolality and/or hyponatremia	3	276.12	1.0082	endocrine/metabolic
+4	87304444	C	G	rs565615993	HSD17B13	2.8e-09	4224	400664	404888	Heart valve disorders	4	395	1.0082	circulatory system
+11	46496726	C	T	rs976341753	AMBRA1	2.8e-09	134	403885	404019	Hypertrophic obstructive cardiomyopathy	5	425.11	1.0704	circulatory system
+11	20603360	G	T	rs181821254	SLC6A5	2.8e-09	658	406516	407174	Symptoms of the muscles	3	772	0.97444	symptoms
+13	69195573	C	A	rs1371045755	KLHL1	2.9e-09	8895	398249	407144	Intestinal infection	5	008	1.011	infectious diseases
+9	22052735	T	C	rs6475604	AL359922.1	2.9e-09	1029	396050	397079	Primary open angle glaucoma	5	365.11	0.97444	sense organs
+18	49421999	G	A	rs972812660	DYM	2.9e-09	8759	210807	219566	Noninflammatory female genital disorders	5	619	1.0082	genitourinary
+18	53227723	A	G	rs62100775	DCC	3e-09	12456	363980	376436	Mood disorders	2	296	1.0313	mental disorders
+9	22123767	A	C	rs10738610	AL359922.1	3e-09	930	398704	399634	Abdominal aortic aneurysm	4	442.11	0.97444	circulatory system
+8	80393921	G	C	rs368925034	ZBTB10	3e-09	267	333379	333646	Impaction of intestine	2	560.2	1.0406	digestive
+4	110780642	G	T	rs1906615	PITX2	3.1e-09	5627	400865	406492	Congestive heart failure; nonhypertensive	7	428	1.011	circulatory system
+6	32469562	C	T	rs374532386	HLA-DRA	3.1e-09	822	398703	399525	Polyarteritis nodosa and allied conditions	4	446	0.97444	circulatory system
+6	160135153	A	G	rs3798170	SLC22A1	3.1e-09	1324	398706	400030	Other disorders of arteries and arterioles	2	447	1.0054	circulatory system
+5	94668877	A	G	rs189918011	SLF1	3.1e-09	28643	376439	405082	Gastritis and duodenitis	6	535	1.0601	digestive
+9	28047049	T	C	rs182158531	LINGO2	3.1e-09	1363	189127	190490	Infertility, female	5	626.8	1.0	genitourinary
+12	47896172	G	A	rs1006800498	VDR	3.1e-09	102	402139	402241	Acquired acanthosis nigricans	5	701.6	1.0567	dermatologic
+22	29452646	A	G	rs1390021212	RFPL1	3.1e-09	89	406579	406668	Toxic effect of other substances, chiefly nonmedicinal as to source	1	989	1.0437	injuries & poisonings
+13	32380424	G	A	rs7328654	BRCA2	3.2e-09	634	405058	405692	Cancer of larynx, pharynx, nasal cavities	1	149	0.97444	neoplasms
+4	45216706	A	T	rs758442071	GNPDA2	3.2e-09	623	367909	368532	Varicose veins of lower extremity, symptomtic	3	454.11	0.97444	circulatory system
+8	3587014	G	A	rs1047346135	CSMD1	3.2e-09	4411	390235	394646	Other and unspecified disc disorder	3	722.9	1.0138	musculoskeletal
+19	28148570	C	T	rs766270363	UQCRFS1	3.3e-09	205	391483	391688	Malignant neoplasm of gallbladder and extrahepatic bile ducts	4	159.3	1.0601	neoplasms
+20	53367788	G	C	rs143059624	TSHZ2	3.3e-09	176	405449	405625	Cancer of eye	1	190	1.0635	neoplasms
+20	19496121	G	A	rs6046142	SLC24A3	3.3e-09	1816	399532	401348	Aphakia and other disorders of lens	2	379.3	1.0054	sense organs
+5	153865540	T	A	rs17115315	GRIA1	3.3e-09	113	398705	398818	Atherosclerosis of renal artery	1	440.1	1.0635	circulatory system
+9	71683857	C	T	rs572163979	CEMIP2	3.3e-09	31930	367712	399642	Esophagitis, GERD and related diseases	8	530.1	1.0811	digestive
+4	59759290	C	G	rs1006285030	ADGRL3	3.3e-09	1684	333380	335064	Flatulence	1	561.2	1.011	digestive
+3	64267784	C	T	rs1482178536	PRICKLE2	3.3e-09	61	210936	210997	Acute inflammatory pelvic disease	3	614.31	1.0224	genitourinary
+3	143612030	A	G	rs746981761	SLC9A9	3.3e-09	1268	207570	208838	Hypertrophy of female genital organs	2	623	1.0	genitourinary
+1	1020947	C	T	rs111893801	AGRN	3.3e-09	3910	403292	407202	Fever of unknown origin	1	783	1.0	symptoms
+3	77153500	C	T	rs765716642	ROBO2	3.4e-09	2723	398253	400976	Bacterial enteritis	2	008.5	1.0027	infectious diseases
+9	133045928	T	C	rs78749627	GTF3C5	3.4e-09	2962	403918	406880	Visual disturbances	2	368	1.0	sense organs
+5	95322638	C	T	rs186982985	MCTP1	3.4e-09	3320	210804	214124	Disorders of uterus, NEC	7	619.2	1.0	genitourinary
+22	36219778	G	A	rs998596512	APOL2	3.4e-09	693	405003	405696	Congenital anomalies of genital organs	1	751.1	0.97444	congenital anomalies
+6	32618459	C	A	rs11751024	HLA-DQA1	3.5e-09	361	403661	404022	Adrenal hypofunction	4	255.2	1.0166	endocrine/metabolic
+15	64893312	T	C	rs1014469087	AC069368.1	3.5e-09	98	404523	404621	Von willebrand's disease	12	286.11	1.0534	hematopoietic
+12	55721801	C	T	rs3138142	AC009779.3,RDH5	3.6e-09	1249	404788	406037	Myopia	1	367.1	1.0027	sense organs
+7	114383427	T	C	rs10244257	FOXP2	3.6e-09	763	401102	401865	Labyrinthitis	1	386.3	0.97444	sense organs
+8	19643487	A	C	rs778922534	CSGALNACT1	3.6e-09	4464	400864	405328	Heart failure NOS	5	428.2	1.0082	circulatory system
+5	153600072	G	A	rs762748914	GRIA1	3.6e-09	2226	217862	220088	Other complications of pregnancy NEC	1	646	1.0054	pregnancy complications
+12	124715039	G	A	rs556343815	SCARB1	3.6e-09	65	364268	364333	Arthropathy associated with neurological disorders	4	713.5	0.97444	musculoskeletal
+17	15665434	G	A	rs375636583	TRIM16	3.6e-09	402	390235	390637	Disorders of sacrum	1	724.1	1.0	musculoskeletal
+4	153154008	G	A	rs1325202108	AC013477.1,TRIM2	3.6e-09	7349	377186	384535	Other disorders of synovium, tendon, and bursa	2	727	1.0054	musculoskeletal
+7	101845078	CTCTT	C	rs1322024871	CUX1	3.7e-09	16197	391005	407202	Other ill-defined and unknown causes of morbidity and mortality	11	1019	1.0669	injuries & poisonings
+20	3164545	C	G	rs144338308	LZTS3	3.7e-09	451	388396	388847	Iron deficiency anemia secondary to blood loss (chronic)	2	280.2	1.0	hematopoietic
+13	107212788	G	A	rs774984826	FAM155A	3.7e-09	443	406124	406567	Meningitis	4	320	1.0	neurological
+16	65729479	A	G	rs1124435	CDH11	3.7e-09	1493	393431	394924	Hemiplegia	1	342	1.0082	neurological
+4	688308	C	T	rs563136561	SLC49A3	3.7e-09	286	398706	398992	Atherosclerosis of aorta	4	440.9	1.0344	circulatory system
+11	72706258	T	C	rs978523236	ARAP1	3.7e-09	54	398705	398759	Arterial dissection	2	442.4	0.97444	circulatory system
+21	16037518	G	A	rs867996973	USP25	3.8e-09	346	406856	407202	Benign neoplasm of respiratory and intrathoracic organs	2	212	1.0195	neoplasms
+6	85973695	C	T	rs576997067	SYNCRIP	3.8e-09	2599	399656	402255	Lymphadenitis	2	289.4	1.0	hematopoietic
+15	39329851	A	G	rs1033568904	THBS1	3.8e-09	642	405771	406413	Disorders of external ear	5	380	0.97444	sense organs
+8	25471649	G	A	rs537381280	CDCA2	3.8e-09	5783	386243	392026	Hypotension	3	458	1.0082	circulatory system
+2	8058782	A	G	rs1347011624	ID2	3.8e-09	1814	386069	387883	Fracture of neck of femur	2	800.1	1.0138	injuries & poisonings
+1	170753546	G	T	rs984651100	PRRX1	3.9e-09	187	403659	403846	Pituitary hyperfunction	5	253.1	1.0635	endocrine/metabolic
+2	218101118	A	T	rs111483161	RUFY4	3.9e-09	172	403144	403316	Mastoiditis & related conditions	2	381.3	1.0669	sense organs
+1	51430797	T	A	rs897673201	EPS15	3.9e-09	1333	395971	397304	Other local infections of skin and subcutaneous tissue	3	686	1.0027	dermatologic
+9	113793880	G	A	rs192011904	ZNF618	4e-09	718	403881	404599	Endocarditis	2	420.3	0.97444	circulatory system
+2	224907413	C	T	rs778419105	DOCK10	4e-09	386	398702	399088	Giant cell arteritis	3	446.5	1.0054	circulatory system
+2	165108700	T	C	rs1335169423	SCN3A	4e-09	3455	398278	401733	Abnormal results of function study of liver	1	573.7	1.0054	digestive
+1	31567441	AAAAC	A	rs550434026	TINAGL1	4e-09	584	404390	404974	Cardiac shunt/ heart septal defect	2	747.11	0.97444	congenital anomalies
+6	31781365	G	A	rs915652	VARS1	4.1e-09	1112	389741	390853	Secondary hypothyroidism	1	244.1	0.97444	endocrine/metabolic
+6	32229442	T	G	rs3132948	NOTCH4	4.1e-09	1883	373884	375767	Bronchiectasis	2	496.3	1.0054	respiratory
+22	43928847	C	G	rs738409	PNPLA3	4.1e-09	974	398274	399248	Liver abscess and sequelae of chronic liver disease	1	571.8	1.0	digestive
+18	53227723	A	G	rs62100775	DCC	4.2e-09	11816	363981	375797	Depression	1	296.2	1.0313	mental disorders
+17	80648966	G	A	rs960265022	RPTOR	4.2e-09	359	405101	405460	Myopathy	1	359.2	1.0166	neurological
+7	2222359	C	T	rs557374180	AC069288.1,MAD1L1	4.2e-09	399	399529	399928	Disorders of iris and ciliary body	3	379.5	1.0	sense organs
+20	42491192	C	A	rs546310576	PTPRT	4.2e-09	183	189130	189313	Symptomatic menopause	1	627.2	1.0635	genitourinary
+17	15665434	G	A	rs375636583	TRIM16	4.2e-09	405	390235	390640	Disorders of coccyx	1	724.2	1.0	musculoskeletal
+12	42727294	T	C	rs776531807	PRICKLE1	4.2e-09	11651	395550	407201	Nausea and vomiting	5	789	1.0138	symptoms
+1	50674037	G	A	rs532759932	FAF1	4.3e-09	2827	399780	402607	Hypovolemia	7	276.5	1.0	endocrine/metabolic
+18	782681	T	C	rs763832807	YES1	4.3e-09	1809	393433	395242	Degenerative disease of the spinal cord	1	334	1.011	neurological
+4	17956833	A	T	rs575714371	LCORL	4.3e-09	144	393432	393576	Nonspecific abnormal findings on radiological and other examination of skull and head	5	346.1	1.0669	neurological
+2	112806053	G	A	rs1036451939	IL1A	4.3e-09	759	397603	398362	Disorders of conjunctiva	5	372	0.97444	sense organs
+8	12022390	C	T	rs1005915620	DEFB134	4.3e-09	1553	393243	394796	Hallux rigidus	2	735.23	1.011	musculoskeletal
+2	124112678	T	C	rs780267274	CNTNAP5	4.3e-09	4265	401889	406154	Superficial injury without mention of infection	2	915	1.011	injuries & poisonings
+1	198603277	CA	C	rs145405017	PTPRC	4.3e-09	225	403085	403310	Adverse reaction to serum or vaccine	3	941	1.0534	injuries & poisonings
+X	48775200	T	C	rs190666180	GLOD5	4.4e-09	507	395583	396090	Pulmonary congestion and hypostasis	3	503	0.97444	respiratory
+17	50035589	A	T	rs138347258	ITGA3	4.5e-09	214	399529	399743	Nystagmus and other irregular eye movements	2	378.2	1.0567	sense organs
+11	96694103	A	G	rs7936111	JRKL	4.5e-09	449	402828	403277	Conductive hearing loss	3	389.2	1.0	sense organs
+6	85409605	C	T	rs770497879	NT5E	4.5e-09	559	396444	397003	Chronic periodontitis	1	523.32	0.97444	digestive
+8	14063851	G	C	rs1180032350	SGCZ	4.5e-09	927	396443	397370	Diseases of the jaws	2	526	0.97444	digestive
+5	54825369	T	C	rs905239982	ESM1	4.5e-09	113	363561	363674	Sacroiliitis NEC	3	715.1	1.0601	musculoskeletal
+5	62988676	C	T	rs187728802	IPO11	4.6e-09	966	201517	202483	Malignant neoplasm of ovary and other uterine adnexa	2	184.1	0.97444	neoplasms
+1	1010036	C	T	rs550257025	ISG15	4.6e-09	67	405449	405516	Benign neoplasm of eye, uveal	2	224.1	1.0138	neoplasms
+2	25273293	G	A	rs778305602	DNMT3A	4.6e-09	62	401593	401655	Disturbance of salivary secretion	2	527.7	0.97444	digestive
+9	2734047	A	G	rs111780155	PUM3	4.7e-09	63	167468	167531	Infertility, male	4	609.1	1.0138	genitourinary
+1	198060620	T	A	rs12411267	NEK7	4.8e-09	578	406624	407202	Burns	1	1000	0.97444	injuries & poisonings
+2	123014133	C	G	rs571714114	CNTNAP5	4.8e-09	264	405058	405322	Cancer of larynx	4	149.4	1.0375	neoplasms
+2	132138690	A	T	rs911675592	ANKRD30BL	4.8e-09	466	363985	364451	Psychogenic and somatoform disorders	4	303	0.97444	mental disorders
+11	114654050	G	A	rs557896803	NXPE2	4.8e-09	327	395583	395910	Other alveolar and parietoalveolar pneumonopathy	1	504	1.0224	respiratory
+8	74306002	T	G	rs72663682	JPH1	4.9e-09	2105	403881	405986	Carditis	3	420	1.0082	circulatory system
+5	34911809	G	C	rs1805328	RAD1	4.9e-09	893	398276	399169	Jaundice (not of newborn)	3	573.5	0.97444	digestive
+18	69871923	G	C	rs945580986	CD226	5e-09	235	386239	386474	Iatrogenic hypotension	3	458.2	1.0469	circulatory system
+18	79402217	C	T	rs759975572	NFATC1	5e-09	7136	399771	406907	Peptic ulcer (excl. esophageal)	2	531	1.0138	digestive
+1	53118293	G	A	rs181554786	SLC1A7	5.1e-09	200	387081	387281	Type 2 diabetes with renal manifestations	1	250.22	1.0224	endocrine/metabolic
+18	29494933	A	G	rs753261278	CDH2	5.1e-09	9061	398129	407190	Other symptoms of respiratory system	3	512	1.0138	respiratory
+14	71836075	A	G	rs192821680	SIPA1L1	5.1e-09	186	397535	397721	Hidradenitis	3	705.3	1.0567	dermatologic
+9	18607230	T	C	rs1041403866	ADAMTSL1	5.2e-09	9195	398007	407202	Complications of surgical and medical procedures	1	1011	1.0054	injuries & poisonings
+4	6152966	C	T	rs139798769	C4orf50,JAKMIP1	5.2e-09	317	369610	369927	Benign neoplasm of bone and articular cartilage	3	213	1.0254	neoplasms
+11	134525957	A	C	rs1018074097	B3GAT1	5.2e-09	308	405668	405976	Benign neoplasm of pituitary gland and craniopharyngeal duct (pouch)	3	227.3	1.0313	neoplasms
+6	10855360	G	T	rs9379839	AL024498.2	5.2e-09	872	403661	404533	Disorders of parathyroid gland	4	252	0.97444	endocrine/metabolic
+1	74006247	A	G	rs17094698	LRRIQ3	5.2e-09	3764	399654	403418	Diseases of white blood cells	1	288	1.0	hematopoietic
+15	84394607	G	A	rs576901275	GOLGA6L4	5.2e-09	347	378889	379236	Osteoarthrosis, localized, secondary	1	740.12	1.0166	musculoskeletal
+18	71757088	C	T	rs184828637	CBLN2	5.3e-09	161	395155	395316	Other nondiabetic retinopathy	1	362.3	1.0669	sense organs
+3	19892554	G	A	rs78833176	EFHB	5.3e-09	310	389420	389730	Cyst of bone	3	733.2	1.0166	musculoskeletal
+7	121326736	A	G	rs3779381	WNT16	5.3e-09	7609	399565	407174	Osteoporosis, osteopenia and pathological fracture	4	743	1.0195	musculoskeletal
+4	89704960	G	A	rs356182	SNCA	5.4e-09	1127	393434	394561	Parkinson's disease	2	332	1.0	neurological
+16	77018488	A	G	rs772232038	MON1B	5.4e-09	2668	404470	407138	Abnormal movement	1	350	1.0027	neurological
+11	106384209	CT	C	rs1341717851	AASDHPPT	5.4e-09	303	397697	398000	Symptoms involving respiratory system and other chest symptoms	4	519.9	1.0283	respiratory
+X	27226163	C	T	rs1007481047	PPP4R3C	5.4e-09	175	405393	405568	Pallor and flushing	2	782.6	1.0669	symptoms
+16	65476112	C	T	rs143697787	CDH11	5.5e-09	105	405057	405162	Cancer of major salivary glands	2	145.3	1.0635	neoplasms
+6	123010398	A	T	rs188100688	CLVS2	5.5e-09	230	405784	406014	Other disorders of lipoid metabolism	4	277.5	1.0534	endocrine/metabolic
+8	10134226	A	G	rs76675074	MSRA	5.6e-09	2073	405035	407108	Hemoptysis	2	516.1	1.011	respiratory
+9	89890397	C	T	rs1446368447	GADD45G	5.6e-09	363	380139	380502	Hormones and synthetic substitutes causing adverse effects in therapeutic use	2	962.3	1.0138	injuries & poisonings
+18	29729787	T	C	rs981014522	DSC3	5.7e-09	71	399653	399724	Eosinophilia	2	288.3	1.0195	hematopoietic
+4	37662921	A	G	rs771882503	RELL1	5.8e-09	1432	368845	370277	Neoplasm of uncertain behavior	2	199	1.0082	neoplasms
+3	197367402	G	T	rs886150991	DLG1	5.8e-09	968	399785	400753	Hyperpotassemia	2	276.13	0.97444	endocrine/metabolic
+10	76976761	GC	G	rs1284857817	KCNMA1	5.8e-09	2885	401683	404568	Disturbance of skin sensation	5	687.4	1.0	dermatologic
+16	64664845	A	G	rs974451002	CDH11	5.8e-09	7870	390237	398107	Spondylosis and allied disorders	1	721	1.0254	musculoskeletal
+7	30236545	G	A	rs6462196	ZNRF2	5.9e-09	237	210673	210910	Dystrophy of female genital tract	11	624.1	1.0469	genitourinary
+3	15363625	G	A	rs141557666	METTL6	5.9e-09	2876	210672	213548	Pain and other symptoms associated with female genital organs	1	625	1.0	genitourinary
+2	134389842	T	C	rs759798467	MGAT5	5.9e-09	1238	393232	394470	Mechanical complication of unspecified genitourinary device, implant, and graft	3	857	1.0	injuries & poisonings
+5	158367415	A	AT	rs199902576	EBF1	5.9e-09	422	406511	406933	Spinal cord injury without evidence of spinal bone injury	2	952	1.0	injuries & poisonings
+9	15243052	A	G	rs966562031	TTC39B	6e-09	21690	368861	390551	Chemotherapy	4	197	1.0166	neoplasms
+9	32396556	G	A	rs764706784	ACO1	6e-09	2233	393437	395670	Convulsions	2	345.3	1.0027	neurological
+11	12209325	G	T	rs777604208	MICAL2	6e-09	10377	333382	343759	Constipation	1	563	1.0138	digestive
+2	43859452	G	A	rs4507142	ABCG8	6e-09	2666	404505	407171	Diseases of pancreas	1	577	1.0	digestive
+5	96436132	T	C	rs796370465	PCSK1	6.1e-09	138	389743	389881	Exophthalmos	5	242.3	1.0635	endocrine/metabolic
+10	86890603	T	A	rs12259628	BMPR1A	6.1e-09	139	407041	407180	Intestinal disaccharidase deficiencies and disaccharide malabsorption	3	271.3	1.0635	endocrine/metabolic
+8	29516563	C	G	rs746722557	DUSP4	6.1e-09	208	406643	406851	Spina bifida	2	752.11	1.0567	congenital anomalies
+19	51578821	A	G	rs553434560	ZNF175	6.2e-09	1375	201516	202891	Cancer of other female genital organs	3	184	1.0027	neoplasms
+13	105461343	G	A	rs566553219	DAOA	6.2e-09	435	406081	406516	Congenital osteodystrophies	3	756.5	1.0	congenital anomalies
+1	147548532	A	G	rs587729398	BCL9	6.3e-09	267	393433	393700	Cerebral edema and compression of brain	1	348.2	1.0406	neurological
+6	53138320	G	A	rs540949092	GCM1	6.3e-09	2353	396446	398799	Disturbances in tooth eruption	2	520.2	1.0027	digestive
+6	119689463	T	A	rs567032411	MAN1A1	6.3e-09	228	397535	397763	Disorders of sweat glands	5	705	1.0469	dermatologic
+7	147906426	C	A	rs1271667844	CNTNAP2	6.3e-09	2205	386070	388275	Fracture of ankle and foot	1	801	1.0054	injuries & poisonings
+5	165626816	G	A	rs555789604	TENM2	6.3e-09	178	398898	399076	Open wound of foot except toe(s) alone	2	871.3	1.0669	injuries & poisonings
+9	15844446	G	A		CCDC171	6.4e-09	563	367907	368470	Other venous embolism and thrombosis	2	452	0.97444	circulatory system
+1	11580144	T	G	rs2817638	DISP3	6.4e-09	2667	396440	399107	Other diseases of the teeth and supporting structures	1	525	1.0	digestive
+17	78260123	T	C	rs565197438	TMEM235	6.4e-09	1053	395835	396888	Glomerulonephritis	4	580.1	1.0	genitourinary
+5	97646954	T	C	rs914830815	RIOK2	6.5e-09	117	379216	379333	Supraventricular premature beats	1	427.61	1.0635	circulatory system
+22	37468443	G	A	rs560458799	MFNG	6.5e-09	1457	398705	400162	Aortic aneurysm	1	442.1	1.0054	circulatory system
+3	138158613	C	A	rs149132966	DBR1	6.5e-09	1865	367707	369572	Stricture and stenosis of esophagus	4	530.3	1.011	digestive
+14	46366961	C	A	rs777493158	RPL10L	6.6e-09	5955	401247	407202	Other tests	6	1010	1.0082	injuries & poisonings
+6	5513562	G	A	rs778868783	FARS2	6.6e-09	275	399530	399805	Paralytic strabismus	6	378.5	1.0406	sense organs
+9	128612194	A	G	rs757109566	SPTAN1	6.6e-09	137	400948	401085	Bullous dermatoses	9	695.2	1.0739	dermatologic
+6	16415237	T	C	rs1020305899	ATXN1	6.6e-09	216	406232	406448	Other and unspecified congenital anomalies	1	759	1.0567	congenital anomalies
+5	147428536	CA	C	rs142373641	DPYSL3	6.7e-09	1066	388395	389461	Megaloblastic anemia	4	281.1	1.0	hematopoietic
+5	179463646	T	C	rs1251695125	RUFY1	6.7e-09	1829	397604	399433	Ptosis of eyelid	1	374.3	1.011	sense organs
+4	43908027	GA	G	rs911299346	KCTD8	6.7e-09	332	377181	377513	Synoviopathy	4	726.2	1.0195	musculoskeletal
+14	46907570	C	A	rs3007112	MDGA2	6.8e-09	1006	377182	378188	Rheumatism, unspecified and fibrositis	3	729.1	0.97444	musculoskeletal
+2	201177085	T	C	rs557605380	CFLAR	6.8e-09	499	400909	401408	Articular cartilage disorder	1	742.8	0.97444	musculoskeletal
+5	135834716	T	G	rs141243065	SLC25A48	6.8e-09	6092	380140	386232	Poisoning by analgesics, antipyretics, and antirheumatics	1	965	1.0138	injuries & poisonings
+3	31867950	T	C	rs7642278	OSBPL10	6.8e-09	582	380138	380720	Adverse effects of sedatives or other central nervous system depressants and anesthetics	2	967	0.97444	injuries & poisonings
+1	202170315	CAA	C	rs565355303	PTPN7	6.9e-09	259	402715	402974	Hodgkin's disease	5	201	1.0469	neoplasms
+5	22848251	A	T	rs960237002	CDH12	6.9e-09	164	371432	371596	Mixed hyperlipidemia	3	272.13	1.0138	endocrine/metabolic
+1	167598008	G	A	rs965316315	RCSD1	6.9e-09	606	403145	403751	Cholesteatoma	4	385.3	0.97444	sense organs
+3	166200589	A	C	rs770426273	BCHE	6.9e-09	698	380137	380835	Adverse drug events and drug allergies	4	979	0.97444	injuries & poisonings
+5	17032877	G	A	rs575291414	BASP1	7e-09	612	403916	404528	Subjective visual disturbances	1	368.9	0.97444	sense organs
+7	3157926	T	A	rs6946551	CARD11	7e-09	1972	212250	214222	Hemorrhage during pregnancy; childbirth and postpartum	3	635	1.0	pregnancy complications
+X	71265904	C	T	rs1377161621	NONO	7.1e-09	455	402829	403284	Sensorineural hearing loss	9	389.1	1.0	sense organs
+6	148544906	A	C	rs756832688	SASH1	7.1e-09	447	400269	400716	Primary pulmonary hypertension	3	415.21	1.0	circulatory system
+13	42882590	C	T	rs989184907	EPSTI1	7.1e-09	143	395582	395725	Respiratory arrest	3	509.5	1.0567	respiratory
+3	111055389	G	C	rs571263535	NECTIN3	7.1e-09	1772	396444	398216	Diseases of pulp and periapical tissues	3	522	1.0082	digestive
+1	212270753	G	A	rs533211678	PPP2R5A	7.3e-09	1054	399781	400835	Acidosis	4	276.41	1.0	endocrine/metabolic
+1	74006247	A	G	rs17094698	LRRIQ3	7.3e-09	3166	399653	402819	Decreased white blood cell count	4	288.1	1.0	hematopoietic
+3	107763161	C	T	rs542833621	BBX	7.3e-09	73	396444	396517	Atrophy of edentulous alveolar ridge	14	525.2	1.0195	digestive
+9	103767717	G	A	rs940622762	SMC2	7.3e-09	1931	399286	401217	Hydronephrosis	1	595	1.0138	genitourinary
+1	74006247	A	G	rs17094698	LRRIQ3	7.4e-09	3174	399653	402827	Neutropenia	3	288.11	1.0	hematopoietic
+1	224281109	G	A	rs201855587	NVL	7.4e-09	3717	399531	403248	Other disorders of eye	3	379	1.0054	sense organs
+18	29494933	A	G	rs753261278	CDH2	7.4e-09	5847	398129	403976	Shortness of breath	2	512.7	1.011	respiratory
+3	180431389	A	G	rs539324805	TTC14	7.5e-09	298	401594	401892	Glossitis	2	529.1	1.0313	digestive
+4	173389281	T	A	rs778920963	SCRG1	7.7e-09	328	402714	403042	Myeloid leukemia, acute	3	204.21	1.0254	neoplasms
+6	33080680	C	G	rs1126504	HLA-DPA1,HLA-DPB1	7.7e-09	188	398705	398893	Wegener's granulomatosis	5	446.4	1.0669	circulatory system
+11	45008136	G	A	rs375033035	TP53I11	7.7e-09	1901	393243	395144	Other acquired musculoskeletal deformity	4	738	1.0138	musculoskeletal
+11	46080698	T	C	rs1022781147	PHF21A	7.8e-09	1238	403884	405122	Primary/intrinsic cardiomyopathies	4	425.1	1.0	circulatory system
+6	121282402	TACA	T	rs898928455	TBC1D32	7.8e-09	239	398705	398944	Arteritis NOS	2	446.9	1.0501	circulatory system
+19	57507914	G	A	rs527241692	AC003005.1,ZNF773	7.8e-09	1142	380139	381281	Opiates and related narcotics causing adverse effects in therapeutic use	3	965.1	1.0	injuries & poisonings
+4	102137353	G	A	rs117467740	BANK1	7.9e-09	291	406125	406416	Other CNS infection and poliomyelitis	3	324	1.0375	neurological
+8	122885555	G	T	rs758961788	ZHX2	7.9e-09	1895	328789	330684	Hypertensive heart and/or renal disease	2	401.2	1.0138	circulatory system
+11	100291923	C	T	rs1056302139	CNTN5	7.9e-09	70	212211	212281	Other high-risk pregnancy	1	638	1.0224	pregnancy complications
+1	216019889	C	T	rs115907570	USH2A	7.9e-09	5750	401452	407202	Disorder of skin and subcutaneous tissue NOS	1	689	1.0027	dermatologic
+16	88306633	G	A	rs150212536	ZNF469	7.9e-09	71	400950	401021	Erythematosquamous dermatosis	6	690	1.0224	dermatologic
+1	64477865	A	C	rs531590357	CACHD1	7.9e-09	216	402139	402355	Keloid scar	2	701.4	1.0534	dermatologic
+4	9002955	G	T	rs1246862233	HMX1	7.9e-09	110	400908	401018	Hemarthrosis	1	741.5	1.0635	musculoskeletal
+1	99656436	A	G	rs532780200	PALMD	8e-09	239	399782	400021	Hyperosmolality and/or hypernatremia	2	276.11	1.0534	endocrine/metabolic
+5	147428536	CA	C	rs142373641	DPYSL3	8e-09	1111	388395	389506	Other deficiency anemia	3	281	1.0	hematopoietic
+10	132157200	GTTCTC	G	rs988167255	JAKMIP3	8e-09	103	388395	388498	Autoimmune hemolytic anemias	2	283.1	1.0635	hematopoietic
+6	160654352	AC	A	rs71033586	LPA	8e-09	866	398706	399572	Stricture of artery	2	447.1	0.97444	circulatory system
+17	74318321	G	T	rs1403902940	DNAI2	8e-09	112	406579	406691	Toxic effect of noxious substances eaten as food	2	988	1.0567	injuries & poisonings
+4	152991612	G	A	rs192486023	FHDC1	8.1e-09	3919	393015	396934	Other disorders of urethra and urinary tract	3	597	1.0082	genitourinary
+14	66811710	T	A	rs965978742	GPHN	8.1e-09	222	186044	186266	Congenital anomalies of male genital organs	1	751.12	1.0567	congenital anomalies
+12	31975703	CTG	C	rs760226485	RESF1	8.2e-09	303	201515	201818	Cancer of other female genital organs (excluding uterus and ovary)	3	184.2	1.0313	neoplasms
+5	123193290	C	A	rs897493343	PRDM6	8.2e-09	169	167468	167637	Abnormal spermatozoa	4	609.2	1.0635	genitourinary
+4	116238178	C	A	rs556450329	MTRNR2L13	8.2e-09	101	377181	377282	Panniculitis	4	729.3	1.0601	musculoskeletal
+2	27801032	C	T	rs1180082304	MRPL33,RBKS	8.3e-09	82	395155	395237	Hereditary retinal dystrophies	3	362.7	1.0344	sense organs
+X	86420958	AG	A	rs773753572	DACH2	8.3e-09	104	388553	388657	Chronic laryngitis	1	473.1	1.0567	respiratory
+4	106282808	A	G	rs1348827864	TBCK	8.4e-09	166	392087	392253	Tuberculosis	2	010	1.0704	infectious diseases
+1	35301865	A	C	rs777974864	ZMYM4	8.4e-09	193	403146	403339	Eustachian tube disorders	7	381.2	1.0601	sense organs
+11	17341924	A	C	rs547440875	NUCB2	8.4e-09	167	404388	404555	Congenital anomalies of peripheral vascular system	1	747.2	1.0669	congenital anomalies
+12	79819916	A	G	rs1218268285	PPP1R12A	8.5e-09	439	210672	211111	Atrophy of female genital tract	2	624.2	1.0	genitourinary
+7	102963663	A	T	rs138864542	FBXL13	8.5e-09	1833	386070	387903	Fracture of foot	1	801.1	1.0082	injuries & poisonings
+4	2692235	C	T	rs1018249687	FAM193A	8.6e-09	12085	392082	404167	Bacterial infection NOS	3	041	1.0138	infectious diseases
+16	89986640	A	C	rs9939542	CENPBD1	8.6e-09	16407	368844	385251	Malignant neoplasm, other	4	195.1	1.0138	neoplasms
+5	67991055	A	G	rs551551251	PIK3R1	8.7e-09	1248	218840	220088	Late pregnancy and failed induction	4	645	1.0	pregnancy complications
+16	79238199	C	G	rs1327360994	WWOX	8.7e-09	466	389419	389885	Osteochondropathies	4	732	1.0	musculoskeletal
+11	123484683	A	G	rs35923643	GRAMD1B	8.8e-09	505	402712	403217	Lymphoid leukemia, chronic	4	204.12	0.97444	neoplasms
+15	29487571	C	T	rs188919699	FAM189A1	8.8e-09	2111	379217	381328	Atrioventricular [AV] block	2	426.2	1.0082	circulatory system
+3	73037639	T	G	rs190923891	PPP4R2	8.8e-09	5901	396443	402344	Pneumococcal pneumonia	1	480.11	1.0082	respiratory
+2	34354913	G	C	rs537325855	FAM98A	8.9e-09	1679	396444	398123	Gingival and periodontal diseases	2	523	1.0054	digestive
+3	20638243	GT	G	rs200627131	SGO1	8.9e-09	464	333378	333842	Diarrhea	3	561.1	1.0	digestive
+8	7045920	C	G	rs1464968260	DEFA5	9e-09	2079	404231	406310	Symptoms involving head and neck	1	293	1.011	mental disorders
+12	20822033	G	A	rs988398475	SLCO1B3,SLCO1B3-SLCO1B7	9e-09	2445	388552	390997	Epistaxis or throat hemorrhage	2	477	1.0027	respiratory
+1	95181580	A	T	rs12062231	TLCD4,TLCD4-RWDD3	9e-09	6428	395579	402007	Pleurisy; pleural effusion	5	507	1.0027	respiratory
+X	8213226	G	A	rs754602004	VCX2	9e-09	312	401593	401905	Sialolithiasis	2	528.7	1.0283	digestive
+8	8902628	C	T	rs13282211	MFHAS1	9e-09	5217	367710	372927	Ulcer of esophagus	4	530.12	1.0166	digestive
+10	107121516	A	G	rs570727188	SORCS1	9e-09	877	395835	396712	Chronic glomerulonephritis, NOS	3	580.14	1.0	genitourinary
+15	71335261	C	T	rs1032032582	THSD4	9e-09	474	398897	399371	Traumatic amputation	2	872	0.97444	injuries & poisonings
+15	54661980	A	G	rs750063825	UNC13C	9.1e-09	144	398705	398849	Disease of capillaries	6	448	1.0567	circulatory system
+6	102611567	A	G	rs958908446	GRIK2	9.1e-09	3499	386241	389740	Hypotension NOS	3	458.9	1.0	circulatory system
+8	10134226	A	G	rs76675074	MSRA	9.1e-09	2133	405035	407168	Abnormal sputum	4	516	1.0082	respiratory
+6	55921063	T	G	rs895641	BMP5	9.1e-09	1927	393239	395166	Hammer toe (acquired)	5	735.21	1.011	musculoskeletal
+20	59182140	G	A	rs531762960	ZNF831	9.2e-09	243	395582	395825	Pneumoconiosis	3	500.2	1.0166	respiratory
+2	73825721	G	A	rs556550008	STAMBP	9.2e-09	493	389619	390112	Cholangitis	2	575.1	0.97444	digestive
+2	222865562	G	A	rs115364606	ACSL3	9.3e-09	1637	392087	393724	Streptococcus infection	3	041.2	1.0082	infectious diseases
+9	8173852	C	T	rs143467302	PTPRD	9.3e-09	54	404472	404526	Disturbances of sensation of smell and taste	2	350.6	0.95116	neurological
+2	215261213	A	T	rs995051235	ATIC	9.3e-09	65	397694	397759	Other specified diffuse diseases of connective tissue	2	709.6	1.011	dermatologic
+10	57001281	C	A	rs186777896	ZWINT	9.4e-09	1359	405102	406461	Inflammatory and toxic neuropathy	1	357	1.0054	neurological
+X	32788000	G	A	rs149537784	DMD	9.4e-09	60	400950	401010	Vitiligo	3	694.1	1.0	dermatologic
+18	77319972	C	T	rs777022542	GALR1	9.5e-09	54	405056	405110	Cancer of the mouth floor	1	145.5	0.97444	neoplasms
+6	13649822	C	G	rs572672194	RANBP9	9.5e-09	782	403145	403927	Other disorders of middle ear and mastoid	5	385	0.97444	sense organs
+8	14607334	A	G	rs189323789	SGCZ	9.6e-09	5374	368847	374221	Secondary malignancy of lymph nodes	3	198.1	1.0082	neoplasms
+14	52557778	A	T	rs745895793	GPR137C	9.6e-09	96	368848	368944	Neurofibromatosis	4	199.4	1.0254	neoplasms
+7	14623268	C	T	rs528510510	DGKB	9.6e-09	1521	400114	401635	Lump or mass in breast	1	611.3	1.0054	genitourinary
+2	237850822	C	T	rs1051807556	RBM44	9.6e-09	68	398898	398966	Open wound of neck	2	870.6	1.0254	injuries & poisonings
+4	176414989	T	C	rs181293433	SPCS3	9.7e-09	114	392385	392499	Nerve plexus lesions	5	353.1	1.0704	neurological
+7	68954262	T	C	rs765239505	AUTS2	9.7e-09	1493	400664	402157	Heart valve replaced	2	395.6	1.0082	circulatory system
+19	37765810	C	T	rs141182067	ZNF573	9.9e-09	759	391483	392242	Cancer of esophagus	3	150	0.97444	neoplasms
+2	70919243	A	G	rs1235771938	VAX2	9.9e-09	271	193708	193979	Cervical cancer	3	180.1	1.0437	neoplasms
+4	112126473	C	A	rs768307423	FAM241A	9.9e-09	1164	401998	403162	Sleep disorders	2	327	1.0	neurological
+13	55264356	T	A	rs544624334	PRR20A	9.9e-09	236	400950	401186	Other specified erythematous conditions	3	695.8	1.0501	dermatologic
+5	63227943	C	A	rs145959387	IPO11	1e-08	938	201517	202455	Malignant neoplasm of ovary	2	184.11	0.97444	neoplasms
+14	61094139	G	A	rs746493899	SLC38A6	1e-08	66	396288	396354	Abnormal weight gain	1	278.4	1.0254	endocrine/metabolic
+6	142999252	G	A	rs557268763	HIVEP2	1e-08	1481	328788	330269	Elevated blood pressure reading without diagnosis of hypertension	3	402	1.0082	circulatory system
+5	180293572	C	T	rs555252935	MAPK9	1e-08	832	404741	405573	Acute pharyngitis	1	465.2	0.97444	respiratory
+5	15573289	TAG	T	rs144453295	FBXL7	1e-08	625	373884	374509	Bronchitis	5	497	0.97444	respiratory
+12	5621174	G	A	rs576576061	ANO2	1e-08	153	406589	406742	Disorders of diaphragm	1	513.8	1.0669	respiratory
+X	142166530	A	C	rs143056761	MAGEC2	1e-08	830	333379	334209	Peritoneal or intestinal adhesions	2	560.3	0.97444	digestive
+4	128818295	A	G	rs760048553	JADE1	1e-08	15316	333367	348683	Personal history of diseases of digestive system	5	564.9	1.0195	digestive
+2	191399417	TTGTC	T	rs780129892	MYO1B	1e-08	209	398276	398485	Abnormal serum enzyme levels	3	573.9	1.0567	digestive
+17	47886003	G	A	rs557214491	SP2	1e-08	138	378353	378491	Acute cystitis	3	592.11	1.0469	genitourinary
+12	42102401	T	G	rs11181324	GXYLT1	1e-08	1125	393240	394365	Curvature of spine	3	737	1.0	musculoskeletal
+15	101610000	C	T	rs139471332	TM2D3	1e-08	515	399563	400078	Pathologic fracture	3	743.2	0.97444	musculoskeletal
+4	33398610	T	C	rs937027117	PCDH7	1e-08	109	406081	406190	Congenital musculoskeletal deformities of spine	3	754	1.0601	congenital anomalies
+16	28842888	A	G	rs954404253	TUFM	1e-08	134	406506	406640	Nonspecific abnormal findings on radiological and other examination of musculoskeletal system	3	793	1.0635	symptoms
+16	48302918	A	G	rs1048174236	LONP2	1e-08	1821	393231	395052	Complications of cardiac/vascular device, implant, and graft	5	854	1.0082	injuries & poisonings
+16	54881483	T	TAC	rs879382827	IRX5	1e-08	250	403086	403336	Chronic dermatitis due to solar radiation	4	938.2	1.0469	injuries & poisonings
+X	116648146	A	G	rs201662384	CT83	1e-08	275	380140	380415	Anticoagulants causing adverse effects	3	964.1	1.0406	injuries & poisonings
+9	86564072	G	A	rs7026807	TUT7	1.1e-08	848	392085	392933	Gram negative septicemia	2	038.1	0.97444	infectious diseases
+8	4474309	G	GA		CSMD1	1.1e-08	272	404552	404824	Dermatophytosis	3	110.1	1.0406	infectious diseases
+2	68445103	C	G	rs1355681621	FBXO48	1.1e-08	77	404729	404806	Rickets or osteomalacia	3	261.41	1.0283	endocrine/metabolic
+4	90211365	C	A	rs977788381	CCSER1	1.1e-08	60	379216	379276	Other cardiac conduction disorders	3	426.8	1.0082	circulatory system
+7	33543840	T	A	rs186249278	BBS9	1.1e-08	411	395582	395993	Lung disease due to external agents	3	500	1.0	respiratory
+1	165022844	G	A	rs1382604784	PBX1	1.1e-08	388	401593	401981	Stomatitis and mucositis (ulcerative)	3	528.11	1.0	digestive
+10	84828371	T	C	rs766788292	CCSER2	1.1e-08	15612	333376	348988	Noninfectious gastroenteritis	1	558	1.0224	digestive
+13	46164447	G	A	rs1031440009	LCP1	1.1e-08	346	389621	389967	Nonspecific abnormal findings on radiological and other examination of biliary tract	2	575.9	1.0166	digestive
+6	166922785	C	T	rs577135929	AL159163.1,RNASET2	1.1e-08	2649	395832	398481	Chronic renal failure [CKD]	5	585.3	1.0	genitourinary
+5	127641571	A	G	rs78619674	CTXN3	1.1e-08	276	210936	211212	Inflammatory diseases of uterus, except cervix	1	614.4	1.0406	genitourinary
+10	48630202	C	T	rs151106545	ARHGAP22	1.1e-08	176	397694	397870	Systemic sclerosis	4	709.3	1.0635	dermatologic
+2	2915044	A	G	rs908316558	EIPR1	1.1e-08	9025	390235	399260	Intervertebral disc disorders	3	722	1.0283	musculoskeletal
+12	10854477	T	C	rs757953619	AC018630.4,PRH1	1.1e-08	143	377179	377322	Contracture of tendon (sheath)	5	727.7	1.0669	musculoskeletal
+12	24038706	C	T	rs1033417182	SOX5	1.1e-08	128	389419	389547	Costochondritis	1	733.6	1.0635	musculoskeletal
+13	76447292	A	C	rs753674672	KCTD12	1.1e-08	1058	393240	394298	Kyphoscoliosis and scoliosis	2	737.3	1.0	musculoskeletal
+5	57100472	G	A	rs193018057	GPBP1	1.1e-08	154	400908	401062	Difficulty in walking	1	741.3	1.0704	musculoskeletal
+3	185663248	A	G	rs942085554	IGF2BP2	1.1e-08	191	405002	405193	Congenital anomalies of mouth/tongue	3	750.13	1.0469	congenital anomalies
+4	181335125	T	C	rs190987936	TENM3	1.1e-08	717	386070	386787	Fracture of pelvis	1	802	0.97444	injuries & poisonings
+X	3606283	T	C	rs112145195	PRKX	1.1e-08	53	398898	398951	Open wound of hand except finger(s)	1	871.1	0.9298	injuries & poisonings
+1	48688151	G	A	rs550096622	AGBL4	1.1e-08	229	398898	399127	Broken tooth	3	873	1.0501	injuries & poisonings
+X	116648146	A	G	rs201662384	CT83	1.1e-08	281	380140	380421	Poisoning by agents primarily affecting blood constituents	3	964	1.0406	injuries & poisonings
+5	40354017	G	A	rs563942091	TTC33	1.2e-08	4234	402968	407202	Effects of other external causes	1	1015	1.0082	injuries & poisonings
+8	4474309	G	GA		CSMD1	1.2e-08	278	404552	404830	Dermatophytosis / Dermatomycosis	3	110	1.0406	infectious diseases
+1	220497146	AT	A	rs145644038	MARK1	1.2e-08	2664	368847	371511	Secondary malignant neoplasm of liver	2	198.4	1.0	neoplasms
+6	119049555	AC	A	rs747553378	FAM184A	1.2e-08	1656	402713	404369	Leukemia	3	204	1.0082	neoplasms
+6	10865150	A	G	rs3843518	AL024498.2	1.2e-08	370	405668	406038	Benign neoplasm of parathyroid gland	2	227.2	1.0054	neoplasms
+15	49443100	T	C	rs4338740	FAM227B,FGF7	1.2e-08	91	389743	389834	Toxic multinodular goiter	6	242.2	1.0501	endocrine/metabolic
+7	35938988	C	T	rs1281685185	SEPTIN7	1.2e-08	158	403660	403818	Other disorders of neurohypophysis	1	253.7	1.0601	endocrine/metabolic
+17	53162660	G	C	rs750359857	KIF2B	1.2e-08	76	403660	403736	Hyperaldosteronism	3	255.12	1.0437	endocrine/metabolic
+10	126641594	T	C	rs556526123	C10orf90	1.2e-08	202	404730	404932	Protein-calorie malnutrition	1	260	1.0534	endocrine/metabolic
+X	8479643	T	C	rs752395319	VCX3B	1.2e-08	113	399783	399896	Alkalosis	2	276.42	1.0601	endocrine/metabolic
+1	193138899	C	T	rs374735931	CDC73	1.2e-08	361	363983	364344	Major depressive disorder	2	296.22	1.0166	mental disorders
+3	112550102	GA	G	rs556021012	ATG3	1.2e-08	5031	393435	398466	Epilepsy, recurrent seizures, convulsions	1	345	1.0082	neurological
+14	28294563	T	C	rs55641249	FOXG1	1.2e-08	285	397601	397886	Keratitis	3	370	1.0375	sense organs
+10	48833238	G	A	rs909717688	WDFY4	1.2e-08	699	374655	375354	Aneurysm and dissection of heart	4	411.41	0.97444	circulatory system
+1	110642337	C	A	rs146135657	KCNA2	1.2e-08	72	374656	374728	ASCVD	2	414.2	1.0313	circulatory system
+11	46097317	T	C	rs1004675604	PHF21A	1.2e-08	1272	403885	405157	Cardiomyopathy	4	425	1.0	circulatory system
+17	6010720	A	G	rs140306063	AC007846.2	1.2e-08	451	379216	379667	Second degree AV block	1	426.23	1.0	circulatory system
+16	87861665	C	T	rs561708893	SLC7A5	1.2e-08	2111	400869	402980	Congestive heart failure (CHF) NOS	1	428.1	1.0	circulatory system
+9	136437723	C	T	rs149976103	INPP5E	1.2e-08	548	388553	389101	Acute tonsillitis	1	474.1	0.97444	respiratory
+9	1469384	C	G	rs980711906	DMRT2	1.2e-08	1132	395580	396712	Empyema and pneumothorax	2	506	1.0	respiratory
+7	52279097	A	G	rs570237591	POM121L12	1.2e-08	110	396444	396554	Inflammatory conditions of jaw	3	526.5	1.0567	digestive
+4	112809429	CA	C	rs772704982	ANK2	1.2e-08	6452	367705	374157	Dysphagia	4	532	1.011	digestive
+12	43319879	T	A	rs900324584	ADAMTS20	1.2e-08	1651	383444	385095	Nonspecific abnormal findings in stool contents	3	579.8	1.0082	digestive
+15	68913069	A	C	rs949906273	SPESP1	1.2e-08	1194	383295	384489	Dysuria	2	599.3	1.0	genitourinary
+3	5468026	G	A	rs149194728	EDEM1	1.2e-08	62	383297	383359	Other symptoms involving urinary system	1	599.8	1.0195	genitourinary
+1	56556005	T	G	rs765223462	PLPP3	1.2e-08	5716	210929	216645	Inflammatory diseases of female pelvic organs	2	614	1.0027	genitourinary
+6	134755419	C	T	rs189373729	ALDH8A1	1.2e-08	1983	189131	191114	Irregular menstrual cycle	1	626.13	1.011	genitourinary
+11	125573800	A	G	rs745918953	EI24,FEZ1	1.2e-08	306	218980	219286	Preeclampsia and eclampsia	2	642.1	1.0	pregnancy complications
+7	121588475	T	A	rs771052573	FAM3C	1.2e-08	113	219790	219903	Other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium	5	649	1.0534	pregnancy complications
+9	7252587	A	C	rs185776107	KDM4C	1.2e-08	554	364268	364822	Osteomyelitis	3	710.1	0.97444	musculoskeletal
+5	73262831	C	T	rs189993452	TMEM174	1.2e-08	420	364270	364690	Arthropathy associated with infections	1	711	1.0	musculoskeletal
+19	48311511	C	T	rs780998466	CCDC114	1.2e-08	332	400907	401239	Loose body in joint	1	742.1	1.0166	musculoskeletal
+2	192317748	G	A	rs1459666074	TMEFF2	1.3e-08	2123	404550	406673	Candidiasis	2	112	1.0082	infectious diseases
+8	62543294	C	T	rs749590784	NKAIN3	1.3e-08	580	402713	403293	Large cell lymphoma	4	202.24	0.97444	neoplasms
+7	21898622	C	A	rs4487645	DNAH11	1.3e-08	554	402714	403268	Multiple myeloma	3	204.4	0.97444	neoplasms
+10	86890603	T	A	rs12259628	BMPR1A	1.3e-08	160	407041	407201	Disorders of carbohydrate transport and metabolism	1	271	1.0635	endocrine/metabolic
+2	115079152	G	A	rs1003489626	DPP10	1.3e-08	1159	399781	400940	Acid-base balance disorder	2	276.4	1.0	endocrine/metabolic
+5	172544197	G	A	rs150990101	SH3PXD2B	1.3e-08	428	393433	393861	Cerebral degeneration, unspecified	2	331.9	1.0	neurological
+14	73399502	G	A	rs144105862	NUMB	1.3e-08	212	397070	397282	Migrain with aura	1	340.1	1.0635	neurological
+4	168267025	G	A	rs932819144	DDX60	1.3e-08	125	397601	397726	Eye infection, viral	2	369.2	1.0669	sense organs
+10	7655989	T	G	rs771880022	ITIH5	1.3e-08	1412	399532	400944	Strabismus and other disorders of binocular eye movements	2	378	1.0082	sense organs
+2	50423297	T	C	rs908156371	NRXN1	1.3e-08	227	397136	397363	Cerebral atherosclerosis	2	433.12	1.0534	circulatory system
+20	61896063	GC	G	rs770358998	CDH4	1.3e-08	263	388552	388815	Paralysis/spasm of vocal cords or larynx	1	473.3	1.0437	respiratory
+15	23195318	T	C	rs1263710357	GOLGA6L1	1.3e-08	1772	388555	390327	Acute and chronic tonsillitis	2	474	1.011	respiratory
+11	124962305	G	A	rs181296821	CCDC15	1.3e-08	1460	395835	397295	Renal failure NOS	3	585.2	1.0027	genitourinary
+X	62729031	C	A	rs937235530	SPIN4	1.3e-08	72	400113	400185	Congenital anomalies of breast	16	612.3	1.0313	genitourinary
+8	98560836	C	T	rs377639141	STK3	1.3e-08	273	210937	211210	Abscess or ulceration of vulva	6	614.54	1.0375	genitourinary
+4	44027944	T	G	rs964116254	KCTD8	1.3e-08	72	207572	207644	Dysplasia of female genital organs	1	620	1.0344	genitourinary
+6	87476117	G	A	rs544135215	AL049697.1,SLC35A1	1.3e-08	9072	189126	198198	Postmenopausal bleeding	2	627.1	1.0027	genitourinary
+11	120810089	C	T	rs781310110	GRIK4	1.3e-08	78	397537	397615	Acne	1	706.1	1.0344	dermatologic
+4	2836785	C	G	rs185045655	SH3BP2	1.3e-08	102	400908	401010	Ankylosis of joint	1	741.1	1.0601	musculoskeletal
+12	2335259	A	G	rs1044975554	CACNA1C	1.3e-08	81	406081	406162	Congenital anomalies of muscle, tendon, fascia, and connective tissue	2	756.3	1.0344	congenital anomalies
+12	80137257	C	T	rs752365751	OTOGL	1.3e-08	68	407134	407202	Bone marrow or stem cell transplant	1	860	1.0138	neoplasms
+12	19787413	C	A		AEBP2	1.3e-08	104	403085	403189	Infusion and transfusion reaction	2	942	1.0437	injuries & poisonings
+3	133886394	A	C	rs952913764	RAB6B	1.4e-08	9591	368847	378438	Secondary malignant neoplasm	7	198	1.0082	neoplasms
+2	61426675	C	T	rs969604380	USP34	1.4e-08	289	399653	399942	Personal history of diseases of blood and blood-forming organs	2	289.3	1.0344	hematopoietic
+2	148841035	T	A	rs573355915	KIF5C	1.4e-08	648	400597	401245	Delirium due to conditions classified elsewhere	8	290.2	0.97444	mental disorders
+20	56380941	TG	T	rs545872011	AURKA	1.4e-08	178	363984	364162	Paranoid disorders	3	295.2	1.0635	mental disorders
+10	59729009	G	A	rs932083229	SLC16A9	1.4e-08	169	363983	364152	Psychosis	2	295.3	1.0704	mental disorders
+3	27652011	T	A	rs749894432	EOMES	1.4e-08	314	363985	364299	Tension headache	4	306.9	1.0224	mental disorders
+8	28670402	T	G	rs764266920	EXTL3	1.4e-08	727	403915	404642	Diplopia and disorders of binocular vision	3	368.2	0.97444	sense organs
+9	7127945	T	A	rs182940307	KDM4C	1.4e-08	275	400663	400938	Nonrheumatic aortic valve disorders	3	395.2	1.0406	circulatory system
+4	67837059	A	T	rs553354942	TMPRSS11D	1.4e-08	3559	375933	379492	Precordial pain	2	418.1	1.0054	circulatory system
+13	96512882	TTTG	T	rs926287723	HS6ST3	1.4e-08	2271	379217	381488	Cardiac pacemaker in situ	5	426.91	1.0054	circulatory system
+6	32658661	A	T	rs9273367	HLA-DQB1	1.4e-08	383	398705	399088	Peripheral angiopathy in diseases classified elsewhere	3	443.7	1.0054	circulatory system
+4	120459366	G	A	rs1481954769	PRDM5	1.4e-08	1054	333378	334432	Ulceration of the lower GI tract	7	556	1.0	digestive
+2	190072000	T	C	rs967494971	C2orf88	1.4e-08	15904	333383	349287	Symptoms involving digestive system	2	561	1.0195	digestive
+2	213416894	A	G	rs180760061	SPAG16	1.4e-08	74	395834	395908	Proliferative glomerulonephritis	2	580.11	1.0254	genitourinary
+X	81972489	G	A	rs1372029972	SH3BGRL	1.4e-08	208	395834	396042	Anatomical abnormatilies of kidney and ureters	14	586.1	1.0567	genitourinary
+7	88731176	CTA	C	rs1290707332	ZNF804B	1.4e-08	774	399286	400060	Calculus of lower urinary tract	2	594.2	0.97444	genitourinary
+11	39656242	C	G	rs554763794	LRRC4C	1.4e-08	120	400949	401069	Congenital anomalies of skin	2	691	1.0635	dermatologic
+2	81727353	G	A	rs1195951617	CTNNA2	1.4e-08	78	406643	406721	Other specified congenital anomalies of nervous system	3	752.2	1.0406	congenital anomalies
+4	184813353	A	C	rs757379214	ACSL1	1.4e-08	127	406643	406770	Congenital anomalies of the eye	1	753	1.0704	congenital anomalies
+1	7391888	G	A	rs551182109	CAMTA1	1.4e-08	2958	403784	406742	Skull and face fracture and other intercranial injury	2	819	1.0027	injuries & poisonings
+3	27145741	C	A	rs778975155	NEK10	1.4e-08	1949	380139	382088	Poisoning by psychotropic agents	4	969	1.0166	injuries & poisonings
+7	4185521	C	T	rs879587225	SDK1	1.5e-08	117	401601	401718	HIV infection, symptomatic	2	071.1	1.0669	infectious diseases
+4	134054649	C	G	rs990504591	PABPC4L	1.5e-08	255	406947	407202	Injury to blood vessels	3	1007	1.0469	injuries & poisonings
+1	103762024	A	G	rs528415879	AMY1C	1.5e-08	220	192375	192595	Benign neoplasm of other female genital organs	3	221	1.0601	neoplasms
+1	35981583	A	G	rs1197957910	AGO3	1.5e-08	446	404730	405176	Vitamin D deficiency	4	261.4	1.0	endocrine/metabolic
+11	68907461	G	A	rs533268912	IGHMBP2	1.5e-08	84	396287	396371	Localized adiposity	1	278.3	1.0406	endocrine/metabolic
+2	115888039	G	A	rs186852223	DPP10	1.5e-08	418	404524	404942	Primary thrombocytopenia	1	287.31	1.0	hematopoietic
+1	198706633	T	G	rs1374484177	PTPRC	1.5e-08	123	363984	364107	Somatoform disorder	2	303.4	1.0704	mental disorders
+5	103067219	T	C	rs572200003	GIN1	1.5e-08	28652	363984	392636	Other mental disorder	4	306	1.0775	mental disorders
+20	23732690	T	A	rs1013282080	CST1	1.5e-08	76	406624	406700	Pervasive developmental disorders	1	313	1.0283	mental disorders
+11	80414322	G	A	rs747666141	TENM4	1.5e-08	469	405101	405570	Muscular dystrophies and other myopathies	6	359	1.0	neurological
+2	136700984	C	T	rs559694014	THSD7B	1.5e-08	154	403915	404069	Anisometropia	2	368.3	1.0601	sense organs
+2	163848453	G	T	rs146446878	FIGN	1.5e-08	4904	400663	405567	Rheumatic disease of the heart valves	3	394	1.0082	circulatory system
+1	60042256	C	T	rs138742743	C1orf87	1.5e-08	600	400269	400869	Chronic pulmonary heart disease	2	415.2	0.97444	circulatory system
+1	108789067	A	T	rs745998062	STXBP3	1.5e-08	6919	379218	386137	Cardiac conduction disorders	3	426	1.0082	circulatory system
+12	6541950	A	T	rs145222821	IFFO1	1.5e-08	534	379217	379751	Premature beats	5	427.6	0.97444	circulatory system
+4	75847163	C	T	rs1018940086	PPEF2	1.5e-08	393	397139	397532	Cerebral aneurysm	2	433.5	1.0082	circulatory system
+3	7264795	C	T	rs1472730266	GRM7	1.5e-08	1334	386242	387576	Orthostatic hypotension	3	458.1	1.0027	circulatory system
+3	155207354	T	G	rs898123836	MME	1.5e-08	1996	395580	397576	Pulmonary collapse; interstitial and compensatory emphysema	1	508	1.0138	respiratory
+10	27203705	C	A	rs185590948	ACBD5	1.5e-08	83	406590	406673	Hypoventilation	5	513.3	1.0254	respiratory
+12	72253031	G	A	rs756599780	TRHDE	1.5e-08	1171	396444	397615	Periapical abscess	1	522.5	1.0	digestive
+20	540438	G	A	rs748085265	CSNK2A1	1.5e-08	304	396444	396748	Anomalies of tooth position/malocclusion	1	524.3	1.0313	digestive
+8	71720812	T	A	rs111519225	MSC	1.5e-08	635	367706	368341	Disorders of esophageal motility	3	530.5	0.97444	digestive
+10	7246516	C	T	rs1049659521	SFMBT2	1.5e-08	21937	333366	355303	Functional digestive disorders	2	564	1.0283	digestive
+X	36652642	A	T	rs189764780	CFAP47	1.5e-08	1542	398276	399818	Ascites (non malignant)	1	572	1.011	digestive
+10	17720061	C	T	rs770264229	STAM	1.5e-08	3443	207568	211011	Mucous polyp of cervix	1	622.2	1.0027	genitourinary
+9	32109220	C	T	rs1025171189	ACO1	1.5e-08	63	219608	219671	Other disorders of the breast associated with childbirth and disorders of lactation	3	676	1.0027	pregnancy complications
+10	23643648	G	GT	rs5783852	KIAA1217	1.5e-08	397	364269	364666	Unspecified osteomyelitis	1	710.19	1.0054	musculoskeletal
+20	51047331	A	G	rs1007356051	KCNG1	1.5e-08	63	390234	390297	Other symptoms referable to back	1	724.8	1.0138	musculoskeletal
+4	183656957	C	T	rs746473126	RWDD4	1.5e-08	356	405001	405357	Lower gastrointestinal congenital anomalies	1	750.2	1.011	congenital anomalies
+7	16263050	T	A	rs901509518	CRPPA	1.5e-08	118	405001	405119	Congenital anomaly of gallbladder, bile ducts, liver, pancreas	5	750.22	1.0567	congenital anomalies
+14	77688604	G	A		ALKBH1	1.5e-08	564	406508	407072	Nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)	2	793.2	0.97444	symptoms
+17	67670887	G	C	rs118118589	PITPNC1	1.5e-08	773	386069	386842	Fracture of ribs	2	807	0.97444	injuries & poisonings
+14	87995873	C	G	rs1026287485	GALC	1.5e-08	1668	383454	385122	Torus fracture	2	823	1.0054	injuries & poisonings
+8	18857521	A	C	rs918727245	PSD3	1.6e-08	102	403659	403761	Iatrogenic endocrine disorders	2	258	1.0601	endocrine/metabolic
+11	27914994	A	C	rs149999049	KIF18A	1.6e-08	612	403455	404067	Crystal arthropathies	2	274.2	0.97444	endocrine/metabolic
+2	37366911	T	C	rs142235232	QPCT	1.6e-08	6342	363982	370324	Anxiety disorder	4	300.1	1.0166	mental disorders
+17	73936891	T	C	rs537869025	RPL38	1.6e-08	502	393432	393934	Hydrocephalus	1	331.1	0.97444	neurological
+3	177962442	AT	A	rs758115504	KCNMB2	1.6e-08	864	393433	394297	Epilepsy	5	345.1	0.97444	neurological
+2	183818763	G	A	rs779346484	NUP35	1.6e-08	201	396051	396252	Corneal degenerations	3	364.4	1.0601	sense organs
+7	104469942	A	G	rs9969202	LHFPL3	1.6e-08	305	213272	213577	Fibroadenosis of breast	1	610.2	1.0283	genitourinary
+3	164198770	T	C	rs766056044	SI	1.6e-08	427	210937	211364	Vaginitis and vulvovaginitis	3	614.52	0.97444	genitourinary
+10	70512515	A	G	rs768148737	PALD1	1.6e-08	864	212251	213115	Antepartum hemorrhage, abruptio placentae, and placenta previa	2	635.2	1.0	pregnancy complications
+17	44890174	T	C	rs765217342	EFTUD2	1.6e-08	411	377181	377592	Laxity of ligament or hypermobility syndrome	2	728.2	1.0	musculoskeletal
+7	77337395	G	A	rs893884792	GSAP	1.6e-08	1168	403747	404915	Neuralgia, neuritis, and radiculitis NOS	5	766	1.0027	symptoms
+4	163587416	G	A	rs189929918	MARCHF1	1.6e-08	475	380140	380615	Antirheumatics causing adverse effects in therapeutic use	2	965.2	1.0	injuries & poisonings
+5	78687054	A	C	rs1004157201	LHFPL2	1.6e-08	403	380139	380542	Salicylates causing adverse effects in therapeutic use	1	965.3	1.0082	injuries & poisonings
+10	76195784	C	T	rs775148567	LRMDA	1.6e-08	84	380139	380223	Antihypertensive agents causing adverse effects	2	972.6	1.0437	injuries & poisonings
+7	117303470	A	G	rs62469413	CFTR,WNT2	1.7e-08	69	401601	401670	Viral hepatitis A	2	070.1	1.0254	infectious diseases
+4	136419402	G	A	rs536107175	PCDH18	1.7e-08	132	401601	401733	Viral hepatitis B	3	070.2	1.0601	infectious diseases
+1	68135127	CTTTCT	C		WLS	1.7e-08	641	405055	405696	Cancer of mouth	2	145	0.97444	neoplasms
+6	137563634	C	A	rs997049728	OLIG3	1.7e-08	1032	403024	404056	Malignant neoplasm of kidney, except pelvis	1	189.11	1.0	neoplasms
+20	33455947	G	A	rs73622511	SNTA1	1.7e-08	17123	368844	385967	Cancer, suspected or other	4	195	1.0138	neoplasms
+8	28745887	CTG	C	rs772325867	EXTL3	1.7e-08	85	388395	388480	Other hereditary hemolytic anemias	2	282.9	1.0437	hematopoietic
+6	50911369	G	C	rs937545535	TFAP2B	1.7e-08	252	393433	393685	Other demyelinating diseases of central nervous system	3	341	1.0437	neurological
+8	70041633	T	G	rs950460147	PRDM14	1.7e-08	4192	402829	407021	Hearing loss	1	389	1.0082	sense organs
+11	126674231	T	C	rs999885526	KIRREL3	1.7e-08	2600	395581	398181	Respiratory failure, insufficiency, arrest	1	509	1.0027	respiratory
+9	118096041	C	T	rs746815972	AL160272.2	1.7e-08	220	398129	398349	Wheezing	1	512.1	1.0534	respiratory
+10	65970381	A	C	rs1228043872	CTNNA3	1.7e-08	61	396444	396505	Anomalies of jaw size/symmetry	2	526.3	1.0	digestive
+X	54693187	C	T	rs183193336	ITIH6	1.7e-08	179	401591	401770	Cellulitis and abscess of oral soft tissues	1	528.3	1.0601	digestive
+8	123550572	T	A	rs551457629	FBXO32	1.7e-08	59	169003	169062	Orchitis and epididymitis	2	601.3	0.97444	genitourinary
+7	14623268	C	T	rs528510510	DGKB	1.7e-08	1572	400114	401686	Abnormal findings on mammogram or breast exam	1	611	1.011	genitourinary
+17	76501986	A	C	rs4789306	RHBDF2	1.7e-08	616	212247	212863	Early onset of delivery	1	636.2	1.0	pregnancy complications
+7	25725724	A	G	rs763693378	NFE2L3	1.7e-08	583	395973	396556	Pilonidal cyst	1	686.3	0.97444	dermatologic
+5	115805650	C	T	rs1468868009	CDO1	1.7e-08	428	405002	405430	Cystic kidney disease	3	751.21	1.0	congenital anomalies
+2	126128858	G	C	rs535728551	GYPC	1.7e-08	270	380139	380409	Poisoning by agents primarily affecting the cardiovascular system	3	972	1.0406	injuries & poisonings
+6	146099860	C	T	rs776618676	GRM1	1.8e-08	417	387083	387500	Other abnormal glucose	11	250.42	1.0027	endocrine/metabolic
+6	32658661	A	T	rs9273367	HLA-DQB1	1.8e-08	7627	388399	396026	Iron deficiency anemias	3	280	1.0138	hematopoietic
+X	73660157	A	G	rs59548312	CHIC1	1.8e-08	501	363983	364484	Phobia	6	300.13	0.97444	mental disorders
+1	181683153	AGCAAGGGCATCTTAT	A	rs1267707000	CACNA1E	1.8e-08	79	396051	396130	Corneal edema	6	364.2	1.0406	sense organs
+9	72242420	A	G	rs144028364	GDA	1.8e-08	102	398705	398807	Aneurysm of iliac artery	3	442.2	1.0567	circulatory system
+13	42863397	G	T	rs17537837	EPSTI1	1.8e-08	184	367907	368091	Chronic venous insufficiency [CVI]	2	456	1.0704	circulatory system
+13	47194806	G	A	rs73178157	HTR2A	1.8e-08	2554	388552	391106	Diseases of the larynx and vocal cords	4	473	1.0	respiratory
+12	101208490	G	C	rs141008504	SLC5A8	1.8e-08	307	401593	401900	Leukoplakia of oral mucosa	6	528.6	1.0313	digestive
+19	39681918	G	C	rs984389572	LGALS16	1.8e-08	515	404504	405019	Chronic pancreatitis	1	577.2	0.97444	digestive
+7	29906560	A	G	rs980397966	WIPF3	1.8e-08	364	404503	404867	Cyst and pseudocyst of pancreas	2	577.3	1.011	digestive
+10	121288494	A	G	rs10886900	FGFR2	1.8e-08	6725	383302	390027	Retention of urine	3	599.2	1.0082	genitourinary
+16	27576592	G	A	rs956849513	KATNIP	1.8e-08	519	395970	396489	Cellulitis and abscess of face/neck	1	681.2	0.97444	dermatologic
+5	178783688	C	T	rs988003949	ZNF354A	1.8e-08	2283	395970	398253	Carbuncle and furuncle	4	686.1	1.011	dermatologic
+1	202683363	A	G	rs6673562	SYT2	1.8e-08	869	401762	402631	Musculoskeletal symptoms referable to limbs	2	771	0.97444	symptoms
+11	120972879	G	C	rs528526760	GRIK4	1.8e-08	1312	405742	407054	Injuries to the nervous system	2	907	1.0027	injuries & poisonings
+5	126828763	A	G	rs969615527	LMNB1	1.9e-08	315	406887	407202	Asphyxia and hypoxemia	3	1013	1.0254	injuries & poisonings
+4	47969761	C	T	rs756981290	CNGA1,NIPAL1	1.9e-08	1062	391483	392545	Neoplasm of unspecified nature of digestive system	1	158	1.0	neoplasms
+2	21930144	T	C	rs114041745	TDRD15	1.9e-08	1595	405607	407202	Hemangioma and lymphangioma, any site	1	228	1.0082	neoplasms
+2	168454228	G	A	rs62175786	CERS6	1.9e-08	828	404732	405560	Anorexia	1	260.6	0.97444	endocrine/metabolic
+10	131883825	C	T	rs1428144950	PPP2R2D	1.9e-08	135	388395	388530	Acquired hemolytic anemias	3	283	1.0669	hematopoietic
+9	137915137	C	T	rs971276878	CACNA1B	1.9e-08	192	405102	405294	Myasthenia gravis	1	358.1	1.0635	neurological
+6	105693815	G	A	rs149561781	PREP	1.9e-08	100	396050	396150	Cornea replaced by transplant	4	364.9	1.0501	sense organs
+16	55238038	C	T	rs374190943	IRX6	1.9e-08	5692	397601	403293	Other disorders of eyelids	2	374	1.0082	sense organs
+X	141927968	T	A	rs778517021	MAGEC1	1.9e-08	2887	400662	403549	Nonrheumatic mitral valve disorders	3	395.1	1.0027	circulatory system
+3	180186908	CTG	C	rs1286306356	PEX5L	1.9e-08	3200	379212	382412	Paroxysmal tachycardia, unspecified	1	427.1	1.0	circulatory system
+8	104372885	T	A	rs6468922	DPYS	1.9e-08	521	333379	333900	Paralytic ileus	1	560.1	0.97444	digestive
+6	6429169	A	G	rs1462770866	F13A1	1.9e-08	2547	212190	214737	Complications of labor and delivery NEC	2	669	0.97444	pregnancy complications
+1	114083540	G	A	rs760659672	SYT6	1.9e-08	290	402139	402429	Corns and callosities	3	700	1.0375	dermatologic
+X	5926316	T	C	rs1340021444	NLGN4X	1.9e-08	61	402139	402200	Circumscribed scleroderma	1	701.3	0.95116	dermatologic
+14	38964379	G	A	rs1004659806	SEC23A	1.9e-08	81	364269	364350	Infective connective tissue disorders	1	712	1.0469	musculoskeletal
+2	16851745	G	A	rs12052369	CYRIA	1.9e-08	302	406848	407150	Congenital anomalies of face and neck	4	749	1.0283	congenital anomalies
+4	90872832	TTGTC	T	rs965099051	CCSER1	1.9e-08	686	405001	405687	Digestive congenital anomalies	2	750	0.97444	congenital anomalies
+8	29516563	C	G	rs746722557	DUSP4	1.9e-08	252	406644	406896	Neural tube defects	1	752.1	1.0469	congenital anomalies
+17	68752727	T	G	rs569830324	ABCA8	1.9e-08	524	389790	390314	Traumatic arthropathy	1	836	0.97444	injuries & poisonings
+2	17064070	C	T	rs879609211	CYRIA	1.9e-08	419	380139	380558	Poisoning by other anti-infectives	2	961	1.0	injuries & poisonings
+9	22734116	G	A	rs563545525	DMRTA1	2e-08	60	404341	404401	Cancer of intrathoracic organs	3	164	0.95116	neoplasms
+3	169016593	T	C	rs966412411	MECOM	2e-08	264	387082	387346	Impaired fasting glucose	5	250.41	1.0406	endocrine/metabolic
+14	85525661	AT	A	rs766430464	FLRT2	2e-08	238	218078	218316	Ovarian dysfunction	1	256	1.0437	endocrine/metabolic
+10	54226887	T	C	rs767952994	PCDH15	2e-08	152	185582	185734	Testicular hypofunction	3	257.1	1.0669	endocrine/metabolic
+6	166231779	T	A	rs377575227	TBXT	2e-08	707	363984	364691	Agorophobia, social phobia, and panic disorder	1	300.12	0.97444	mental disorders
+16	83761862	T	G	rs1020647204	CDH13	2e-08	341	406121	406462	Encephalitis	2	323	1.0224	neurological
+15	93272815	T	G	rs113907512	RGMA	2e-08	252	393433	393685	Torsion dystonia	4	333.4	1.0406	neurological
+14	60698568	G	A	rs544609727	SIX4	2e-08	152	405102	405254	Hereditary and idiopathic peripheral neuropathy	2	356	1.0669	neurological
+4	97223693	A	G	rs959436731	STPG2	2e-08	213	397602	397815	Conjunctivitis, infectious	2	369.5	1.0534	sense organs
+9	133822857	G	A	rs1221261438	VAV2	2e-08	849	403146	403995	Suppurative and unspecified otitis media	4	381.11	0.97444	sense organs
+4	41864097	TG	T	rs1240177536	TMEM33	2e-08	144	328788	328932	Other hypertensive complications	3	401.3	1.0704	circulatory system
+5	176702531	G	A	rs182024143	TSPAN17	2e-08	223	403885	404108	Acute pericarditis	2	420.21	1.0534	circulatory system
+10	130925747	TGTGA	T	rs554821273	TCERG1L	2e-08	165	404739	404904	Acute laryngitis and tracheitis	2	465.4	1.0601	respiratory
+10	91470823	A	G	rs551506529	HECTD2	2e-08	325	397697	398022	Respiratory complications	1	519.2	1.0224	respiratory
+9	116714572	C	T	rs10115816	ASTN2	2e-08	165	378352	378517	Urethritis and urethral syndrome	1	592.2	1.0669	genitourinary
+2	44967241	G	T	rs765820342	SIX3	2e-08	702	405230	405932	Other signs and symptoms in breast	2	613.7	0.97444	genitourinary
+22	45806218	G	A	rs753406772	ATXN10	2e-08	562	395971	396533	Cellulitis and abscess of fingers/toes	1	681.1	0.97444	dermatologic
+X	88615167	A	T	rs1408484819	CPXCR1	2e-08	109	400950	401059	Toxic erythema	6	695.1	1.0635	dermatologic
+1	87616327	G	A	rs1051017208	LMO4	2e-08	87	402139	402226	Keratoderma, acquired	4	701.1	1.0469	dermatologic
+4	104464476	G	C	rs775030803	CXXC4	2e-08	539	389420	389959	Aseptic necrosis of bone	1	733.4	0.97444	musculoskeletal
+1	239098827	T	C	rs79997883	CHRM3	2e-08	9676	393237	402913	Acquired foot deformities	3	735	1.0344	musculoskeletal
+15	91758860	G	A	rs984892797	SLCO3A1	2e-08	248	393237	393485	Acquired deformities of finger	1	736.2	1.0501	musculoskeletal
+13	48422123	C	T	rs548315622	LPAR6,RB1	2e-08	3154	393231	396385	Complication of internal orthopedic device	4	858	1.0	injuries & poisonings
+15	95180917	ATATT	A	rs1413548012	MCTP2	2.1e-08	110	180551	180661	Neoplasm of uncertain behavior of male genital organs	1	187.8	1.0704	neoplasms
+6	137563634	C	A	rs997049728	OLIG3	2.1e-08	1072	403023	404095	Cancer of kidney and renal pelvis	1	189.1	1.0	neoplasms
+10	118218720	G	A	rs552431943	FAM204A	2.1e-08	357	393433	393790	Coma	2	348.7	1.0166	neurological
+2	183531283	G	C	rs77999150	NUP35	2.1e-08	1060	397601	398661	Ectropion or entropion	2	374.1	1.0	sense organs
+1	217322592	A	C	rs1342414152	GPATCH2	2.1e-08	1541	328788	330329	Hypertensive chronic kidney disease	1	401.22	1.0082	circulatory system
+13	91672789	T	A	rs1039198191	GPC5	2.1e-08	29134	375932	405066	Nonspecific chest pain	2	418	1.0567	circulatory system
+4	169740211	G	A	rs747933910	HPF1	2.1e-08	343	379217	379560	Ventricular fibrillation and flutter	1	427.41	1.0195	circulatory system
+9	2947656	TAGAC	T	rs1212128294	PUM3	2.1e-08	2279	404741	407020	Acute upper respiratory infections of multiple or unspecified sites	2	465	1.0082	respiratory
+9	90041779	C	T	rs147192059	GADD45G	2.1e-08	377	388554	388931	Throat pain	1	478	1.0	respiratory
+1	48844830	G	A	rs527498849	AGBL4	2.1e-08	233	396443	396676	Jaw disease NOS	1	526.9	1.0534	digestive
+1	221878992	TA	T	rs1471509682	DUSP10	2.1e-08	94	401593	401687	Cyst of the salivary gland	3	528.41	1.0534	digestive
+2	9938002	C	T	rs562437242	TAF1B	2.1e-08	5523	333379	338902	Irritable Bowel Syndrome	1	564.1	1.0138	digestive
+1	96971697	A	C	rs748438313	DPYD	2.1e-08	1127	207571	208698	Endometrial hyperplasia	2	621	1.0	genitourinary
+11	131217122	C	T	rs188640329	NTM	2.1e-08	52	220036	220088	Complications of in utero procedures	5	679	0.97444	dermatologic
+12	48807222	A	G	rs2453480	CACNB3	2.1e-08	2144	401682	403826	Rash and other nonspecific skin eruption	1	687.1	1.0082	dermatologic
+3	154820902	GA	G	rs1434461185	MME	2.1e-08	1990	400905	402895	Other derangement of joint	1	742.9	1.011	musculoskeletal
+11	30521553	A	G	rs546292489	MPPED2	2.1e-08	84	400617	400701	Elevated sedimentation rate	1	790.1	1.0469	symptoms
+2	192768939	C	T	rs773752439	TMEFF2	2.1e-08	548	406654	407202	Gangrene	1	791	0.97444	symptoms
+15	57001004	T	A	rs1025735342	TCF12	2.1e-08	120	407082	407202	Abnormal results of other function studies (bladder, pancreas, placenta, spleen, etc)	4	794	1.0567	symptoms
+5	65375703	C	T	rs1370795633	ADAMTS6	2.1e-08	157	393231	393388	Complications of transplants and reattached limbs	1	851	1.0669	injuries & poisonings
+20	18067437	C	G	rs1048568591	OVOL2	2.2e-08	1444	405758	407202	Other symptoms	2	1005	1.0082	injuries & poisonings
+1	6944881	C	T	rs759788099	CAMTA1	2.2e-08	193	391483	391676	Malignant neoplasm of retroperitoneum and peritoneum	3	159.4	1.0601	neoplasms
+10	45699220	G	A	rs4042203	ZFAND4	2.2e-08	129	405449	405578	Benign neoplasm of eye	2	224	1.0669	neoplasms
+2	197971473	C	T	rs114640810	PLCL1	2.2e-08	101	389742	389843	Acquired hypothyroidism	2	244.2	1.0567	endocrine/metabolic
+8	24909532	C	CA		NEFM	2.2e-08	657	393433	394090	Other paralytic syndromes	3	344	0.97444	neurological
+9	137915137	C	T	rs971276878	CACNA1B	2.2e-08	211	405102	405313	Myoneural disorders	1	358	1.0567	neurological
+3	4065340	A	G	rs1359205305	SUMF1	2.2e-08	1279	400663	401942	Aortic valve disease	2	394.3	1.0027	circulatory system
+3	180668425	G	A	rs13097883	CCDC39	2.2e-08	207	398129	398336	Painful respiration	2	512.2	1.0635	respiratory
+12	59209449	A	T	rs948884625	LRIG3	2.2e-08	2464	404713	407177	Abnormal findings examination of lungs	2	514	1.0027	respiratory
+6	53138320	G	A	rs540949092	GCM1	2.2e-08	2035	396444	398479	Disorders of tooth development	2	520	1.0054	digestive
+12	38768243	T	G	rs771008031	CPNE8	2.2e-08	22959	367715	390674	GERD	6	530.11	1.0534	digestive
+2	159143239	G	A	rs745993043	TANC1	2.2e-08	4095	399770	403865	Gastric ulcer	1	531.2	1.0082	digestive
+2	207955801	A	G	rs765818519	PLEKHM3	2.2e-08	2624	383440	386064	Blood in stool	3	578.2	1.0027	digestive
+22	38000067	G	A	rs983280556	POLR2F	2.2e-08	1950	405245	407195	Chronic ulcer of skin	4	707	1.011	dermatologic
+1	239594014	A	G	rs758782307	CHRM3	2.2e-08	189	390234	390423	Spondylosis with myelopathy	1	721.2	1.0601	musculoskeletal
+3	173072826	A	G	rs1043207286	SPATA16	2.2e-08	1687	386070	387757	Fracture of humerus	3	803.1	1.011	injuries & poisonings
+2	179922932	T	G	rs551201384	CWC22	2.3e-08	4174	392084	396258	Septicemia	1	038	1.0	infectious diseases
+7	73635115	T	C	rs1037743002	MLXIPL	2.3e-08	95	401601	401696	Herpes zoster with nervous system complications	4	053.1	1.0534	infectious diseases
+2	22662321	G	A	rs112833363	KLHL29	2.3e-08	71	407129	407200	Sexually transmitted infections (not HIV or hepatitis)	2	090	1.0254	infectious diseases
+8	71587650	G	A	rs576028235	EYA1	2.3e-08	1106	399894	401000	Other benign neoplasm of connective and other soft tissue	2	215	1.0	neoplasms
+18	84562	C	T	rs759506626	TUBB8B	2.3e-08	594	398901	399495	Nevus, non-neoplastic	2	217.1	0.97444	neoplasms
+9	113704407	T	C	rs962236028	RGS3	2.3e-08	355	203949	204304	Other benign neoplasm of uterus	2	218.2	1.0054	neoplasms
+3	144399971	T	C	rs772499165	DIPK2A	2.3e-08	104	387082	387186	Type 2 diabetes with ketoacidosis	1	250.21	1.0567	endocrine/metabolic
+12	110782167	G	A	rs904467415	PPP1CC	2.3e-08	124	363984	364108	Acute reaction to stress	5	300.8	1.0669	mental disorders
+5	36748379	C	T	rs186225833	SLC1A3	2.3e-08	333	363985	364318	Personality disorders	2	301	1.0224	mental disorders
+18	38366651	G	A	rs191927845	CELF4	2.3e-08	162	406624	406786	Learning disorder	5	315.1	1.0669	mental disorders
+10	65709549	T	C	rs1393626768	CTNNA3	2.3e-08	7848	397073	404921	Other headache syndromes	3	339	1.0138	neurological
+2	130188903	A	C	rs574534076	MZT2B	2.3e-08	102	386959	387061	Traumatic cataract	2	366.3	1.0567	sense organs
+X	148935689	C	T	rs192306070	AFF2	2.3e-08	241	403146	403387	Tympanosclerosis and middle ear disease related to otitis media	3	385.5	1.0437	sense organs
+2	156990967	T	C	rs756321415	GALNT5	2.3e-08	3817	379214	383031	Palpitations	4	427.9	1.0027	circulatory system
+6	87858684	G	C	rs763532149	AKIRIN2	2.3e-08	266	397137	397403	Subdural hemorrhage	3	430.3	1.0344	circulatory system
+12	11289101	G	C	rs978532933	PRB4	2.3e-08	99	396438	396537	Pneumonia due to fungus (mycoses)	1	480.3	1.0534	respiratory
+15	64730998	C	G	rs550152487	RBPMS2	2.3e-08	1764	210808	212572	Noninflammatory disorders of vagina	3	619.4	1.011	genitourinary
+8	52393191	A	G	rs1353715545	ST18	2.3e-08	1529	405004	406533	Genitourinary congenital anomalies	1	751	1.011	congenital anomalies
+12	42483961	C	T	rs977022493	PRICKLE1	2.3e-08	105	406579	406684	Toxic effect of other gases, fumes, or vapors	3	987	1.0635	injuries & poisonings
+15	69303730	T	C	rs1393849	PAQR5	2.4e-08	1282	193769	195051	Malignant neoplasm of uterus	3	182	1.0	neoplasms
+14	34127318	G	A	rs145643129	EGLN3	2.4e-08	210	389743	389953	Chronic lymphocytic thyroiditis	1	245.21	1.0469	endocrine/metabolic
+3	170006184	T	C	rs918080510	SEC62	2.4e-08	437	400600	401037	Alteration of consciousness	2	291.8	1.0	mental disorders
+8	78181782	T	TA		PKIA	2.4e-08	717	404787	405504	Blindness and low vision	5	367.9	0.97444	sense organs
+12	86925999	C	T	rs190906260	MGAT4C	2.4e-08	201	402827	403028	Other disorders of ear	1	388	1.0601	sense organs
+7	53656969	A	G	rs761949338	POM121L12	2.4e-08	3337	379218	382555	Bundle branch block	2	426.3	1.0	circulatory system
+10	115082303	G	T	rs782171697	ATRNL1	2.4e-08	2896	397142	400038	Cerebral ischemia	1	433.3	1.0	circulatory system
+4	145186075	T	A	rs948695951	OTUD4	2.4e-08	327	396439	396766	Influenza	1	481	1.0224	respiratory
+1	114169342	T	C	rs148308163	SYT6	2.4e-08	296	398277	398573	Hepatomegaly	1	573.3	1.0313	digestive
+22	48904824	G	A	rs769274970	TAFA5	2.4e-08	248	378354	378602	Chronic interstitial cystitis	2	592.13	1.0437	genitourinary
+13	61941133	G	A	rs7985450	AL592490.1	2.4e-08	10427	189128	199555	Menopausal and postmenopausal disorders	2	627	1.0027	genitourinary
+10	59185743	G	T	rs917652821	PHYHIPL	2.4e-08	1109	189127	190236	Postmenopausal atrophic vaginitis	1	627.3	0.97444	genitourinary
+19	49227467	G	A	rs373211988	TRPM4	2.4e-08	330	212249	212579	Ectopic pregnancy	2	634.3	1.0027	pregnancy complications
+1	17395297	G	A	rs973839415	PADI6	2.4e-08	117	400950	401067	Vascular disorders of skin	2	694.3	1.0669	dermatologic
+9	16309276	A	G	rs73645941	BNC2	2.4e-08	907	405244	406151	Decubitus ulcer	1	707.1	0.97444	dermatologic
+11	113962914	A	G	rs888051278	HTR3A	2.4e-08	2843	400905	403748	Derangement of joint, non-traumatic	1	742	1.0	musculoskeletal
+21	25536399	T	C	rs751752291	MRPL39	2.4e-08	7999	399203	407202	Pain in joint	1	745	1.0138	musculoskeletal
+7	94230443	C	A	rs1299652819	COL1A2	2.4e-08	196	398896	399092	Open wound of ear	6	870.2	1.0635	injuries & poisonings
+21	38320831	G	A	rs576550266	KCNJ15	2.5e-08	158	391483	391641	Malignant neoplasm of liver, primary	1	155.1	1.0669	neoplasms
+6	157354779	G	A	rs587654780	ZDHHC14	2.5e-08	814	405448	406262	Benign neoplasm of brain and other parts of nervous system	5	225	0.97444	neoplasms
+20	45779554	C	A	rs1301526824	WFDC3	2.5e-08	96	393432	393528	Myoclonus	4	333.2	1.0501	neurological
+22	23063519	G	A	rs1222897666	RSPH14	2.5e-08	68	396051	396119	Retinoschisis and retinal cysts	4	361.2	1.0	sense organs
+5	3016217	A	T	rs12655710	C5orf38	2.5e-08	1044	400664	401708	Abnormal heart sounds	3	396	1.0	circulatory system
+3	85789791	C	A	rs536821221	CADM2	2.5e-08	2684	400268	402952	Cardiomegaly	6	416	1.0	circulatory system
+14	64829350	T	C	rs118064147	SPTB	2.5e-08	1053	388552	389605	Allergic rhinitis	3	476	1.0	respiratory
+12	2103063	A	G	rs1252825260	CACNA1C	2.5e-08	179	395834	396013	Small kidney	5	586.11	1.0601	genitourinary
+4	65038477	G	T	rs1301772731	EPHA5	2.5e-08	76	400950	401026	Erythema nodosum	2	695.81	1.0375	dermatologic
+8	46066914	G	T	rs568283481	SPIDR	2.5e-08	1416	400907	402323	Joint effusions	2	741.4	1.0027	musculoskeletal
+14	43793043	A	G	rs150330032	FSCB	2.5e-08	424	406082	406506	Congenital anomalies of limbs	2	755	1.0	congenital anomalies
+7	146785436	A	G	rs527305867	CNTNAP2	2.5e-08	96	406232	406328	Anomalies of endocrine glands, congenital	2	759.1	1.0501	congenital anomalies
+20	47769931	C	T	rs80122879	SULF2	2.5e-08	3413	403789	407202	Malaise and fatigue	1	798	1.0054	symptoms
+7	40192524	C	T	rs1406495219	SUGCT	2.5e-08	468	406669	407137	Sprains and strains	4	840	1.0	injuries & poisonings
+5	110033156	G	A	rs147733960	MAN2A1	2.5e-08	1448	405754	407202	Contusion	3	916	1.0027	injuries & poisonings
+16	48055628	C	T	rs537253472	ABCC12	2.5e-08	396	403085	403481	Allergies, other	3	949	1.0027	injuries & poisonings
+2	80198577	T	C	rs979419242	CTNNA2	2.6e-08	574	363984	364558	Schizophrenia	2	295.1	0.97444	mental disorders
+X	142535591	C	G	rs185067397	MAGEC2	2.6e-08	99	395155	395254	Separation of retinal layers	1	362.31	1.0534	sense organs
+12	102404723	G	A	rs771356833	IGF1	2.6e-08	331	403916	404247	Visual field defects	1	368.4	1.0195	sense organs
+4	174885771	T	C	rs1342481803	ADAM29	2.6e-08	1040	403146	404186	Perforation of tympanic membrane	4	384.4	1.0	sense organs
+X	141927968	T	A	rs778517021	MAGEC1	2.6e-08	2991	400662	403653	Mitral valve disease	3	394.2	1.0027	circulatory system
+8	139929497	A	C	rs115488727	TRAPPC9	2.6e-08	93	396437	396530	Pseudomonal pneumonia	2	480.12	1.0469	respiratory
+5	677233	T	C	rs35914637	TPPP	2.6e-08	10498	367713	378211	Reflux esophagitis	2	530.14	1.0224	digestive
+1	35331878	A	AT	rs773768600	ZMYM4	2.6e-08	887	378355	379242	Chronic cystitis	3	592.12	1.0	genitourinary
+9	132338262	T	C	rs751684045	SETX	2.6e-08	277	167467	167744	Erectile dysfunction [ED]	2	605	1.0166	genitourinary
+16	10857486	AT	A		CIITA	2.6e-08	421	210937	211358	Chronic inflammatory pelvic disease	1	614.32	1.0	genitourinary
+X	12986287	GTTAATAC	G	rs772650188	TMSB4X	2.6e-08	2345	212247	214592	Early or threatened labor; hemorrhage in early pregnancy	2	636	1.0	pregnancy complications
+6	36904871	T	C	rs141738411	C6orf89	2.6e-08	547	401682	402229	Symptoms affecting skin	2	687	0.97444	dermatologic
+1	229396383	C	G	rs184531937	ACTA1	2.6e-08	160	406081	406241	Other congenital anomalies of lower limb, including pelvic girdle	1	755.6	1.0669	congenital anomalies
+5	178546737	A	G	rs1009977887	COL23A1	2.6e-08	98	193706	193804	Abnormal Papanicolaou smear of cervix and cervical HPV	3	792	0.97444	symptoms
+10	62733475	A	C	rs552644930	AC024598.1	2.6e-08	223	380139	380362	Poisoning by primarily systemic agents	2	963	1.0534	injuries & poisonings
+21	14201023	C	A	rs776998982	LIPI	2.7e-08	205	406672	406877	Other infectious and parasitic diseases	1	136	1.0601	infectious diseases
+15	48109121	C	T	rs577066398	SLC24A5	2.7e-08	557	403455	404012	Chondrocalcinosis	2	274.21	0.97444	endocrine/metabolic
+3	127253583	C	T	rs565561072	PRR20G	2.7e-08	136	401998	402134	Organic or persistent insomnia	1	327.41	1.0704	neurological
+5	34067274	T	G	rs960233341	C1QTNF3-AMACR	2.7e-08	362	404472	404834	Lack of coordination	1	350.3	1.011	neurological
+9	79537913	T	C	rs146256629	TLE4	2.7e-08	57	392385	392442	Nerve root lesions	1	353.2	1.0	neurological
+3	9418394	T	C	rs370854428	SETD5	2.7e-08	69	386958	387027	Nonsenile Cataract	2	366.1	1.0224	sense organs
+9	112068438	A	G	rs75359388	SUSD1	2.7e-08	516	390235	390751	Other disorders of cervical region	4	723	0.97444	musculoskeletal
+3	45364144	A	T	rs189857107	LARS2	2.7e-08	530	399564	400094	Other specified osteoporosis	4	743.13	1.0	musculoskeletal
+X	147254087	C	T	rs782214758	CXorf51A	2.7e-08	370	403085	403455	Urticaria	2	947	1.011	injuries & poisonings
+4	42609413	C	G	rs552517827	ATP8A1	2.8e-08	1197	404729	405926	Vitamin deficiency	1	261	1.0027	endocrine/metabolic
+X	118732416	T	A	rs1009714778	IL13RA1	2.8e-08	349	363985	364334	Psychogenic disorder	2	303.3	1.0166	mental disorders
+3	164281310	G	A	rs182932933	SI	2.8e-08	988	379215	380203	Cardiac arrest	1	427.42	1.0	circulatory system
+1	165022844	G	A	rs1382604784	PBX1	2.8e-08	467	401592	402059	Stomatitis and mucositis	1	528.1	0.97444	digestive
+1	95259049	G	A	rs760311988	RWDD3	2.8e-08	78	393014	393092	Urinary complications NEC	2	597.2	1.0375	genitourinary
+18	47715735	G	A	rs909270048	SMAD2	2.8e-08	717	405227	405944	Inflammatory disease of breast	1	613.1	0.97444	genitourinary
+14	103600322	A	G	rs980452383	AL139300.1,COA8,KLC1	2.8e-08	125	400627	400752	Alopecia	2	704.1	1.0669	dermatologic
+5	35952973	A	T	rs555716289	UGT3A1	2.8e-08	586	377182	377768	Rupture of synovium	4	727.5	0.97444	musculoskeletal
+1	83263676	C	T	rs529658117	TTLL7	2.8e-08	2901	398900	401801	Other open wound of head and face	1	870.3	1.0	injuries & poisonings
+7	4185521	C	T	rs879587225	SDK1	2.9e-08	147	401601	401748	Human immunodeficiency virus [HIV] disease	1	071	1.0704	infectious diseases
+14	39990402	G	A	rs972127722	FBXO33	2.9e-08	69	406672	406741	Arthropod-borne diseases	1	133	1.0	infectious diseases
+3	67322000	G	C	rs959134473	SUCLG2	2.9e-08	309	405057	405366	Cancer of tongue	1	145.2	1.0283	neoplasms
+X	86113292	TTTTA	T		DACH2	2.9e-08	436	406758	407194	Cancer of bone and connective tissue	2	170	1.0	neoplasms
+2	202078368	G	A	rs571560525	KIAA2012	2.9e-08	92	403660	403752	Diabetes insipidus	1	253.3	1.0567	endocrine/metabolic
+5	124846774	G	C	rs543184266	ZNF608	2.9e-08	374	405081	405455	Disorders of magnesium metabolism	1	275.3	1.011	endocrine/metabolic
+2	239350724	A	C	rs1040076702	HDAC4	2.9e-08	901	404228	405129	Swelling, mass, or lump in head and neck [Space-occupying lesion, intracranial NOS]	4	293.1	0.97444	mental disorders
+7	29086165	G	A	rs947262327	CPVL	2.9e-08	248	393433	393681	Encephalopathy, not elsewhere classified	2	348.8	1.0469	neurological
+2	209481056	C	T	rs747630114	MAP2	2.9e-08	71	399529	399600	Anomalies of pupillary function	1	379.4	1.0283	sense organs
+1	47909151	G	A	rs79835221	TRABD2B	2.9e-08	834	397140	397974	Subarachnoid hemorrhage	1	430.1	0.97444	circulatory system
+11	132609347	C	A	rs771896524	OPCML	2.9e-08	203	398705	398908	Aneurysm of other specified artery	1	442.8	1.0601	circulatory system
+15	81179641	T	G	rs576745386	IL16	2.9e-08	72	396438	396510	Viral pneumonia	2	480.2	1.0138	respiratory
+19	40232560	T	C	rs931909491	AKT2	2.9e-08	18639	383305	401944	Other symptoms/disorders or the urinary system	3	599	1.0313	genitourinary
+9	7252587	A	C	rs185776107	KDM4C	2.9e-08	600	364268	364868	Osteomyelitis, periostitis, and other infections involving bone	3	710	0.97444	musculoskeletal
+14	54669853	T	C	rs112147375	SAMD4A	2.9e-08	852	377183	378035	Bursitis	2	726.3	0.97444	musculoskeletal
+13	105461343	G	A	rs566553219	DAOA	2.9e-08	587	406081	406668	Other congenital musculoskeletal anomalies	1	756	0.97444	congenital anomalies
+16	6308967	C	G	rs7201177	RBFOX1	2.9e-08	243	403782	404025	Concussion	1	817	1.0469	injuries & poisonings
+4	78979392	T	C	rs1353034028	PAQR3	2.9e-08	2084	389790	391874	Dislocation	3	830	1.0054	injuries & poisonings
+10	22579014	G	A	rs764417286	PIP4K2A	2.9e-08	62	406579	406641	Toxic effect of carbon monoxide	1	986	1.0027	injuries & poisonings
+8	135266928	C	T	rs764651556	KHDRBS3	3e-08	166	404551	404717	Aspergillosis	1	117.4	1.0739	infectious diseases
+17	17317553	G	A	rs1024479045	NT5M	3e-08	681	387082	387763	Abnormal glucose	1	250.4	0.97444	endocrine/metabolic
+12	124822084	G	T	rs148729131	SCARB1	3e-08	7297	399783	407080	Disorders of fluid, electrolyte, and acid-base balance	1	276	1.0027	endocrine/metabolic
+13	103820898	G	C	rs1341444	SLC10A2	3e-08	2205	399528	401733	Disorders of lacrimal system	2	375	1.0082	sense organs
+5	87772774	G	A	rs189904994	CCNH	3e-08	131	379216	379347	Other heart block	3	426.25	1.0704	circulatory system
+16	3279195	C	T	rs545761580	ZNF263	3e-08	2137	397141	399278	Transient cerebral ischemia	2	433.31	1.0082	circulatory system
+5	170322059	T	C	rs944641336	LCP2	3e-08	8893	397695	406588	Other diseases of respiratory system, NEC	1	519.8	1.0054	respiratory
+18	2953792	G	T	rs629273	LPIN2	3e-08	3013	396444	399457	Diseases of hard tissues of teeth	1	521	1.0	digestive
+20	540438	G	A	rs748085265	CSNK2A1	3e-08	330	396444	396774	Dentofacial anomalies, including malocclusion	1	524	1.0224	digestive
+17	36661994	G	A	rs962265459	MRM1	3e-08	5294	383442	388736	Hemorrhage of gastrointestinal tract	1	578.9	1.0082	digestive
+3	145078622	G	A	rs187787965	PLOD2	3e-08	2051	390237	392288	Other and unspecified disorders of back	1	724	1.011	musculoskeletal
+16	52501843	C	T	rs16951213	TOX3	3e-08	1230	389420	390650	Malunion and nonunion of fracture	3	733.8	1.0	musculoskeletal
+4	136712381	T	A	rs537831692	PCDH18	3e-08	3565	400905	404470	Symptoms and disorders of the joints	2	741	1.0	musculoskeletal
+4	119977648	G	A	rs1228016849	MAD2L1	3e-08	76	406643	406719	Congenital cataract and lens anomalies	3	753.1	1.0	congenital anomalies
+6	125153656	T	C	rs55736098	TPD52L1	3.1e-08	1012	406190	407202	Crushing or internal injury to organs	1	1008	1.0	injuries & poisonings
+16	25681288	C	G	rs186432499	HS3ST4	3.1e-08	80	406672	406752	Spirochetal infection	2	130	1.0406	infectious diseases
+18	84562	C	T	rs759506626	TUBB8B	3.1e-08	631	398900	399531	Vascular hamartomas and non-neoplastic nevi	2	217	0.97444	neoplasms
+2	188117254	A	G	rs190084491	GULP1	3.1e-08	586	379215	379801	Atrioventricular block, complete	1	426.24	0.97444	circulatory system
+4	112781243	C	T	rs779338351	ANK2	3.1e-08	142	386240	386382	Hemorrhage NOS	3	459.1	1.0704	circulatory system
+2	154419691	G	A	rs901249786	GALNT13	3.1e-08	233	396443	396676	Temporomandibular joint disorder, unspecified	1	526.41	1.0469	digestive
+10	3215594	C	T	rs142697685	PITRM1	3.1e-08	3875	401592	405467	Diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue	2	528	1.0054	digestive
+7	44687091	ATTTTTTT	A		OGDH	3.1e-08	148	385684	385832	Toxic gastroenteritis and colitis	4	569.1	1.0635	digestive
+20	6852347	C	T	rs116662646	BMP2	3.1e-08	6994	395835	402829	Renal failure	1	585	1.0027	genitourinary
+15	87466598	T	G	rs923314126	NTRK3	3.1e-08	3529	403673	407202	Abnormal findings on examination of urine	2	598	1.0	genitourinary
+2	28980489	T	G	rs539821568	TOGARAM2	3.1e-08	1913	383299	385212	Other abnormality of urination	1	599.9	1.0082	genitourinary
+5	171090933	CA	C	rs1452727588	RANBP17	3.1e-08	282	401684	401966	Localized superficial swelling, mass, or lump	4	687.2	1.0313	dermatologic
+X	52335345	G	A	rs782105147	XAGE2	3.1e-08	1629	393234	394863	Other acquired deformities of limbs	1	736	1.0082	musculoskeletal
+4	106571346	T	C	rs940099240	GIMD1	3.1e-08	613	400905	401518	Stiffness of joint	2	741.2	0.97444	musculoskeletal
+2	40209048	G	GA		SLC8A1	3.1e-08	1519	386070	387589	Fracture of clavicle or scapula	2	803.3	1.011	injuries & poisonings
+1	100898774	C	T	rs970785634	SLC30A7	3.1e-08	387	403085	403472	Dermatitis due to solar radiation	1	938	1.0027	injuries & poisonings
+14	20656694	G	C	rs74892922	OR6S1	3.1e-08	549	403086	403635	Anaphylactic shock NOS	2	946	0.97444	injuries & poisonings
+1	52382886	A	AT		ORC1	3.2e-08	241	404730	404971	Mineral deficiency NEC	1	262	1.0534	endocrine/metabolic
+18	45870289	T	G	rs896847431	EPG5	3.2e-08	4089	399785	403874	Electrolyte imbalance	2	276.1	1.0	endocrine/metabolic
+1	40882927	C	T	rs1296117501	CITED4	3.2e-08	291	399034	399325	Polycythemia, secondary	1	289.8	1.0344	hematopoietic
+6	46206671	C	T	rs887349507	RCAN2	3.2e-08	935	379215	380150	Paroxysmal ventricular tachycardia	2	427.12	0.97444	circulatory system
+6	824737	G	A	rs901348831	EXOC2	3.2e-08	64	400869	400933	Heart transplant/surgery	1	429.1	1.0166	circulatory system
+11	37489939	A	C	rs185214090	IFTAP	3.2e-08	282	398705	398987	Acute vascular insufficiency of intestine	2	441.1	1.0344	circulatory system
+2	112484516	C	T	rs546529284	TTL	3.2e-08	8112	376443	384555	Other specified gastritis	1	535.8	1.0166	digestive
+3	192606469	G	A	rs755306092	FGF12	3.2e-08	1081	212248	213329	Hemorrhage in early pregnancy	1	636.3	0.97444	pregnancy complications
+1	233530852	G	A	rs1185741198	KCNK1	3.2e-08	95	400908	401003	Pathological, developmental or recurrent dislocation	2	742.2	1.0567	musculoskeletal
+5	169102905	T	C	rs1049562836	SLIT3	3.2e-08	51	406847	406898	Anomalies of respiratory system, congenital	1	748	0.97444	congenital anomalies
+9	18525270	G	T	rs538023215	ADAMTSL1	3.2e-08	326	405003	405329	Upper gastrointestinal congenital anomalies	2	750.1	1.0224	congenital anomalies
+5	148177319	A	G	rs1035794313	SPINK14	3.2e-08	511	380139	380650	Poisoning by anticonvulsants and anti-Parkinsonism drugs	2	966	0.97444	injuries & poisonings
+6	145214447	A	G	rs6934107	EPM2A	3.3e-08	251	405058	405309	Cancer of oropharynx	1	149.1	1.0437	neoplasms
+7	44080260	G	A	rs149902563	POLM	3.3e-08	131	387081	387212	Glycosuria or Acetonuria	1	250.5	1.0501	endocrine/metabolic
+13	62237684	T	G	rs1416742177	AL592490.1	3.3e-08	169	399529	399698	Pain, swelling or discharge of eye	1	379.9	1.0635	sense organs
+3	109559601	C	T	rs555429099	DPPA4	3.3e-08	233	379216	379449	Anomalous atrioventricular excitation	2	426.4	1.0501	circulatory system
+7	152129456	G	A	rs1052878961	KMT2C	3.3e-08	921	398706	399627	Arterial embolism and thrombosis	2	444	0.97444	circulatory system
+5	19828834	C	G	rs576263620	CDH18	3.3e-08	1122	388555	389677	Chronic tonsillitis and adenoiditis	1	474.2	1.0	respiratory
+4	62306407	C	T	rs1043687772	ADGRL3	3.3e-08	153	367706	367859	Diverticulum of esophagus, acquired	1	530.6	1.0669	digestive
+7	149767934	G	A	rs112624533	ZNF467	3.3e-08	485	385685	386170	Gastrointestinal complications	4	569.2	0.97444	digestive
+6	12865735	C	T	rs114238222	PHACTR1	3.3e-08	99	395833	395932	Disorders resulting from impaired renal function	1	588	1.0635	genitourinary
+2	201004447	C	T	rs58253853	FAM126B	3.3e-08	4310	215778	220088	Known or suspected fetal abnormality affecting management of mother	1	655	1.0082	pregnancy complications
+18	73009445	A	G	rs28491374	NETO1	3.3e-08	779	406423	407202	Pruritus and related conditions	1	698	0.97444	dermatologic
+13	63897862	G	A	rs187507978	AL445238.1	3.3e-08	590	397537	398127	Hyperhidrosis	2	705.8	0.97444	dermatologic
+2	96543521	T	C	rs558755341	ARID5A	3.3e-08	150	400616	400766	Nonspecific findings on examination of blood	1	790	1.0669	symptoms
+7	155732748	C	T	rs771431615	RBM33	3.4e-08	173	369609	369782	Benign neoplasm of kidney and other urinary organs	2	223	1.0669	neoplasms
+4	162998615	C	T	rs769397982	NAF1	3.4e-08	1504	400601	402105	Aphasia/speech disturbance	1	292.1	1.0082	mental disorders
+20	10419154	C	T	rs972296578	AL034430.1,MKKS	3.4e-08	90	363984	364074	Eating disorder	1	305.2	1.0501	mental disorders
+6	135796034	C	T	rs541798367	PDE7B	3.4e-08	117	393432	393549	Spinocerebellar disease	3	334.1	1.0669	neurological
+10	97622323	A	C	rs146783975	AL355315.1,MORN4	3.4e-08	190	404786	404976	Astigmatism	1	367.2	1.0601	sense organs
+1	40052666	T	G	rs922602148	CAP1	3.4e-08	512	402827	403339	Tinnitus	1	389.4	0.97444	sense organs
+16	53773852	A	G	rs17817288	FTO	3.4e-08	3100	385682	388782	Peritoneal adhesions (postoperative) (postinfection)	1	568.1	1.0027	digestive
+X	112961782	T	C		AMOT	3.4e-08	263	389420	389683	Osteitis deformans [Paget's disease of bone]	5	731.1	1.0254	musculoskeletal
+18	23506721	GAT	G	rs572316177	NPC1,RMC1	3.4e-08	1640	405395	407035	Edema	1	782.3	1.0054	symptoms
+16	82807014	C	T	rs140949681	CDH13	3.4e-08	55	406709	406764	Postoperative shock	4	958.1	1.0	injuries & poisonings
+9	98974438	A	T	rs80070814	COL15A1	3.4e-08	869	380140	381009	Poisoning/allergy of sulfonamides	1	961.1	0.97444	injuries & poisonings
+12	1670482	A	G	rs75819571	ADIPOR2	3.5e-08	396	389744	390140	Other disorders of thyroid	1	246	1.0027	endocrine/metabolic
+22	23238481	C	G	rs554475517	BCR	3.5e-08	502	387082	387584	Type 2 diabetes with neurological manifestations	1	250.24	0.97444	endocrine/metabolic
+6	131765840	G	A	rs528594353	ENPP3	3.5e-08	350	406625	406975	Develomental delays and disorders	1	315	1.0138	mental disorders
+6	57380388	C	T	rs528967216	PRIM2	3.5e-08	369	328789	329158	Hypertensive heart disease	3	401.21	1.0082	circulatory system
+3	120999025	G	A	rs146620887	STXBP5L	3.5e-08	705	406497	407202	Noninfectious disorders of lymphatic channels	2	450	0.95116	circulatory system
+2	206759847	C	T	rs544397751	MDH1B	3.5e-08	97	367908	368005	Encounter for long-term (current) use of anticoagulants, antithrombotics, aspirin	1	457	0.97444	circulatory system
+7	136922866	G	T	rs1367119392	CHRM2	3.5e-08	84	401592	401676	Oral aphthae	1	528.12	1.0437	digestive
+19	35101689	G	A	rs758618027	AC020907.6	3.5e-08	20872	383445	404317	Gastrointestinal hemorrhage	1	578	1.0224	digestive
+19	5085934	G	A	rs949315533	KDM4B	3.5e-08	4533	395835	400368	Acute renal failure	2	585.1	1.0054	genitourinary
+5	153405250	CA	C	rs1197341274	GRIA1	3.5e-08	302	207908	208210	Disorders secondary to childbirth, surgery, trauma	2	617	1.0313	genitourinary
+8	42790867	C	T	rs967378907	CHRNA6	3.5e-08	1712	217129	218841	Malposition and malpresentation of fetus or obstruction	2	652	1.0	pregnancy complications
+11	49338131	A	G	rs1016487890	FOLH1	3.5e-08	361	395973	396334	Pyogenic granuloma	2	686.4	1.0082	dermatologic
+12	117135504	C	T	rs139776059	FBXO21	3.5e-08	351	390235	390586	Other allied disorders of spine	4	721.8	1.0166	musculoskeletal
+1	244973207	T	C	rs985762458	EFCAB2	3.5e-08	2830	390235	393065	Degeneration of intervertebral disc	1	722.6	1.0027	musculoskeletal
+10	79310608	G	T	rs1044297408	ZMIZ1	3.5e-08	207	389418	389625	Juvenile osteochondrosis	1	732.1	1.0601	musculoskeletal
+3	31318832	A	T	rs1038702895	STT3B	3.5e-08	487	393242	393729	Contracture of joint	1	739	0.97444	musculoskeletal
+7	137941542	T	A	rs273990	CREB3L2	3.5e-08	11214	395988	407202	Back pain	2	760	1.0344	symptoms
+3	54221295	C	T	rs780490662	CACNA2D3	3.5e-08	64	380139	380203	Poisoning by agents primarily acting on the smooth and skeletal muscles and respiratory system	1	975	1.011	injuries & poisonings
+19	43286293	T	G	rs572170979	PSG9	3.6e-08	773	405448	406221	Benign neoplasm of brain, cranial nerves, meninges	1	225.1	0.97444	neoplasms
+14	34127318	G	A	rs145643129	EGLN3	3.6e-08	218	389743	389961	Chronic thyroiditis	2	245.2	1.0534	endocrine/metabolic
+14	28685264	C	T	rs558823069	FOXG1	3.6e-08	191	406469	406660	Paraproteinemia	3	270.32	1.0601	endocrine/metabolic
+2	129588114	C	T	rs746096585	RAB6C	3.6e-08	182	395155	395337	Peripheral retinal degenerations	3	362.6	1.0669	sense organs
+3	38565977	A	G	rs62241190	SCN5A	3.6e-08	984	379218	380202	First degree AV block	2	426.21	1.0	circulatory system
+1	20528985	T	C	rs1380162823	MUL1	3.6e-08	9411	397696	407107	Other diseases of respiratory system, not elsewhere classified	1	519	1.0082	respiratory
+20	54629290	C	T	rs374186877	DOK5	3.6e-08	1679	367706	369385	Esophageal bleeding (varices/hemorrhage)	3	530.2	1.011	digestive
+5	169765698	AAG	A		DOCK2	3.6e-08	927	385683	386610	Peritonitis and retroperitoneal infections	1	567	0.97444	digestive
+X	142058928	G	A	rs1410407903	MAGEC2	3.6e-08	12461	378357	390818	Urinary tract infection	2	591	1.011	genitourinary
+4	13635640	A	C	rs1325868937	BOD1L1	3.6e-08	213	219860	220073	Excessive vomiting in pregnancy	1	643	1.0254	pregnancy complications
+1	190808811	T	C	rs923712823	BRINP3	3.6e-08	148	364268	364416	Arthropathy associated with other disorders classified elsewhere	1	713	1.0635	musculoskeletal
+8	107061666	C	G	rs150991783	ANGPT1	3.6e-08	1775	389420	391195	Other disorders of bone and cartilage	1	733	1.0082	musculoskeletal
+17	74318321	G	T	rs1403902940	DNAI2	3.6e-08	180	403085	403265	Allergic reaction to food	1	930	1.0669	injuries & poisonings
+3	66558543	G	A	rs1207664780	LRIG1	3.7e-08	658	391484	392142	Pancreatic cancer	2	157	0.97444	neoplasms
+1	108215143	A	C	rs574477373	NBPF4	3.7e-08	1387	396050	397437	Retinal detachment with retinal defect	1	361.1	1.0027	sense organs
+19	54456744	C	T	rs770764339	LENG8	3.7e-08	90	396051	396141	Corneal opacity	1	364.1	1.0469	sense organs
+15	93918886	G	A	rs546695948	MCTP2	3.7e-08	75	400268	400343	Pulmonary embolism and infarction, acute	2	415.11	1.0283	circulatory system
+2	9601899	C	T	rs552132358	YWHAQ	3.7e-08	169	398705	398874	Aneurysm of artery of lower extremity	2	442.3	1.0669	circulatory system
+1	120004182	C	T	rs375724393	NOTCH2	3.7e-08	912	398129	399041	Other dyspnea	2	512.9	1.0	respiratory
+2	154419691	G	A	rs901249786	GALNT13	3.7e-08	240	396443	396683	Temporomandibular joint disorders	1	526.4	1.0437	digestive
+16	88696195	T	C	rs767214362	RNF166	3.7e-08	364	401593	401957	Sialoadenitis	1	527.2	1.0082	digestive
+13	50587029	C	T	rs1341637	DLEU7	3.7e-08	1565	169005	170570	Prostatitis	1	601.1	1.0138	genitourinary
+5	166490239	G	A	rs1278777829	TENM2	3.7e-08	796	210673	211469	Symptoms involving female genital tract	1	624	0.97444	genitourinary
+6	10691103	C	G	rs1251739967	C6orf52	3.7e-08	966	400628	401594	Ingrowing nail	3	703.1	1.0	dermatologic
+X	48775511	G	A	rs782634830	GLOD5	3.7e-08	193	364268	364461	Chronic osteomyelitis	1	710.12	1.0669	musculoskeletal
+7	159261692	T	C	rs575638591	VIPR2	3.8e-08	299	406903	407202	Other signs and symptoms involving emotional state	2	1004	1.0344	injuries & poisonings
+2	37366911	T	C	rs142235232	QPCT	3.8e-08	6866	363982	370848	Anxiety disorders	3	300	1.0166	mental disorders
+7	101840005	G	A	rs570481667	CUX1	3.8e-08	2857	397071	399928	Migraine	1	340	1.0	neurological
+6	163683885	G	A	rs979693839	QKI	3.8e-08	116	395154	395270	Retinal hemorrhage/ischemia	1	362.8	1.0406	sense organs
+19	15520719	C	T	rs537577687	CYP4F22	3.8e-08	2402	404788	407190	Disorders of refraction and accommodation; blindness and low vision	3	367	1.0027	sense organs
+10	96700254	G	A	rs945722992	PIK3AP1	3.8e-08	752	406415	407167	Other diseases of lung	1	510	0.97444	respiratory
+1	231041331	T	C	rs1361527647	FAM89A	3.8e-08	328	396444	396772	Cysts of the jaws	1	526.1	1.0195	digestive
+18	51328658	C	T	rs748252653	MEX3C	3.8e-08	671	333377	334048	Ulceration of intestine	1	556.1	0.97444	digestive
+3	132155992	T	C	rs569520094	CPNE4	3.8e-08	300	213273	213573	Fibrosclerosis of breast	1	610.3	1.0344	genitourinary
+12	49203816	G	A	rs943848822	TUBA1C	3.8e-08	130	399659	399789	Cutaneous lupus erythematosus	2	695.41	1.0635	dermatologic
+8	106943173	C	T	rs58384262	ABRA	3.8e-08	57	389419	389476	Osteochondritis dissecans	2	732.7	1.0	musculoskeletal
+8	39300800	T	G	rs1003750271	ADAM32	3.8e-08	3260	393233	396493	Complication due to other implant and internal device	2	859	1.0	injuries & poisonings
+6	411064	A	G	rs872071	IRF4	3.9e-08	575	402712	403287	Lymphoid leukemia	1	204.1	0.97444	neoplasms
+1	10682956	A	G	rs560754388	CASZ1	3.9e-08	750	388396	389146	Pernicious anemia	2	281.11	0.97444	hematopoietic
+9	7290788	G	T	rs62529859	KDM4C	3.9e-08	776	393434	394210	Other conditions of brain	2	348	0.97444	neurological
+11	41663310	G	A	rs1004742962	LRRC4C	3.9e-08	360	399529	399889	Disorders of optic nerve and visual pathways	2	377	1.011	sense organs
+2	190545690	AT	A	rs776213558	NEMP2	3.9e-08	950	379216	380166	Arrhythmia (cardiac) NOS	2	427.5	0.97444	circulatory system
+22	35397431	G	A	rs770958982	MCM5	3.9e-08	693	401593	402286	Diseases of the salivary glands	2	527	0.97444	digestive
+14	102226813	C	T	rs1015374490	MOK	3.9e-08	420	383443	383863	Splenomegaly	2	579.2	1.0	digestive
+3	90109822	G	A	rs1032859862	EPHA3	3.9e-08	234	380137	380371	Personal history of allergy to medicinal agents	1	977	1.0501	injuries & poisonings
+16	76475382	G	C	rs916112612	AC106741.1,CNTNAP4	4e-08	979	405058	406037	Benign neoplasm of lip, oral cavity, and pharynx	1	210	1.0	neoplasms
+21	28361964	T	C	rs1374088953	N6AMT1	4e-08	160	185582	185742	Testicular dysfunction	1	257	1.0669	endocrine/metabolic
+5	4077187	G	T	rs954618699	IRX1	4e-08	753	404730	405483	Vitamin B-complex deficiencies	1	261.2	0.97444	endocrine/metabolic
+4	17722361	G	A	rs780656545	FAM184B	4e-08	1733	401103	402836	Vertiginous syndromes and other disorders of vestibular system	1	386	1.011	sense organs
+12	126215326	CA	C	rs11312097	TMEM132B	4e-08	1056	400661	401717	Disease of tricuspid valve	1	394.7	1.0	circulatory system
+18	69529096	T	C	rs879573626	DOK6	4e-08	10395	396439	406834	Pneumonia	1	480	1.011	respiratory
+2	55571768	G	A	rs139606600	PPP4R3B	4e-08	277	406591	406868	Hyperventilation	1	513.4	1.0313	respiratory
+20	58264011	T	G	rs77751390	ANKRD60	4e-08	3359	333381	336740	Other intestinal obstruction	3	560.4	1.0027	digestive
+4	187073357	T	C	rs775041705	FAT1	4e-08	521	403783	404304	Intracranial hemorrhage (injury)	2	818	0.97444	injuries & poisonings
+4	78816027	A	T	rs1020291059	BMP2K	4.1e-08	399	391484	391883	Cancer of liver and intrahepatic bile duct	1	155	1.0054	neoplasms
+X	31596348	T	C	rs994587790	DMD	4.1e-08	112	403454	403566	Gouty arthropathy	1	274.11	1.0601	endocrine/metabolic
+18	26524161	C	A	rs991885440	KCTD1	4.1e-08	149	363984	364133	Generalized anxiety disorder	1	300.11	1.0704	mental disorders
+19	23366817	A	G	rs771122983	ZNF91	4.1e-08	893	393434	394327	Extrapyramidal disease and abnormal movement disorders	1	333	0.97444	neurological
+20	19473382	G	C	rs6106083	SLC24A3	4.1e-08	885	404474	405359	Abnormal involuntary movements	1	350.1	1.0	neurological
+16	78579731	G	C	rs146473943	WWOX	4.1e-08	251	404788	405039	Hypermetropia	2	367.8	1.0437	sense organs
+6	24013098	G	A	rs528304301	NRSN1	4.1e-08	1255	395834	397089	Cyst of kidney, acquired	2	586.2	1.0	genitourinary
+X	112961782	T	C		AMOT	4.1e-08	278	389420	389698	Osteitis deformans and osteopathies associated with other disorders classified elsewhere	4	731	1.0224	musculoskeletal
+4	106878323	A	G	rs1459692271	DKK2	4.2e-08	861	398254	399115	Viral Enteritis	1	008.6	0.97444	infectious diseases
+20	45462303	T	C	rs571390402	PIGT	4.2e-08	64	401601	401665	Varicella infection	1	079.1	1.0166	infectious diseases
+X	7996727	C	CT	rs1251922459	PNPLA4	4.2e-08	160	180551	180711	Benign neoplasm of male genital organs	1	222	1.0739	neoplasms
+11	3442631	A	G	rs562153547	ZNF195	4.2e-08	715	400868	401583	Ill-defined descriptions and complications of heart disease	1	429	0.97444	circulatory system
+1	109833280	TAAAG	T	rs531551162	GSTM5	4.2e-08	368	376447	376815	Atrophic gastritis	1	535.2	1.011	digestive
+8	145063722	C	T	rs1053031123	C8orf33	4.2e-08	2082	169006	171088	Inflammatory diseases of prostate	1	601	1.011	genitourinary
+4	18935507	G	A	rs572270344	LCORL	4.2e-08	1187	210672	211859	Dyspareunia	1	625.1	1.0	genitourinary
+16	67026250	C	T	rs1051410179	CBFB	4.2e-08	2735	377184	379919	Synovitis and tenosynovitis	2	727.1	1.0	musculoskeletal
+15	62953042	T	A	rs1254857516	TPM1	4.2e-08	189	393241	393430	Flat foot	1	735.1	1.0635	musculoskeletal
+4	174293687	G	T	rs140425685	CEP44	4.2e-08	5080	393238	398318	Acquired toe deformities	2	735.2	1.0166	musculoskeletal
+13	107257149	TC	T	rs768698509	FAM155A	4.2e-08	1511	393242	394753	Acquired spondylolisthesis	1	738.4	1.0138	musculoskeletal
+11	85033739	A	G	rs907428996	DLG2	4.2e-08	1791	405411	407202	Cervicalgia	1	761	1.0082	symptoms
+11	34631415	G	A	rs79488065	EHF	4.2e-08	108	380139	380247	Poisoning by agents primarily affecting the gastrointestinal system	2	973	1.0635	injuries & poisonings
+1	110662756	C	T	rs781277668	KCNA3	4.3e-08	427	401601	402028	Hepatitis NOS	1	070.9	1.0	infectious diseases
+5	115193007	G	T	rs751984394	PGGT1B	4.3e-08	8509	398693	407202	Injury, NOS	1	1009	1.011	injuries & poisonings
+8	125002767	A	C	rs554120056	SQLE	4.3e-08	568	391483	392051	Cancer of stomach	1	151	0.97444	neoplasms
+11	124181515	T	C	rs563796996	OR10D3	4.3e-08	574	401102	401676	Meniere's disease	2	386.1	0.97444	sense organs
+7	71336171	G	A	rs765392822	GALNT17	4.3e-08	127	403885	404012	Myocarditis	2	420.1	1.0739	circulatory system
+7	11933465	T	C	rs1048540528	THSD7A	4.3e-08	193	396438	396631	Acute bronchitis and bronchiolitis	2	483	1.0601	respiratory
+5	162131085	T	C	rs770842943	GABRG2	4.3e-08	2087	367709	369796	Heartburn	1	530.9	1.011	digestive
+X	121317778	G	A	rs1310206877	GLUD2	4.3e-08	257	376447	376704	Dyspepsia and other specified disorders of function of stomach	1	536.8	0.95116	digestive
+8	115634536	T	C	rs77193180	TRPS1	4.3e-08	13161	383446	396607	Hemorrhage of rectum and anus	1	578.8	1.0166	digestive
+15	82382149	A	G	rs1011617602	GOLGA6L10	4.3e-08	166	383297	383463	Urinary obstruction	1	599.1	1.0669	genitourinary
+7	137653103	GGTGT	G	rs916760284	DGKI	4.3e-08	2154	386070	388224	Fracture of tibia and fibula	1	800.3	1.0054	injuries & poisonings
+7	66465072	C	T	rs187195227	TPST1	4.4e-08	59	405449	405508	Benign neoplasm of spinal cord, meninges	2	225.2	1.0	neoplasms
+13	58916010	A	T	rs74679390	DIAPH3	4.4e-08	282	363985	364267	Sexual and gender identity disorders	2	302	1.0283	mental disorders
+3	152898506	G	A	rs1036332066	P2RY1	4.4e-08	276	393432	393708	Partial epilepsy	1	345.12	1.0375	neurological
+12	73368837	TTAG	T	rs770831715	TRHDE	4.4e-08	3023	396445	399468	Dental caries	1	521.1	1.0	digestive
+4	60690104	C	T	rs889839411	ADGRL3	4.4e-08	1544	383442	384986	Other symptoms involving abdomen and pelvis	2	579	1.0082	digestive
+7	70652982	T	C	rs946103906	AUTS2	4.4e-08	2536	210933	213469	Pelvic peritoneal adhesions, female (postoperative) (postinfection)	1	614.1	1.0	genitourinary
+2	24432677	C	T	rs533647283	NCOA1	4.4e-08	511	207909	208420	Prolapse of vaginal vault after hysterectomy	1	618.5	0.97444	genitourinary
+7	1343744	C	T	rs575690799	MICALL2	4.5e-08	410	401602	402012	Herpes zoster	1	053	1.0	infectious diseases
+15	27491221	C	T	rs558746442	GABRG3	4.5e-08	2264	368850	371114	Secondary malignancy of respiratory organs	1	198.2	1.0027	neoplasms
+22	23042290	T	C	rs186156583	RSPH14	4.5e-08	144	402713	402857	Myeloid leukemia, chronic	1	204.22	1.0739	neoplasms
+13	78573265	G	T	rs17759358	POU4F1	4.5e-08	53	406624	406677	Autism	1	313.3	0.97444	mental disorders
+6	152595558	T	C	rs73005839	SYNE1	4.5e-08	141	397602	397743	Corneal ulcer	1	370.1	1.0704	sense organs
+15	90634070	A	G	rs187909076	CRTC3	4.5e-08	614	398705	399319	Vascular insufficiency of intestine	1	441	0.97444	circulatory system
+7	152129456	G	A	rs1052878961	KMT2C	4.5e-08	553	398706	399259	Arterial embolism and thrombosis of lower extremity artery	2	444.1	0.97444	circulatory system
+8	69096232	C	T	rs986306302	C8orf34	4.5e-08	77	405229	405306	Mastodynia	1	613.5	1.0406	genitourinary
+2	94922127	A	G	rs187657450	TEKT4	4.5e-08	828	210938	211766	Pelvic inflammatory disease (PID)	1	614.3	0.97444	genitourinary
+3	182585848	G	A	rs75042980	ATP11B	4.5e-08	590	403791	404381	Chronic fatigue syndrome	2	798.1	0.97444	symptoms
+4	91007924	T	G	rs781658355	CCSER1	4.5e-08	220	398898	399118	Open wound of nose and sinus	1	870.4	1.0635	injuries & poisonings
+16	3302495	C	T	rs147068183	TIGD7	4.6e-08	1198	406004	407202	Foreign body injury	1	1001	1.0	injuries & poisonings
+6	3202263	C	T	rs12201247	TUBB2B	4.6e-08	292	363984	364276	Adjustment reaction	1	304	1.0313	mental disorders
+8	86095677	C	T	rs116403010	ATP6V0D2	4.6e-08	8944	377722	386666	Alcoholism	2	317.1	1.0283	mental disorders
+10	50976239	C	T	rs1295794958	PRKG1	4.6e-08	69	396051	396120	Chorioretinal scars	1	363.3	1.0195	sense organs
+6	85476161	T	C	rs17220898	NT5E	4.6e-08	1078	388553	389631	Voice disturbance	1	473.4	1.0	respiratory
+4	178558460	C	G	rs11726255	AGA	4.6e-08	2866	398128	400994	Cough	2	512.8	1.0	respiratory
+10	20304020	G	C	rs542486958	PLXDC2	4.6e-08	665	396444	397109	Acute periodontitis	1	523.31	0.97444	digestive
+6	17664673	A	C	rs899172255	NUP153	4.6e-08	2596	210932	213528	Inflammatory disease of cervix, vagina, and vulva	1	614.5	1.0	genitourinary
+12	61456011	G	A	rs78792762	TAFA2	4.7e-08	211	371432	371643	Unspecified disorder of lipoid metabolism	1	272.9	1.0567	endocrine/metabolic
+3	72733261	C	T	rs1430489647	SHQ1	4.7e-08	1551	404526	406077	Thrombocytopenia	2	287.3	1.0054	hematopoietic
+10	10313829	A	G	rs571172255	CELF2	4.7e-08	285	400601	400886	Specific nonpsychotic mental disorders due to brain damage	1	291.4	1.0254	mental disorders
+14	48387607	A	G	rs928842735	MDGA2	4.7e-08	133	393432	393565	Cerebral cysts	1	348.4	1.0669	neurological
+8	77043913	G	A	rs1392080653	PEX2	4.7e-08	400	379216	379616	Sinoatrial node dysfunction (Bradycardia)	1	427.8	1.0027	circulatory system
+1	154536903	C	T	rs924206371	TDRD10	4.7e-08	4080	388550	392630	Other upper respiratory disease	1	479	1.0027	respiratory
+13	113548469	C	T	rs375060916	TMCO3	4.7e-08	4673	402142	406815	Other hypertrophic and atrophic conditions of skin	1	701	1.0	dermatologic
+13	85738430	G	A	rs776199675	SLITRK6	4.8e-08	129	404523	404652	Spontaneous ecchymoses	1	287.1	1.0635	hematopoietic
+9	90657625	T	C	rs114331012	DIRAS2	4.8e-08	387	395581	395968	Dependence on respirator [Ventilator] or supplemental oxygen	1	509.8	1.011	respiratory
+7	120525991	C	A	rs914660306	KCND2	4.8e-08	261	219609	219870	Other complications of the puerperium NEC	3	674	1.0166	pregnancy complications
+9	69842573	A	T	rs149925809	C9orf135	4.8e-08	3113	401346	404459	Effects radiation NOS	1	990	1.0	injuries & poisonings
+20	4033784	T	C	rs950919485	RNF24	4.9e-08	141	404551	404692	Althete's foot	1	110.12	1.0739	infectious diseases
+X	91308251	AAAT	A		PABPC5	4.9e-08	2046	399285	401331	Renal colic	1	594.8	1.011	genitourinary
+6	131723175	A	C	rs549945735	ENPP3	4.9e-08	1108	218980	220088	Hypertension complicating pregnancy, childbirth, and the puerperium	1	642	0.97444	pregnancy complications
+20	6927034	A	T	rs555684799	BMP2	5e-08	211	401600	401811	Herpes simplex	1	054	1.0601	infectious diseases
+7	100002188	C	T	rs547529299	ZKSCAN1	5e-08	1423	399786	401209	Hypopotassemia	1	276.14	1.0082	endocrine/metabolic
+8	28384798	C	T	rs186478288	FBXO16,ZNF395	5e-08	132	400599	400731	Transient mental disorders due to conditions classified elsewhere	1	291.1	1.0635	mental disorders
+3	72851866	G	A	rs574748028	SHQ1	5e-08	336	396052	396388	Disorders of the globe	1	360	1.0166	sense organs
+9	128344304	C	T	rs185413009	SLC27A4	5e-08	681	401594	402275	Diseases of lips	1	528.5	0.97444	digestive
+4	2352470	C	T	rs552620876	ZFYVE28	5.1e-08	56	402714	402770	Lymphoid leukemia, acute	0	204.11	1.0	neoplasms
+8	86375501	A	G	rs117864771	WWP1	5.1e-08	270	388396	388666	Acute posthemorrhagic anemia	0	285.1	1.0375	hematopoietic
+3	173485877	G	C	rs185957555	NLGN1	5.1e-08	306	400600	400906	Hallucinations	0	292.6	1.0254	mental disorders
+4	183461996	A	T	rs1190955780	CDKN2AIP	5.1e-08	60	377720	377780	Polyneuropathy due to drugs	0	316.1	1.0	mental disorders
+4	147299200	T	C	rs755035987	EDNRA	5.1e-08	1750	379217	380967	Left bundle branch block	0	426.32	1.0054	circulatory system
+12	48606654	A	G	rs756591375	LALBA	5.1e-08	3223	379215	382438	Other specified cardiac dysrhythmias	0	427.3	1.0027	circulatory system
+20	56257217	A	C	rs1238649542	MC3R	5.1e-08	1349	210805	212154	Noninflammatory disorders of vulva and perineum	0	619.5	1.0054	genitourinary
+18	50238751	G	C	rs35839946	CFAP53	5.1e-08	190	380139	380329	Poisoning by drugs primarily affecting the autonomic nervous system	0	971	1.0601	injuries & poisonings
+10	113800203	G	A	rs577737640	PLEKHS1	5.2e-08	493	392085	392578	Gram positive septicemia	0	038.2	0.97444	infectious diseases
+5	22144734	G	A	rs897955655	CDH12	5.2e-08	131	406757	406888	Bone cancer	0	170.1	1.0704	neoplasms
+15	59453974	C	A	rs560329176	FAM81A	5.2e-08	181	393366	393547	Neoplasm of uncertain behavior of skin	0	173	1.0635	neoplasms
+21	26788700	G	A	rs778801992	ADAMTS1	5.2e-08	2160	368845	371005	Secondary malignancy of bone	0	198.6	1.0054	neoplasms
+8	22159073	G	A	rs759530185	SFTPC	5.2e-08	249	373884	374133	Asthma with exacerbation	0	495.2	1.0469	respiratory
+11	40647674	G	T	rs1187526567	LRRC4C	5.2e-08	107	390234	390341	Torticollis	0	723.1	1.0567	musculoskeletal
+X	141575815	T	G	rs1247404579	SPANXA1	5.2e-08	170	386068	386238	Fracture of unspecified part of femur	0	800.2	1.0704	injuries & poisonings
+11	83751128	A	T	rs116957015	DLG2	5.3e-08	695	400598	401293	Memory loss	0	292.3	0.97444	mental disorders
+6	20787348	T	G	rs759655427	CDKAL1	5.3e-08	925	213273	214198	Cystic mastopathy	0	610.1	0.97444	genitourinary
+9	33871624	G	A	rs757702643	UBE2R2	5.3e-08	149	406232	406381	Chromosomal anomalies and genetic disorders	0	758	1.0635	congenital anomalies
+1	114353040	C	G	rs181362281	TRIM33	5.3e-08	370	380139	380509	Poisoning by hormones and synthetic substitutes	0	962	1.011	injuries & poisonings
+13	111492410	C	T	rs147210953	TEX29	5.4e-08	698	388394	389092	Anemia of chronic disease	0	285.2	0.97444	hematopoietic
+10	116702172	G	A	rs756964696	HSPA12A	5.4e-08	51	404523	404574	Allergic purpura	0	287.2	0.97444	hematopoietic
+2	202750996	G	T	rs912290767	FAM117B	5.4e-08	86	399529	399615	Disorders of the orbit	0	376	1.0313	sense organs
+7	138175730	T	G	rs780734629	AKR1D1	5.4e-08	1824	374658	376482	Other forms of chronic heart disease	0	414	1.011	circulatory system
+5	29806753	GTAGCTAAGTGTAGCAT	G	rs1579643980	CDH6	5.4e-08	495	395832	396327	Renal dialysis	0	585.31	0.97444	genitourinary
+15	93470347	A	G	rs778304854	RGMA	5.4e-08	466	400951	401417	Unspecified erythematous condition	0	695.9	0.97444	dermatologic
+11	129293893	G	T	rs756481248	ARHGAP32	5.4e-08	14785	377192	391977	Peripheral enthesopathies and allied syndromes	0	726	1.0344	musculoskeletal
+5	179133535	G	T	rs755489467	ADAMTS2	5.5e-08	254	401602	401856	Viral hepatitis C	0	070.3	1.0469	infectious diseases
+17	49203742	A	G	rs1051391157	GNGT2	5.5e-08	1650	404525	406175	Purpura and other hemorrhagic conditions	0	287	1.0082	hematopoietic
+6	31798087	T	A	rs1144710	LSM2	5.5e-08	298	333378	333676	Intestinal malabsorption (non-celiac)	0	557	1.0344	digestive
+10	38635914	G	A	rs193078783	AL117339.4	5.5e-08	350	210937	211287	Pelvic inflammatory disease, NOS	0	614.33	1.0138	genitourinary
+X	19275065	G	T	rs1316879846	PDHA1	5.5e-08	454	402139	402593	Abnormal granulation tissue	0	701.5	0.97444	dermatologic
+4	5872397	A	G	rs115912484	CRMP1	5.5e-08	225	405001	405226	Congenital anomalies of intestine	0	750.21	1.0501	congenital anomalies
+8	53956644	G	A	rs760152895	RGS20	5.5e-08	101	380139	380240	Poisoning by water, mineral, and uric acid metabolism drugs	0	974	1.0437	injuries & poisonings
+5	168403605	C	T	rs1049597690	WWC1	5.6e-08	3130	392082	395212	Staphylococcus infections	0	041.1	1.0	infectious diseases
+6	126895926	C	T	rs148849365	RSPO3	5.6e-08	680	403659	404339	Disorders of the pituitary gland and its hypothalamic control	0	253	0.97444	endocrine/metabolic
+2	120519568	A	G	rs142011445	INHBB	5.6e-08	415	388395	388810	Anemia in neoplastic disease	0	285.22	1.0	hematopoietic
+4	159720932	A	G	rs188688635	RAPGEF2	5.6e-08	463	392385	392848	Trigeminal nerve disorders [CN5]	0	352.1	1.0	neurological
+4	25692844	A	C	rs754747728	SLC34A2	5.6e-08	533	403915	404448	Amblyopia	0	368.1	0.97444	sense organs
+13	33950562	G	C	rs1359718781	RFC3	5.6e-08	910	399531	400441	Strabismus (not specified as paralytic)	0	378.1	1.0	sense organs
+4	93765501	G	A	rs148365102	GRID2	5.6e-08	1191	379215	380406	Cardiac arrest and ventricular fibrillation	0	427.4	1.0	circulatory system
+11	107008105	G	A	rs138809461	GUCY1A2	5.7e-08	115	387422	387537	Neoplasm of uncertain behavior of breast	0	174.3	1.0669	neoplasms
+6	4324302	CAA	C	rs1039805981	ECI2	5.7e-08	88	406624	406712	Speech and language disorder	0	315.2	1.0469	mental disorders
+10	80012308	G	A	rs1340696950	SFTPD	5.7e-08	3516	364266	367782	Unspecified polyarthropathy or polyarthritis	0	716.1	1.0082	musculoskeletal
+3	182089816	G	T	rs950043598	SOX2	5.7e-08	839	405003	405842	Congenital anomalies of urinary system	0	751.2	1.0	congenital anomalies
+5	133400067	C	T	rs770129918	FSTL4	5.8e-08	66	403024	403090	Malignant neoplasm of renal pelvis	0	189.12	1.0313	neoplasms
+4	2080674	G	A	rs1045698060	HAUS3,POLN	5.8e-08	103	403659	403762	Cushing's syndrome	0	255.11	1.0567	endocrine/metabolic
+19	46978508	G	A	rs569278621	ARHGAP35	5.8e-08	337	406470	406807	Proteinuria	0	269	1.0195	endocrine/metabolic
+13	57033112	T	C	rs1001114451	PRR20A	5.8e-08	74	217127	217201	Other and unspecified complications of birth; puerperium affecting management of mother	0	654	1.0344	pregnancy complications
+4	43707623	A	T	rs192044839	KCTD8	5.8e-08	164	219608	219772	Venous/cerebrovascular complications embolism in pregnancy and the puerperium	0	671	1.0534	pregnancy complications
+13	61481054	C	T	rs7994898	AL592490.1	5.9e-08	848	368850	369698	Secondary malignancy of brain/spine	0	198.5	0.97444	neoplasms
+20	7787157	G	A	rs745586962	HAO1	5.9e-08	1680	397135	398815	Cerebral artery occlusion, with cerebral infarction	0	433.21	1.0054	circulatory system
+4	149798125	A	G	rs1054835782	IQCM	5.9e-08	2066	395582	397648	Respiratory failure	0	509.1	1.0082	respiratory
+2	20508195	GA	G	rs1379267153	HS1BP3	5.9e-08	120	401593	401713	Other specified diseases of the salivary glands	0	527.8	1.0601	digestive
+11	9627176	C	T	rs1039154404	WEE1	5.9e-08	1493	398277	399770	Other disorders of liver	0	573	1.0082	digestive
+2	162100841	T	A	rs57355997	DPP4	5.9e-08	286	169005	169291	Balanoposthitis	0	601.4	1.0195	genitourinary
+2	4164096	C	T	rs1021329126	DCDC2C	5.9e-08	56	400113	400169	Abnormal mammogram	0	611.1	1.0082	genitourinary
+3	170239998	A	G	rs749265102	PRKCI	5.9e-08	1780	189133	190913	Dysmenorrhea	0	626.2	1.0082	genitourinary
+1	7381617	G	A	rs538058010	CAMTA1	5.9e-08	121	389419	389540	Chondromalacia	0	733.9	1.0739	musculoskeletal
+3	177087513	G	C	rs542548825	TBL1XR1	5.9e-08	5261	393232	398493	Hemorrhage or hematoma complicating a procedure	0	850	1.0027	injuries & poisonings
+5	15535270	T	C	rs145747974	FBXL7	6e-08	248	406707	406955	Other immunological findings	0	279.7	1.0344	endocrine/metabolic
+22	24574586	G	A	rs1048021188	AP000356.5,SNRPD3	6e-08	4442	401996	406438	Sleep apnea	0	327.3	1.0138	neurological
+10	39278720	T	A	rs1261651846	AL117339.4	6e-08	79	395582	395661	Extrinsic allergic alveolitis	0	500.1	1.0375	respiratory
+13	68238853	A	C	rs1013908482	PCDH9	6e-08	159	189130	189289	Premenstrual tension syndromes	0	626.4	1.0635	genitourinary
+3	13098511	G	A	rs1025805686	IQSEC1	6e-08	3713	390237	393950	Spinal stenosis	0	720	1.011	musculoskeletal
+8	58357023	T	C	rs556455868	UBXN2B	6e-08	234	404388	404622	Valvular heart disease/ heart chambers	0	747.12	1.0534	congenital anomalies
+21	40847373	C	T	rs908781304	DSCAM	6.1e-08	4475	400603	405078	Postoperative infection	0	080	1.011	infectious diseases
+4	173389281	T	A	rs778920963	SCRG1	6.1e-08	461	402714	403175	Myeloid leukemia	0	204.2	1.0	neoplasms
+11	45047365	AGACCAACCG	A	rs56003391	PRDM11	6.1e-08	145	393432	393577	Infantile cerebral palsy	0	343	1.0739	neurological
+1	221878992	TA	T	rs1471509682	DUSP10	6.1e-08	122	401593	401715	Cysts of oral soft tissues	0	528.4	1.0601	digestive
+9	19894628	G	A	rs186642108	SLC24A2	6.1e-08	630	406572	407202	Myalgia and myositis unspecified	0	770	0.97444	symptoms
+6	168605648	C	T	rs116519338	SMOC2	6.1e-08	156	407046	407202	Shock	0	797	1.0739	symptoms
+3	188565722	A	G	rs758586603	LPP	6.2e-08	2476	400609	403085	Infection/inflammation of internal prosthetic device; implant; and graft	0	081	1.0	infectious diseases
+1	35270848	G	A	rs759581794	ZMYM4	6.2e-08	97	400662	400759	Nonrheumatic pulmonary valve disorders	0	395.4	1.0437	circulatory system
+2	45681950	C	T	rs72799074	PRKCE	6.2e-08	152	219860	220012	Hyperemesis gravidarum	0	643.1	1.0283	pregnancy complications
+5	55355046	A	G	rs537632840	MTREX	6.3e-08	860	405668	406528	Benign neoplasm of other endocrine glands and related structures	0	227	0.97444	neoplasms
+22	24428223	CA	C	rs769572658	ADORA2A,SPECC1L-ADORA2A	6.3e-08	90	399654	399744	Abnormality of red blood cells	0	289.9	1.0437	hematopoietic
+3	193687375	C	T	rs117576206	OPA1	6.3e-08	610	406590	407200	Respiratory abnormalities	0	513	0.97444	respiratory
+17	81304396	G	A	rs138621445	SLC38A10	6.3e-08	303	403669	403972	Other nonspecific findings on examination of urine	0	598.9	1.0283	genitourinary
+2	60395497	G	A	rs942154397	BCL11A	6.4e-08	186	405668	405854	Benign neoplasm of adrenal gland	0	227.1	1.0669	neoplasms
+4	59782487	C	CA	rs1396633576	ADGRL3	6.4e-08	451	399784	400235	Fluid overload	0	276.6	1.0	endocrine/metabolic
+9	69255510	G	A	rs758113687	TJP2	6.4e-08	53	363984	364037	Dysthymic disorder	0	300.4	1.0	mental disorders
+11	106402223	G	A	rs141306653	GUCY1A2	6.4e-08	766	406436	407202	Pain	0	338	0.97444	neurological
+4	182788791	A	G	rs115087518	TENM3	6.4e-08	896	399530	400426	Epiphora	0	375.2	0.97444	sense organs
+6	50373493	C	A	rs1165062862	DEFB112	6.4e-08	2345	379214	381559	Paroxysmal supraventricular tachycardia	0	427.11	1.0054	circulatory system
+12	18999030	C	A	rs73066208	PLEKHA5	6.4e-08	6660	396439	403099	Bacterial pneumonia	0	480.1	1.0054	respiratory
+18	70264026	TA	T	rs11314461	SOCS6	6.4e-08	113	396443	396556	Gingivitis	0	523.1	1.0601	digestive
+15	42651382	G	C	rs193284586	STARD9	6.4e-08	309	189131	189440	Premenopausal menorrhagia	0	627.4	1.0224	genitourinary
+21	31877852	G	A	rs776185304	HUNK	6.4e-08	208	406081	406289	Congenital deformities of feet	0	755.1	1.0567	congenital anomalies
+7	122245939	A	C	rs1249166922	FEZF1	6.5e-08	4591	401095	405686	Dizziness and giddiness (Light-headedness and vertigo)	0	386.9	1.0082	sense organs
+18	45531976	C	A	rs545669451	SLC14A2	6.5e-08	1216	374656	375872	Other acute and subacute forms of ischemic heart disease	0	411.9	1.0	circulatory system
+6	88927199	T	C	rs867166711	RNGTT	6.5e-08	60	403885	403945	Other cardiomyopathy	0	425.8	1.0082	circulatory system
+4	94329196	C	T	rs1282510455	HPGDS	6.5e-08	694	213273	213967	Other specified benign mammary dysplasias	0	610.8	0.97444	genitourinary
+15	50750249	G	A	rs756662002	SPPL2A	6.5e-08	1132	212251	213383	Missed abortion/Hydatidiform mole	0	634.1	1.0	pregnancy complications
+12	29731437	C	T	rs558023940	TMTC1	6.6e-08	1131	392385	393516	Nerve root and plexus disorders	0	353	1.0	neurological
+20	8271377	C	G	rs553181423	PLCB1	6.6e-08	3396	376450	379846	Other disorders of stomach and duodenum	0	537	1.0	digestive
+1	210431751	C	T	rs147458134	HHAT	6.6e-08	74	406709	406783	Traumatic and surgical subcutaneous emphysema	0	958.2	1.0375	injuries & poisonings
+11	93366018	A	G	rs186591385	DEUP1	6.7e-08	208	218077	218285	Polycystic ovaries	0	256.4	1.0313	endocrine/metabolic
+1	47748519	T	A	rs117237002	TRABD2B	6.7e-08	128	399782	399910	Polydipsia	0	276.8	1.0635	endocrine/metabolic
+4	151315850	T	C	rs577583451	SH3D19	6.7e-08	326	405230	405556	Other specified disorders of breast	0	613.8	1.0195	genitourinary
+7	91294521	T	C	rs905282086	FZD1	6.8e-08	127	406672	406799	Helminthiases	0	134	1.0601	infectious diseases
+6	136402466	C	T	rs917895566	MAP7	6.8e-08	1230	401593	402823	Diseases and other conditions of the tongue	0	529	1.0	digestive
+7	155180657	A	AT	rs1171954995	HTR5A	6.8e-08	1531	395835	397366	Nephritis; nephrosis; renal sclerosis	0	580	1.0054	genitourinary
+6	100102925	A	AT		MCHR2	6.8e-08	726	210805	211531	Noninflammatory disorders of ovary, fallopian tube, and broad ligament	0	619.1	0.97444	genitourinary
+17	31042381	G	A	rs77347544	RNF135	6.8e-08	9023	378896	387919	Osteoarthrosis, localized, primary	0	740.11	1.0313	musculoskeletal
+6	145165786	G	T	rs778284759	EPM2A	6.9e-08	652	398252	398904	Intestinal infection due to C. difficile	0	008.52	0.97444	infectious diseases
+15	71074436	GA	G	rs1280594537	LRRC49	6.9e-08	177	388394	388571	Other vitamin B12 deficiency anemia	0	281.12	1.0669	hematopoietic
+4	19725860	C	A	rs1048194442	SLIT2	6.9e-08	636	399772	400408	Hemorrhage from gastrointestinal ulcer	0	531.1	0.97444	digestive
+2	58911179	C	G	rs191964029	FANCL	6.9e-08	4194	385688	389882	Other disorders of intestine	0	569	1.0054	digestive
+5	91733005	G	A	rs191110970	ARRDC3	6.9e-08	2345	402141	404486	Scar conditions and fibrosis of skin	0	701.2	1.0	dermatologic
+10	69165816	C	A	rs1327397752	VPS26A	6.9e-08	103	377181	377284	Bursitis disorders	0	727.2	1.0567	musculoskeletal
+17	49692998	A	G	rs937752885	SLC35B1	7e-08	1163	396444	397607	Periodontitis (acute or chronic)	0	523.3	1.0	digestive
+10	71563274	G	T	rs114687625	CDH23	7e-08	1355	386071	387426	Fracture of vertebral column without mention of spinal cord injury	0	805	1.0054	injuries & poisonings
+14	52686643	C	T	rs149040667	ERO1A	7.1e-08	1400	217129	218529	Problems associated with amniotic cavity and membranes	0	653	1.0	pregnancy complications
+3	127253583	C	T	rs565561072	PRR20G	7.2e-08	163	401998	402161	Insomnia	0	327.4	1.0704	neurological
+X	79669589	C	A		ITM2A	7.2e-08	207	405229	405436	Breast disorder NOS	0	613.9	1.0567	genitourinary
+X	56939888	G	A	rs189409346	SPIN3	7.2e-08	454	218959	219413	Congenital anomalies of female genital organs	0	751.11	1.0	congenital anomalies
+14	84702409	C	G	rs544298206	FLRT2	7.3e-08	70	400600	400670	Other persistent mental disorders due to conditions classified elsewhere	0	290.3	1.0054	mental disorders
+5	60404456	A	G	rs1249372248	PDE4D	7.3e-08	4674	388550	393224	Septal Deviations/Turbinate Hypertrophy	0	470	1.0082	respiratory
+3	176072818	A	C	rs921821926	NAALADL2	7.3e-08	68	219709	219777	Infectious and parasitic complications affecting pregnancy	0	647	1.0195	pregnancy complications
+5	2270760	T	C	rs72712976	IRX4	7.3e-08	984	400950	401934	Dyschromia and Vitiligo	0	694	1.0	dermatologic
+19	52062836	T	C	rs78988733	ZNF432	7.4e-08	66	407136	407202	Effects of heat, cold and air pressure	0	1014	1.0224	injuries & poisonings
+5	179152427	G	A	rs759260638	ADAMTS2	7.4e-08	74	404551	404625	Dermatophytosis of nail	0	110.11	1.0283	infectious diseases
+21	40728034	C	G	rs779840291	DSCAM	7.4e-08	142	403660	403802	Hypoparathyroidism	0	252.2	1.0704	endocrine/metabolic
+6	153474162	C	T	rs143164316	RGS17	7.4e-08	53	388395	388448	Deficiency anemias	0	281.9	0.97444	hematopoietic
+18	52807769	T	A	rs527936423	DCC	7.4e-08	86	396051	396137	Keratoconus	0	364.41	1.0469	sense organs
+16	16592986	T	TA		NPIPA7	7.4e-08	425	399772	400197	Peptic ulcer, site unspecified	0	531.4	0.97444	digestive
+13	50912246	A	G	rs553484857	RNASEH2B	7.4e-08	3351	395834	399185	Other disorders of the kidney and ureters	0	586	1.0	genitourinary
+18	62190828	C	A	rs868042134	RELCH	7.5e-08	106	406672	406778	Intestinal helminthiases	0	134.1	1.0567	infectious diseases
+2	177226502	ACTC	A	rs1206672573	NFE2L2	7.6e-08	183	388395	388578	Folate-deficiency anemia	0	281.13	1.0635	hematopoietic
+2	162152086	T	C	rs1022695334	GCG	7.6e-08	63	404523	404586	Congenital factor VIII disorder	0	286.13	0.95116	hematopoietic
+19	33405479	G	A	rs1247910353	PEPD	7.6e-08	75	404523	404598	Secondary thrombocytopenia	0	287.32	1.0344	hematopoietic
+4	85325136	G	C	rs191323996	ARHGAP24	7.6e-08	656	395581	396237	Pneumonitis due to inhalation of food or vomitus	0	501	0.97444	respiratory
+4	91170933	T	C	rs554148338	CCSER1	7.6e-08	907	395835	396742	Stricture/obstruction of ureter	0	586.4	0.97444	genitourinary
+8	140041205	T	C	rs567221460	TRAPPC9	7.6e-08	1871	405330	407201	Symptoms involving nervous and musculoskeletal systems	0	781	1.011	symptoms
+11	102744790	C	T	rs1007521067	MMP8	7.7e-08	537	333378	333915	Ulcerative colitis (chronic)	0	555.21	0.97444	digestive
+2	128224858	G	A	rs769187388	HS6ST1	7.8e-08	5059	390235	395294	Spondylosis without myelopathy	0	721.1	1.0195	musculoskeletal
+7	2966440	A	C	rs759674391	CARD11	7.9e-08	2909	378357	381266	Cystitis	0	592.1	1.0027	genitourinary
+9	3699821	A	G	rs191352006	GLIS3	8e-08	216	393432	393648	Essential tremor	0	333.1	1.0601	neurological
+12	69333346	C	A	rs879616203	LYZ	8e-08	389	393433	393822	Other conditions of brain, NOS	0	348.9	1.0054	neurological
+2	173418948	T	C	rs367558404	CDCA7	8e-08	1296	403146	404442	Other disorders of tympanic membrane	0	384	1.0082	sense organs
+16	53773852	A	G	rs17817288	FTO	8e-08	3260	385683	388943	Other disorders of peritoneum	0	568	1.0027	digestive
+15	97035731	C	T	rs575600482	NR2F2	8e-08	109	407093	407202	Other perinatal conditions of fetus or newborn	0	656	1.0469	pregnancy complications
+2	172305756	A	G	rs746838587	ITGA6	8e-08	332	405003	405335	Other specified congenital anomalies of kidney	0	751.22	1.0224	congenital anomalies
+6	168554886	C	T	rs767435594	SMOC2	8.1e-08	345	219743	220088	Multiple gestation	0	651	1.0054	pregnancy complications
+3	190376066	G	A	rs532354896	CLDN16	8.1e-08	780	400950	401730	Other dyschromia	0	694.2	0.97444	dermatologic
+15	34969069	A	G	rs10152363	AQR	8.1e-08	1613	390236	391849	Other unspecified back disorders	0	724.9	1.011	musculoskeletal
+18	62965941	G	A	rs183470102	PHLPP1	8.2e-08	272	404552	404824	Mycoses	0	117	1.0344	infectious diseases
+7	51642218	C	T	rs756550658	COBL	8.2e-08	2075	193708	195783	Cervical intraepithelial neoplasia [CIN] [Cervical dysplasia]	0	180.3	1.0082	neoplasms
+X	154709509	A	G	rs111531522	GAB3	8.2e-08	52	405784	405836	Lipoprotein disorders	0	277.51	1.0	endocrine/metabolic
+8	22581514	C	T	rs748585448	PDLIM2	8.2e-08	1919	218169	220088	Normal delivery	0	650	1.0054	pregnancy complications
+2	212018702	C	A	rs768202221	ERBB4	8.2e-08	596	395973	396569	Cellulitis and abscess of trunk	0	681.7	0.97444	dermatologic
+19	53625775	C	A	rs544490875	DPRX	8.4e-08	393	406436	406829	Acute pain	0	338.1	1.0054	neurological
+X	94527026	C	T	rs781637337	FAM133A	8.4e-08	1276	397137	398413	Late effects of cerebrovascular disease	0	433.8	1.0	circulatory system
+8	127715591	G	A	rs1002103757	MYC	8.4e-08	5214	212254	217468	Miscarriage; stillbirth	0	634	1.0	pregnancy complications
+1	99293038	G	C	rs765013723	PLPPR4	8.4e-08	3504	398899	402403	Open wounds of head; neck; and trunk	0	870	1.0027	injuries & poisonings
+7	146707922	A	T	rs185117647	CNTNAP2	8.5e-08	3802	189128	192930	Irregular menstrual bleeding	0	626.14	1.0	genitourinary
+X	112091199	C	T	rs779229794	TRPC5	8.6e-08	1881	397139	399020	Intracranial hemorrhage	0	430	1.0082	circulatory system
+21	33773402	A	C	rs75672446	AP000311.1,ITSN1	8.6e-08	91	398898	398989	Open wound of finger(s)	0	871.2	0.97444	injuries & poisonings
+4	24189596	T	C	rs563132974	PPARGC1A	8.7e-08	255	406947	407202	Crushing injury	0	1006	1.0437	injuries & poisonings
+3	130402437	G	A	rs867759855	COL6A5	8.8e-08	764	397139	397903	Intracerebral hemorrhage	0	430.2	0.97444	circulatory system
+6	93238093	A	G	rs985485184	EPHA7	9.1e-08	435	388396	388831	Aplastic anemia	0	284	1.0	hematopoietic
+2	52627896	T	C	rs376775733	ASB3	9.2e-08	2971	378356	381327	Cystitis and urethritis	0	592	1.0	genitourinary
+16	58143411	C	T	rs191815313	CFAP20	9.2e-08	512	390232	390744	Displacement of intervertebral disc	0	722.1	0.97444	musculoskeletal
+X	68013042	A	G	rs5965492	OPHN1	9.2e-08	597	378890	379487	Osteoarthrosis, generalized	0	740.2	0.97444	musculoskeletal
+7	12673471	A	C	rs567409239	SCIN	9.3e-08	105	407097	407202	Late effect	0	1012	1.0437	injuries & poisonings
+16	6887131	A	G	rs540099036	RBFOX1	9.3e-08	196	404740	404936	Acute sinusitis	0	464	1.0635	respiratory
+17	58358524	G	T	rs2526374	AC004687.2,RNF43	9.4e-08	1803	395582	397385	Respiratory insufficiency	0	509.2	1.0082	respiratory
+8	61453439	G	C	rs1212120652	CLVS1	9.4e-08	849	400114	400963	Hypertrophy of breast (Gynecomastia)	0	612.2	0.97444	genitourinary
+1	244786659	C	A	rs1047255469	COX20	9.5e-08	1299	386070	387369	Fracture of unspecified bones	0	809	1.0027	injuries & poisonings
+2	232685848	G	A	rs1301612805	EFHD1	9.7e-08	814	399566	400380	Osteopenia or other disorder of bone and cartilage	0	743.9	0.97444	musculoskeletal
+16	29611248	C	G	rs1039401642	SPN	9.8e-08	1658	393013	394671	Functional disorders of bladder	0	596.5	1.011	genitourinary
+22	37250057	C	T	rs768924087	RAC2	9.9e-08	887	400114	401001	Breast conditions, congenital or relating to hormones	0	612	1.0	genitourinary
+4	67172847	G	T	rs1157691302	CENPC	1e-07	2171	193708	195879	Cervical cancer and dysplasia	0	180	1.0082	neoplasms
+1	80943363	G	GCA	rs1289300526	ADGRL2	1e-07	265	405669	405934	Benign neoplasm of thyroid glands	0	226	1.0313	neoplasms
+8	125598554	G	A	rs1041805560	TRIB1	1e-07	379	406436	406815	Chronic pain	0	338.2	1.0054	neurological
+13	77508443	T	C	rs777613818	SCEL	1e-07	846	395156	396002	Retinal vascular changes and abnomalities	0	362.4	0.97444	sense organs
+1	231043138	G	T	rs1168437125	FAM89A	1e-07	3939	333382	337321	Intestinal obstruction without mention of hernia	0	560	1.0054	digestive
+5	91955063	C	T	rs148130954	ARRDC3	1e-07	109	189130	189239	Absent or infrequent menstruation	0	626.11	1.0635	genitourinary
+2	78621783	A	C	rs1025705183	REG3G	1e-07	67	390234	390301	Postlaminectomy syndrome	0	722.8	1.0054	musculoskeletal
+8	29516563	C	G	rs746722557	DUSP4	1e-07	327	406644	406971	Nervous system congenital anomalies	0	752	1.0224	congenital anomalies
+6	14155180	T	C	rs139906211	CD83	1e-07	60	406232	406292	Chromosomal anomalies	0	758.1	1.0027	congenital anomalies
+2	101529219	C	T	rs1703849	RFX8	1e-07	764	386071	386835	Fracture of patella	0	800.4	0.97444	injuries & poisonings
+1	77407729	C	T	rs769875307	AK5	1e-07	3026	404176	407202	Sepsis and SIRS	0	994	1.0	injuries & poisonings
+1	77407729	C	T	rs769875307	AK5	1e-07	3026	404176	407202	Sepsis	0	994.2	1.0	injuries & poisonings
+15	26063781	T	A	rs117320127	ATP10A	1.1e-07	1203	405079	406282	Disorders of calcium/phosphorus metabolism	0	275.5	1.0027	endocrine/metabolic
+11	5960118	T	G	rs771422836	OR56A5	1.1e-07	113	363984	364097	Posttraumatic stress disorder	0	300.9	1.0635	mental disorders
+X	120786123	G	T	rs187741876	CT47B1	1.1e-07	244	393433	393677	Anterior horn cell disease	0	334.2	1.0501	neurological
+6	23621596	A	G	rs373318336	NRSN1	1.1e-07	265	393433	393698	Disorders of the autonomic nervous system	0	337	1.0406	neurological
+4	169557940	GTAAA	G	rs560559215	NEK1	1.1e-07	125	399529	399654	Optic neuritis/neuropathy	0	377.3	1.0635	sense organs
+8	128544235	G	A	rs545215668	MYC	1.1e-07	1492	379216	380708	Right bundle branch block	0	426.31	1.0	circulatory system
+1	184588888	G	A	rs573981278	C1orf21	1.1e-07	792	396439	397231	Bronchopneumonia and lung abscess	0	480.5	0.97444	respiratory
+10	85180521	C	G	rs903179296	GRID1	1.1e-07	61	395582	395643	Other pulmonary inflamation or edema	0	505	1.011	respiratory
+18	57221341	C	T	rs770279662	BOD1L2	1.1e-07	1643	333377	335020	Abnormal findings on exam of gastrointestinal tract/ abdominal area	0	564.8	1.0082	digestive
+X	127550117	A	G	rs765809530	ACTRT1	1.1e-07	80	395834	395914	Vascular disorders of kidney/hypertrophy	0	586.3	1.0344	genitourinary
+16	13962991	G	A	rs143217048	ERCC4	1.1e-07	367	395835	396202	Kidney replaced by transpant	0	587	1.011	genitourinary
+X	31092964	A	G	rs765957298	DMD	1.1e-07	234	169004	169238	Acute prostatitis	0	601.11	1.0501	genitourinary
+8	1452000	C	T	rs1389273423	DLGAP2	1.1e-07	106	401683	401789	Changes in skin texture	0	687.3	1.0567	dermatologic
+4	151785128	G	A	rs560709895	GATB	1.1e-07	106	406081	406187	Congenital hip dysplasia and deformity	0	755.61	1.0567	congenital anomalies
+10	82727432	G	A	rs989041840	NRG3	1.1e-07	171	407031	407202	Hypothermia/Chills	0	780	1.0635	symptoms
+12	97166704	C	T	rs1050360678	NEDD1	1.1e-07	102	407046	407148	Cardiogenic shock	0	797.1	1.0601	symptoms
+14	95142595	A	G	rs555733176	DICER1	1.2e-07	57	405057	405114	Cancer of of nasal cavities	0	149.9	1.0	neoplasms
+19	29066404	T	C	rs753490232	UQCRFS1	1.2e-07	1549	368850	370399	Secondary malignant neoplasm of digestive systems	0	198.3	1.0082	neoplasms
+2	22143668	A	T	rs1038217253	TDRD15	1.2e-07	837	400600	401437	Other specified nonpsychotic and/or transient mental disorders	0	291	0.97444	mental disorders
+12	3813268	G	A	rs571841301	PARP11	1.2e-07	840	363984	364824	Schizophrenia and other psychotic disorders	0	295	0.97444	mental disorders
+18	25527505	G	A	rs866391472	ZNF521	1.2e-07	250	396052	396302	Progressive myopia	0	360.2	1.0437	sense organs
+15	39878712	A	G	rs769870693	GPR176	1.2e-07	1958	383447	385405	Hematemesis	0	578.1	1.0082	digestive
+3	66850058	G	A	rs569561383	KBTBD8	1.2e-07	2819	167468	170287	Other disorders of male genital organs	0	608	1.0	genitourinary
+3	64949280	C	T	rs751389828	ADAMTS9	1.2e-07	4758	189127	193885	Ovarian cyst	0	628	1.0027	genitourinary
+3	195056376	G	A	rs575743515	XXYLT1	1.2e-07	76	400627	400703	Other specified diseases of hair and hair follicles	0	704.8	1.0375	dermatologic
+1	223152856	T	C	rs908047640	TLR5	1.2e-07	327	364270	364597	Pyogenic arthritis	0	711.1	1.0224	musculoskeletal
+14	34127318	G	A	rs145643129	EGLN3	1.3e-07	287	389744	390031	Thyroiditis	0	245	1.0283	endocrine/metabolic
+9	15307748	A	C	rs72702749	TTC39B	1.3e-07	515	399655	400170	Diseases of spleen	0	289.5	0.97444	hematopoietic
+16	77563528	C	T	rs759702309	ADAMTS18	1.3e-07	4022	383301	387323	Frequency of urination and polyuria	0	599.5	1.0054	genitourinary
+20	41158572	T	C	rs760848567	PLCG1	1.3e-07	105	383297	383402	Oliguria and anuria	0	599.6	1.0534	genitourinary
+14	92740252	AAAAG	A		LGMN	1.3e-07	169	398897	399066	Complication of amputation stump	0	874	1.0704	injuries & poisonings
+22	31511895	G	C	rs1024123530	DRG1,SFI1	1.5e-07	188	368847	369035	Secondary malignant neoplasm of skin	0	198.7	1.0601	neoplasms
+2	79099089	T	C	rs283895	REG1B	1.5e-07	51	404730	404781	Cachexia	0	260.1	0.97444	endocrine/metabolic
+11	109192516	G	A	rs867302648	C11orf87	1.5e-07	56	399529	399585	Optic atrophy	0	377.1	1.0	sense organs
+3	68304604	T	G		TAFA1	1.5e-07	1181	376448	377629	Acute gastritis	0	535.1	1.0	digestive
+2	231788027	CTT	C	rs780041937	COPS7B	1.5e-07	752	210934	211686	Cyst or abscess of Bartholin's gland	0	614.53	0.97444	genitourinary
+2	81257687	A	G	rs924122940	CTNNA2	1.5e-07	679	207908	208587	Vaginal enterocele, congenital or acquired	0	618.6	0.97444	genitourinary
+4	56102885	G	T	rs1055988692	CRACD	1.5e-07	4061	398899	402960	Open wounds of extremities	0	871	1.0	injuries & poisonings
+17	74315953	T	C	rs767545919	DNAI2	1.5e-07	58	380139	380197	Poisoning by agents primarily affecting skin & mucous membrane, ophthalmological, otorhinolaryngological, & dental drugs	0	976	1.0027	injuries & poisonings
+5	95638932	G	A	rs76861702	RFESD	1.6e-07	2769	401603	404372	Viral infection	0	079	1.0	infectious diseases
+10	33319844	C	T	rs533899752	NRP1	1.6e-07	193	219789	219982	Diabetes or abnormal glucose tolerance complicating pregnancy	0	649.1	1.0054	pregnancy complications
+9	24337351	T	C	rs997952753	IZUMO3	1.6e-07	54	400908	400962	Villonodular synovitis	0	741.6	0.95116	musculoskeletal
+10	62025165	G	A	rs534600258	ARID5B	1.7e-07	2728	392083	394811	E. coli	0	041.4	1.0	infectious diseases
+13	104355808	A	T	rs768118685	DAOA	1.8e-07	1140	393433	394573	Other cerebral degenerations	0	331	1.0	neurological
+6	169542249	A	G	rs752685737	AL031315.1,WDR27	1.8e-07	120	376446	376566	Gastritis and duodenitis, NOS	0	535.9	0.91006	digestive
+2	172429772	G	A	rs1438757299	ITGA6	1.9e-07	58	371432	371490	Hyperglyceridemia	0	272.12	1.0	endocrine/metabolic
+9	14623227	G	A	rs777524123	ZDHHC21	1.9e-07	72	393432	393504	Peripheral autonomic neuropathy	0	337.1	1.0224	neurological
+3	33199474	C	T	rs900730421	SUSD5	1.9e-07	113	403885	403998	Chronic pericarditis	0	420.22	1.0704	circulatory system
+3	22248765	G	A	rs374626027	ZNF385D	2e-07	637	403660	404297	Disorders of adrenal glands	0	255	0.97444	endocrine/metabolic
+6	16457494	C	T	rs114854973	ATXN1	2e-07	274	219710	219984	Infections of genitourinary tract during pregnancy	0	647.1	0.97444	pregnancy complications
+4	131607793	A	G	rs193264401	PCDH10	2.2e-07	3316	393016	396332	Urethral stricture (not specified as infectious)	0	597.1	1.0027	genitourinary
+16	22761387	C	T	rs767315732	HS3ST2	2.5e-07	341	393433	393774	Other and unspecified disorders of the nervous system	0	349	1.0195	neurological
+22	23613074	C	T	rs998918540	DRICH1	4.1e-07	149	403660	403809	Other endocrine disorders	0	259	0.81567	endocrine/metabolic
+X	113837084	TATATA	T	rs782569971	HTR2C	4.7e-07	165	403885	404050	Other hypertrophic cardiomyopathy	0	425.12	0.51319	circulatory system
+13	104427129	G	A	rs7984360	DAOA	9e-06	310	363984	364294	Suicide or self-inflicted injury	0	297.2	0.65569	mental disorders

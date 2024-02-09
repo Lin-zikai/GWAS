@@ -9,7 +9,8 @@
 > [!NOTE]
 CKB也有一个https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10435379/，不过我还没拿到权限，老是忘记去问
 
-首先先下载数据，有个大几百份数据的
+首先先下载数据，有个大几百份数据的，具体的数据可以看 https://github.com/Lin-zikai/GWAS/blob/main/data/phenotypes%20.tsv 或者自己在网站中下载也行
+
 
 
 

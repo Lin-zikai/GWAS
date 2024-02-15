@@ -57,6 +57,8 @@ genelist<-unique(outcome$Gene)
 ```
 
 ## coloc分析，当p值为0时使用最小浮点数
+共定位分析分为case cantrol和quant两种，需要自己进行修改。coloc数据格式在下面这个网页有讲
+https://chr1swallace.github.io/coloc/articles/a02_data.html
 ```R
 res <- list()
 for (i in  genelist[659:665]) {

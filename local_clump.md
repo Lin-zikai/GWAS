@@ -52,7 +52,7 @@ chr.outcome pos.outcome        SNP effect_allele.outcome other_allele.outcome ea
 
 ```
 ## 为了在后面不报错，我魔改了一下这个函数
-但是我忘记我原来对这个函数修改了什么了哈哈哈
+修改部分主要是在fun2这个部分，报错主要也是集中在这个部分
 > [!IMPORTANT]
 > 注意这个是服务器版本的，windows版的在下面
 
@@ -108,6 +108,8 @@ ld_clump_local<- function (dat, clump_kb, clump_r2, clump_p, bfile, plink_bin) {
   return(subset(dat, dat[["rsid"]] %in% res[["SNP"]]))
 }
 ```
+> [!IMPORTANT]
+> 还不行的话，最简单的方法是fun2修改成fun2 <- paste0(plink_bin, " --bfile ",bfile, " --clump ",fn," --clump-p1 ", clump_p, " --clump-r2 ", clump_r2, " --clump-kb ", clump_kb, " --out ",fn)
 
 ## 循环执行函数
 

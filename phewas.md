@@ -273,8 +273,16 @@ result.csv文件里就是所有的phewas结果啦
 
 
 
+再送你一个曼哈顿图
+```
+# 绘制曼哈顿图
+ggplot(all, aes(x = reorder(category, minus_log10_pval), y = minus_log10_pval, color = category)) +
+  geom_point(alpha = 0.6) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  labs(x = 'Category', y = '-log10(p-value)', title = 'Manhattan Plot by Category') +
+  scale_color_hue(l = 50) # 使用不同颜色代表不同类别
+```
 
 
 
-
-# 开摆过几天写，过年啦！！！

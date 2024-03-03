@@ -274,7 +274,7 @@ result.csv文件里就是所有的phewas结果啦
 
 
 再送你一个曼哈顿图
-```
+``` R
 # 绘制曼哈顿图
 ggplot(all, aes(x = reorder(category, minus_log10_pval), y = minus_log10_pval, color = category)) +
   geom_point(alpha = 0.6) +

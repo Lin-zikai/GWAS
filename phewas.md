@@ -24,8 +24,9 @@ rs3791454	2	240049647	C	T	NA	0.104537	0.0270646	0.000112236	exposure	TRUE	report
 rs7672991	4	41910652	T	C	NA	-0.283449	0.0800264	0.000397187	exposure	TRUE	reported	LIMCH1
 rs8866	17	65373979	G	C	NA	-0.120051	0.0223952	8.30E-08	exposure	TRUE	reported	PITPNC1
 ```
-
 不知道怎么制作这份expdat.csv文件话可以使用下面这个代码
+
+
 现在你应该是已经获得了你需要分析的蛋白名称，你只需要把名字放到genelist中
 
 > [!NOTE]

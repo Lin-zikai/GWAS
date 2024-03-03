@@ -11,10 +11,13 @@ CKB也有一个https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10435379/，不过�
 
 首先先下载数据，有个大几百份数据的，具体的数据可以看 https://github.com/Lin-zikai/GWAS/blob/main/data/phenotypes%20.tsv 或者自己在网站中下载也行
 
-#现在正式开始进行phewas了
-##首先你需要准备一份MR分析的暴露文件
 
-格式如下，我将其命名为expdat.csv,最后一列是蛋白的名字，可以放多个蛋白
+我介绍一下我的大致思路：首先先确定我需要的暴露的snp和数据，根据这些snp，使用shell脚本去获取结局数据，然后合并成一份文件，读进r进行mr分析。我认为这个方案显著压缩了运算时间，如果有更好的方案还请各位指教
+
+#现在正式开始进行phewas了
+##1.首先你需要准备两份文件
+
+第一份文件格式如下，我将其命名为expdat.csv,最后一列是蛋白的名字，可以放多个蛋白
 ``` 
 SNP	chr.exposure	pos.exposure	effect_allele.exposure	other_allele.exposure	eaf.exposure	beta.exposure	se.exposure	pval.exposure	exposure	mr_keep.exposure	pval_origin.exposure	id.exposure
 rs148574467	2	238511920	A	G	NA	-0.357779	0.10503	0.000658183	exposure	TRUE	reported	HES6
@@ -24,13 +27,24 @@ rs3791454	2	240049647	C	T	NA	0.104537	0.0270646	0.000112236	exposure	TRUE	report
 rs7672991	4	41910652	T	C	NA	-0.283449	0.0800264	0.000397187	exposure	TRUE	reported	LIMCH1
 rs8866	17	65373979	G	C	NA	-0.120051	0.0223952	8.30E-08	exposure	TRUE	reported	PITPNC1
 ```
-不知道怎么制作这份expdat.csv文件话可以使用下面这个代码
+第二份文件是只有snp的一个txt，我将其命名为snp.txt,格式如下
+> [!IMPORTANT]
+> 这个没有行名的
 
+```
+rs148574467
+rs6749854
+rs62194936
+rs3791454
+rs7672991
+rs8866
+```
 
+不知道怎么制作这两份文件话可以使用下面这个代码
 现在你应该是已经获得了你需要分析的蛋白名称，你只需要把名字放到genelist中
 
 > [!NOTE]
-看不懂下面这个代码的话，可以看https://github.com/Lin-zikai/GWAS/blob/main/local_clump.md
+看不懂下面这个代码的话，可以看https://github.com/Lin-zikai/GWAS/blob/main/local_clump.md ，有详细介绍，其实就是做了一个clump而已
 
 ``` R
 library(data.table)
@@ -120,14 +134,142 @@ exp <- rbind(exp,exp_dat)
 
 
 write.csv(exp,"expdat.csv")
+snplist <- exp[,"SNP"]
+fwrite(snplist,"snp.txt",col.names = F)
+```
+
+##2.获取结局数据
+现在根据前面我们确定需要的snp去结局文件中去获得这些snp
+
+> [!CAUTION]
+> 我是直接在装有这几百份文件的文件夹中直接写的sh脚本和运行，如果你存放位置不同的话需要你自己改路径哦
+
+我将这个文件命名为extract_rs2.sh，和那些文件保存在一起
+``` shell
+# SNP 列表文件
+SNP_LIST="snp.txt"
+
+# 输出文件
+OUTPUT_FILE="extracted_rows.tsv"
+
+# 清空输出文件，确保开始时文件是空的
+> "$OUTPUT_FILE"
+
+# 读取 SNP 列表并构建正则表达式
+SNP_PATTERN=$(awk '{printf "\\b"$0"\\b|"}' $SNP_LIST | sed 's/|$//')
+
+# 使用 xargs 和 zgrep 在多线程中处理文件
+# -P 参数指定并行进程的数量
+# -I{} 用于替换每个输入项
+find . -name "*.tsv.gz" | xargs -P 8 -I{} sh -c "zgrep -E '$SNP_PATTERN' '{}' | awk -v fname='{}' '{print \$0 \"\t\" fname}' >> '$OUTPUT_FILE'"
+
+echo "Extraction complete. Results are in $OUTPUT_FILE"
 
 ```
 
+使用R调用shell，可以把这几个R代码合并在一起就可以执行一个R脚本完成所有工作，只需要修改genelist
+``` R
+result <- system("/GPUFS/gyfyy_jxhe_1/User/lzk/drug/extract_rs2.sh", intern = TRUE)
+```
+
+##3.执行MR分析
+
+``` R
+
+exp_dat <- fread("expdat.csv")
+out <- fread("extracted_rows.tsv")
+sigene <- unique(exp_dat$id.exposure)
+all <- data.table()
+for (g in sigene) {
+  exp2 <- exp_dat[exp_dat$id.exposure == g,]
+  
+  
+  colnames(out) <- c("chrom"   ,      "pos"     ,      "ref"     ,      "alt"      ,     "rsids"     ,    "nearest_genes", "consequence"  ,
+                     "pval"     ,     "beta"     ,     "sebeta" ,       "af"     ,       "case_af"   ,    "control_af"  ,  "tstat" ,"name")
+  outlist <- unique(out$name) 
+  out2 <- out[out$rsids == exp2$SNP]
+  if (nrow(out2) == 0) {
+    next
+  }
+  process_gene <- function(i) {
+    outsnp <- out2[out2$name == i]
+    if (nrow(outsnp) == 0) {
+      return(NULL)
+    }
+    outsnp <- format_data(
+      dat=outsnp,
+      type = "outcome",
+      header = TRUE,
+      snps = exp2$SNP,
+      snp_col = "rsids",
+      beta_col = "beta",
+      se_col = "sebeta",
+      eaf_col = "af",
+      effect_allele_col = "alt",
+      other_allele_col = "ref",
+      # samplesize_col = "all_meta_sample_N",
+      pval_col = "pval",
+      chr_col = "chrom",
+      pos_col = "pos"
+    )
+    outsnp$id.outcome <- i
+    if (nrow(outsnp) == 0) {
+      return(NULL)
+    }
+    dat <- harmonise_data(exposure_dat=exp2, outcome_dat=outsnp,action = 1)
+    if (nrow(dat) == 0) {
+      return(NULL)
+    }
+    res <- mr(dat)
+    return(res)
+  }
+  
+  
+  reslist <- mclapply(outlist, process_gene, mc.cores = 8)
+  
+  # saveRDS(reslist,"mr_res.rds")
+  
+  result <- data.frame()
+  for (i in 1:length(reslist)) {
+    if (is.null(nrow(reslist[[i]])) == T) {
+      next
+    }
+    r1 <- reslist[[i]]
+    r1$gene  <-  i
+    result <- rbind(result,r1)
+  }
+  
+  all <- rbind(all,result)
+}
 
 
+a <- fread("phenotypes.tsv")
+result <- all 
+head(a)
+head(result)
+result$phenocode<-substring(result$id.outcome,3)
+result$phenocode <- gsub("\\.tsv\\.gz", "", result$phenocode)
+# 假设您的数据框叫做 df
+integer_part <- as.integer(a$phenocode)
+decimal_part <- sub("^[^.]*\\.?", "", a$phenocode)
 
+# 格式化整数部分
+formatted_integer_part <- sprintf("%03d", integer_part)
 
+# 重新组合整数和小数部分
+a$phenocode <- ifelse(nchar(decimal_part) > 0, 
+                      paste0(formatted_integer_part, ".", decimal_part), 
+                      formatted_integer_part)
+a <- a[,c(11,13,15)]
+all <- left_join(result,a,by="phenocode")
 
+# 计算 -log10(p-value)
+all$minus_log10_pval <- -log10(all$pval)
+
+write.csv(all,"result.csv")
+```
+
+result.csv文件里就是所有的phewas结果啦
 
 
 

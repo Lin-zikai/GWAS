@@ -29,7 +29,8 @@ rs8866	17	65373979	G	C	NA	-0.120051	0.0223952	8.30E-08	exposure	TRUE	reported	PI
 现在你应该是已经获得了你需要分析的蛋白名称，你只需要把名字放到genelist中
 
 > [!NOTE]
-看不懂下面这个代码的话，可以看
+看不懂下面这个代码的话，可以看https://github.com/Lin-zikai/GWAS/blob/main/local_clump.md
+
 ``` R
 library(data.table)
 library(parallel)

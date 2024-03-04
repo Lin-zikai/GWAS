@@ -170,6 +170,7 @@ echo "Extraction complete. Results are in $OUTPUT_FILE"
 使用R调用shell，可以把这几个R代码合并在一起就可以执行一个R脚本完成所有工作，只需要修改genelist
 ``` R
 result <- system("/GPUFS/gyfyy_jxhe_1/User/lzk/drug/extract_rs2.sh", intern = TRUE)
+write.csv(result,"result.csv")
 ```
 
 ##3.执行MR分析

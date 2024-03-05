@@ -221,14 +221,24 @@ for (g in sigene) {
     if (nrow(dat) == 0) {
       return(NULL)
     }
-    res <- mr(dat)
+    res <- tryCatch({
+        mr(dat) 
+    }, error = function(e) {
+        cat("Error in MR process for gene", i, ": ", e$message, "\n")
+        return(NULL)
+    })
+    
+    if (is.null(res) || !is.data.frame(res) || nrow(res) == 0) {
+        return(NULL)
+    }
+    
     return(res)
-  }
+}
   
   
   reslist <- mclapply(outlist, process_gene, mc.cores = 8)
   
-  # saveRDS(reslist,"mr_res.rds")
+  saveRDS(reslist,"mr_res.rds")
   
   result <- data.frame()
   for (i in 1:length(reslist)) {

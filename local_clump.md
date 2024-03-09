@@ -85,11 +85,12 @@ ld_clump_local <- function (dat, clump_kb, clump_r2, clump_p, bfile, plink_bin) 
   return(subset(dat, dat[["rsid"]] %in% res[["SNP"]]))
 }
 ```
-##需要下载plink这个软件
+## 需要下载plink这个软件
 https://www.cog-genomics.org/plink/
 根据自己的操作系统下载
 
-##需要下载LD 参考数据集
+
+## 需要下载LD 参考数据集
 http://fileserve.mrcieu.ac.uk/ld/1kg.v3.tgz
 要解压，里面有五个人群的，一般选欧洲
 

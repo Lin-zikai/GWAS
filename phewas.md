@@ -144,7 +144,7 @@ fwrite(snplist,"snp.txt",col.names = F)
 > [!CAUTION]
 > 我是直接在装有这几百份文件的文件夹中直接写的sh脚本和运行，如果你存放位置不同的话需要你自己改路径哦
 
-我将这个文件命名为extract_rs2.sh，和那些文件保存在一起
+我将这个文件命名为extract_rs2.sh，和那些文件保存在一起,-P 8默认8个线程，自己调整
 ``` shell
 # SNP 列表文件
 SNP_LIST="snp.txt"
@@ -175,7 +175,7 @@ In fread("extracted_rows.tsv") :
   File 'extracted_rows.tsv' has size 0. Returning a NULL data.table.
 ```
 
-## 这时候可以每100个处理一次，extract_rs2.sh换成以下内容
+## 这时候可以每100个处理一次，extract_rs2.sh换成以下内容（-P 8默认16个线程，自己调整）
 
 ``` R
 #!/bin/bash

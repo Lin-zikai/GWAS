@@ -167,43 +167,6 @@ echo "Extraction complete. Results are in $OUTPUT_FILE"
 
 ```
 
-## 当你一次性输入很多个基因的时候，那么find . -name "*.tsv.gz" | xargs可能会报错以下内容
-``` R
-/GPUFS/gyfyy_jxhe_1/User/zyt/Phewas/drug/extract_rs2.sh: line 18: /usr/bin/xargs: Argument list too long
-Warning message:
-In fread("extracted_rows.tsv") :
-  File 'extracted_rows.tsv' has size 0. Returning a NULL data.table.
-```
-
-## 这时候可以每100个处理一次，extract_rs2.sh换成以下内容（-P 8默认16个线程，自己调整）
-
-``` R
-#!/bin/bash
-
-SNP_LIST="snp.txt"
-
-OUTPUT_FILE="extracted_rows.tsv"
-
-> "$OUTPUT_FILE"
-
-TOTAL_SNPS=$(wc -l < "$SNP_LIST")
-BATCH_SIZE=100
-NUM_BATCHES=$(( (TOTAL_SNPS + BATCH_SIZE - 1) / BATCH_SIZE ))
-
-for (( i=0; i<NUM_BATCHES; i++ )); do
-    START_LINE=$(( i * BATCH_SIZE + 1 ))
-    END_LINE=$(( (i + 1) * BATCH_SIZE ))
-    
-    SNP_PATTERN=$(sed -n "${START_LINE},${END_LINE}p" $SNP_LIST | awk '{printf "\\b"$0"\\b|"}' | sed 's/|$//')
-    
-    find . -name "*.tsv.gz" | xargs -P 16 -I{} sh -c "zgrep -E '$SNP_PATTERN' '{}' | awk -v fname='{}' -v OFS='\t' '{print \$0, fname}' >> '$OUTPUT_FILE'"
-    
-    echo "Batch $((i+1)) of $NUM_BATCHES completed."
-done
-
-echo "Extraction complete. Results are in $OUTPUT_FILE"
-```
-
 使用R调用shell，可以把这几个R代码合并在一起就可以执行一个R脚本完成所有工作，只需要修改genelist
 ``` R
 result <- system("/GPUFS/gyfyy_jxhe_1/User/lzk/drug/extract_rs2.sh", intern = TRUE)
